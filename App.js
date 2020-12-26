@@ -13,23 +13,30 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Stats from './screen-components/Stats';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {styles} from './constants/style';
-
-const Sample = () => {
-  return (
-    <View style={styles.container}>
-      <Text>Sample</Text>
-    </View>
-  );
-};
+import All from './screen-components/All';
 
 const Tab = createBottomTabNavigator();
 
-const Countries = () => {
+const Country = () => {
   return (
     <Tab.Navigator>
-      <Tab.Screen name={'All'} component={Sample} />
-      <Tab.Screen name={'Favs'} component={Sample} />
+      <Tab.Screen name={'All'} component={All} />
+      <Tab.Screen
+        name={'Favs'}
+        component={All}
+        initialParams={{favs: true}}
+      />
     </Tab.Navigator>
+  );
+};
+
+const Stack = createStackNavigator();
+
+const World = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name={'World Statistics'} component={Stats} />
+    </Stack.Navigator>
   );
 };
 
@@ -38,8 +45,8 @@ const Drawer = createDrawerNavigator();
 const MyDrawer = () => {
   return (
     <Drawer.Navigator>
-      <Drawer.Screen name={'World'} component={Stats} />
-      <Drawer.Screen name={'Countries'} component={Countries} />
+      <Drawer.Screen name={'World'} component={World} />
+      <Drawer.Screen name={'Country'} component={Country} />
     </Drawer.Navigator>
   );
 };

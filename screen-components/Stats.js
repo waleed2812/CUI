@@ -6,8 +6,6 @@ import axios from 'axios';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {styles} from '../constants/style';
 
-const Stack = createStackNavigator();
-
 const Stats = ({navigation, route}) => {
   // Hooks
   const no_data = [
@@ -23,10 +21,17 @@ const Stats = ({navigation, route}) => {
   const [list, setList] = useState(no_data); // To Update COVID Data
   const [population, setPopulation] = useState(0);
 
-  // Variables for Api Link
-  const world = route.params?.world || 'worldpopulation';
-  const cntry = route.params?.cntry || '';
-  const covid = route.params?.covid || 'totals';
+  // Variables for Api Link depending on parameters passed
+  let world = 'worldpopulation',
+    cntry = '',
+    covid = 'totals';
+
+  // Change Variable Values if Country Name was given
+  if (route.params?.cntry) {
+    world = 'population';
+    cntry = route.params?.cntry.toLowerCase();
+    covid = 'country';
+  }
 
   // Function to get Data from Covid API
   const getCovid = () => {
@@ -101,68 +106,65 @@ const Stats = ({navigation, route}) => {
       });
   };
 
-  React.useEffect(() => {
+  // Refresh Stats
+  const refresh = () => {
     getCovid();
     getWorld();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const Stats = () => {
-    // Variables for calculation and data display
-    const confirmed = Number.parseInt(list[0].confirmed, 10);
-    const recovered = Number.parseInt(list[0].recovered, 10);
-    const critical = Number.parseInt(list[0].critical, 10);
-    const deaths = Number.parseInt(list[0].deaths, 10);
-    const lastUpdate = list[0].lastUpdate;
-    const pop = Number.parseInt(population, 10);
-
-    return (
-      <View style={styles.container}>
-        <Text>
-          Confirmed: {confirmed} {((confirmed / pop) * 100).toFixed(2)}%
-        </Text>
-        <Text>
-          Recovered: {recovered} {((recovered / confirmed) * 100).toFixed(2)}%
-        </Text>
-        <Text>
-          Critical Cases: {critical} {((critical / confirmed) * 100).toFixed(2)}
-          %
-        </Text>
-        <Text>
-          Deaths: {deaths} {((deaths / confirmed) * 100).toFixed(2)}%
-        </Text>
-        <Text>Last Updated: {lastUpdate}</Text>
-        <Text>Total Population: {pop}</Text>
-      </View>
-    );
   };
 
-  return (
-    <Stack.Navigator
-      screenOptions={{
-        headerRight: () => (
-          <TouchableOpacity onPress={getCovid}>
-            <Ionicons name={'refresh'} size={30} color={'black'} />
-          </TouchableOpacity>
-        ),
-
-        headerLeft: () => (
-          <TouchableOpacity onPress={navigation.toggleDrawer}>
-            <Ionicons name={'menu'} size={30} color={'black'} />
-          </TouchableOpacity>
-        ),
-      }}>
-      <Stack.Screen
-        name={
-          cntry.length <= 0
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  React.useEffect(() => {
+    refresh();
+    navigation.setOptions({
+      headerTitle: () => (
+        <Text style={styles.header}>
+          {cntry.length <= 0
             ? 'World Statistics'
             : `${cntry.charAt(0).toUpperCase()}${cntry
                 .substr(1)
-                .toLowerCase()} Statistics`
-        }
-        component={Stats}
-      />
-    </Stack.Navigator>
+                .toLowerCase()} Statistics`}
+        </Text>
+      ),
+
+      headerRight: () => (
+        <TouchableOpacity onPress={refresh}>
+          <Ionicons name={'refresh'} size={30} color={'black'} />
+        </TouchableOpacity>
+      ),
+
+      headerLeft: () => (
+        <TouchableOpacity onPress={navigation.toggleDrawer}>
+          <Ionicons name={'menu'} size={30} color={'black'} />
+        </TouchableOpacity>
+      ),
+    });
+  }, [navigation, cntry]);
+
+  // Variables for calculation and data display
+  const confirmed = Number.parseInt(list[0].confirmed, 10);
+  const recovered = Number.parseInt(list[0].recovered, 10);
+  const critical = Number.parseInt(list[0].critical, 10);
+  const deaths = Number.parseInt(list[0].deaths, 10);
+  const lastUpdate = list[0].lastUpdate;
+  const pop = Number.parseInt(population, 10);
+
+  return (
+    <View style={styles.container}>
+      <Text>
+        Confirmed: {confirmed} {((confirmed / pop) * 100).toFixed(2)}%
+      </Text>
+      <Text>
+        Recovered: {recovered} {((recovered / confirmed) * 100).toFixed(2)}%
+      </Text>
+      <Text>
+        Critical Cases: {critical} {((critical / confirmed) * 100).toFixed(2)}%
+      </Text>
+      <Text>
+        Deaths: {deaths} {((deaths / confirmed) * 100).toFixed(2)}%
+      </Text>
+      <Text>Last Updated: {lastUpdate}</Text>
+      <Text>Total Population: {pop}</Text>
+    </View>
   );
 };
 
