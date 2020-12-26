@@ -1,6 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
-import {Text, TouchableOpacity, View, ScrollView} from 'react-native';
+import {Text, TouchableOpacity, SafeAreaView, FlatList} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
@@ -10,11 +10,13 @@ import Stats from './Stats';
 
 const Stack = createStackNavigator();
 
-const All = ({navigation}) => {
+const Country = ({navigation, route}) => {
   // Hooks
   const [countries, setCountries] = useState([]); // To Update COVID Data
   const [getFav, setFav] = useState([]);
 
+  // Filter Favourite
+  const fav = route.params?.fav;
   // Function to get Data from World Population API
   const getCountries = () => {
     // Options for API
@@ -52,26 +54,42 @@ const All = ({navigation}) => {
   // Rendering Call
   React.useEffect(getCountries, []);
 
+  // Function to get Data from World Population API
+  const getFavs = async () => {
+    // Options for API
+    try {
+      const data = await AsyncStorage.getItem('fav');
+      setFav(JSON.parse(data));
+    } catch (err) {
+      // Set Empty list if no data was found
+      setFav([]);
+    }
+  };
+  getFavs();
+
   // Function to save favourites
   const save = (name) => {
-    setFav([...getFav, name]);
-    AsyncStorage.setItem('fav', JSON.stringify([...getFav, name]));
+    setFav([...getFav, {name: `${name}`}]);
+    AsyncStorage.setItem('fav', JSON.stringify([...getFav, {name: `${name}`}]));
+    console.log('Saving...');
   };
 
   // Final Component of Country List
   const Countries_screen = () => {
-    // Array to store JSX components
-    // to display countries
-    const all_list = [];
+    // Countries List
+    const temp = countries.body?.countries || ['pakistan'];
 
-    const all = countries.body?.countries || [];
+    // Deciding Which Country List to show
+    // All Countries or just favourites
+    const DATA = fav
+      ? getFav
+      : temp.map((item) => {
+          return {key: Math.random().toString(), name: `${item}`};
+        });
 
-    if (all.length <= 0) {
-      all_list.push(<Text key={0}>No Records</Text>);
-    }
-
-    for (let i = 0; i < all.length; i++) {
-      all_list.push(
+    // Item to display FlatList Items
+    const render_item = ({item}) => {
+      return (
         <TouchableOpacity
           style={{
             width: '90%',
@@ -79,21 +97,29 @@ const All = ({navigation}) => {
             justifyContent: 'space-between',
           }}
           onPress={() => {
-            navigation.navigate('Stats', {cntry: all[i] + ''});
+            navigation.navigate('Stats', {cntry: item.name + ''});
           }}
-          key={i}>
-          <Text style={{fontSize: 20, color: 'black'}}>{all[i]}</Text>
-          <Ionicons name={'heart'} size={20} onPress={save.bind(all[i] + '')} />
-        </TouchableOpacity>,
+          key={item.key}>
+          <Text style={{fontSize: 20, color: 'black'}}>{item.name}</Text>
+          <TouchableOpacity
+            onPress={() => {
+              save(item.name + '');
+            }}>
+            <Ionicons name={'heart'} size={20} />
+          </TouchableOpacity>
+        </TouchableOpacity>
       );
-    }
+    };
 
     return (
-      <View style={styles.container}>
-        <ScrollView style={{width: '100%', height: '100%'}}>
-          {all_list}
-        </ScrollView>
-      </View>
+      <SafeAreaView style={styles.container}>
+        <FlatList
+          data={DATA}
+          renderItem={render_item}
+          keyExtractor={(item) => `${item.key}`}
+          extraData={navigation}
+        />
+      </SafeAreaView>
     );
   };
 
@@ -103,7 +129,11 @@ const All = ({navigation}) => {
         name={'List'}
         component={Countries_screen}
         options={{
-          headerTitle: () => <Text style={styles.header}>All Countries</Text>,
+          headerTitle: () => (
+            <Text style={styles.header}>
+              {fav ? 'Favourite' : 'All'} Countries
+            </Text>
+          ),
 
           headerRight: () => (
             <TouchableOpacity onPress={getCountries}>
@@ -127,4 +157,4 @@ const All = ({navigation}) => {
   );
 };
 
-export default All;
+export default Country;
