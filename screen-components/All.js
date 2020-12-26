@@ -13,6 +13,7 @@ const Stack = createStackNavigator();
 const All = ({navigation}) => {
   // Hooks
   const [countries, setCountries] = useState([]); // To Update COVID Data
+  const [getFav, setFav] = useState([]);
 
   // Function to get Data from World Population API
   const getCountries = () => {
@@ -48,10 +49,16 @@ const All = ({navigation}) => {
       });
   };
 
-  React.useEffect(() => {
-    getCountries();
-  }, []);
+  // Rendering Call
+  React.useEffect(getCountries, []);
 
+  // Function to save favourites
+  const save = (name) => {
+    setFav([...getFav, name]);
+    AsyncStorage.setItem('fav', JSON.stringify([...getFav, name]));
+  };
+
+  // Final Component of Country List
   const Countries_screen = () => {
     // Array to store JSX components
     // to display countries
@@ -66,11 +73,17 @@ const All = ({navigation}) => {
     for (let i = 0; i < all.length; i++) {
       all_list.push(
         <TouchableOpacity
+          style={{
+            width: '90%',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+          }}
           onPress={() => {
             navigation.navigate('Stats', {cntry: all[i] + ''});
           }}
           key={i}>
           <Text style={{fontSize: 20, color: 'black'}}>{all[i]}</Text>
+          <Ionicons name={'heart'} size={20} onPress={save.bind(all[i] + '')} />
         </TouchableOpacity>,
       );
     }
