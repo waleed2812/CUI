@@ -1,21 +1,20 @@
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
-import {createStackNavigator} from '@react-navigation/stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {styles} from '../constants/style';
+import {styles, colors} from '../constants/style';
 
 const Stats = ({navigation, route}) => {
   // Hooks
   const no_data = [
     {
-      confirmed: 'No Data',
-      recovered: 'No Data',
-      critical: 'No Data',
-      deaths: 'No Data',
-      lastChange: 'No Data',
-      lastUpdate: 'No Data',
+      confirmed: 0,
+      recovered: 0,
+      critical: 0,
+      deaths: 0,
+      lastChange: 'Never',
+      lastUpdate: 'Never',
     },
   ];
   const [list, setList] = useState(no_data); // To Update COVID Data
@@ -112,12 +111,13 @@ const Stats = ({navigation, route}) => {
     getWorld();
   };
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   React.useEffect(() => {
     refresh();
     navigation.setOptions({
+      headerStyle: styles.header,
+
       headerTitle: () => (
-        <Text style={styles.header}>
+        <Text style={styles.headerTxt}>
           {cntry.length <= 0
             ? 'World Statistics'
             : `${cntry.charAt(0).toUpperCase()}${cntry
@@ -128,16 +128,27 @@ const Stats = ({navigation, route}) => {
 
       headerRight: () => (
         <TouchableOpacity onPress={refresh}>
-          <Ionicons name={'refresh'} size={30} color={'black'} />
+          <Ionicons
+            name={'refresh'}
+            size={30}
+            color={colors.darker}
+            style={{paddingRight: 10}}
+          />
         </TouchableOpacity>
       ),
 
       headerLeft: () => (
         <TouchableOpacity onPress={navigation.toggleDrawer}>
-          <Ionicons name={'menu'} size={30} color={'black'} />
+          <Ionicons
+            name={'menu'}
+            size={30}
+            color={colors.darker}
+            style={{paddingLeft: 10}}
+          />
         </TouchableOpacity>
       ),
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [navigation, cntry]);
 
   // Variables for calculation and data display
@@ -150,20 +161,41 @@ const Stats = ({navigation, route}) => {
 
   return (
     <View style={styles.container}>
-      <Text>
-        Confirmed: {confirmed} {((confirmed / pop) * 100).toFixed(2)}%
-      </Text>
-      <Text>
-        Recovered: {recovered} {((recovered / confirmed) * 100).toFixed(2)}%
-      </Text>
-      <Text>
-        Critical Cases: {critical} {((critical / confirmed) * 100).toFixed(2)}%
-      </Text>
-      <Text>
-        Deaths: {deaths} {((deaths / confirmed) * 100).toFixed(2)}%
-      </Text>
-      <Text>Last Updated: {lastUpdate}</Text>
-      <Text>Total Population: {pop}</Text>
+      <View style={styles.statsContainer}>
+        <View style={styles.statsTxtContainer}>
+          <Text style={styles.statsTxt}>Confirmed: {confirmed}</Text>
+          <Text style={styles.statsTxt}>
+            {((confirmed / pop) * 100).toFixed(2)}%
+          </Text>
+        </View>
+        <View style={styles.statsTxtContainer}>
+          <Text style={styles.statsTxt}>Recovered: {recovered}</Text>
+          <Text style={styles.statsTxt}>
+            {((recovered / confirmed) * 100).toFixed(2)}%
+          </Text>
+        </View>
+        <View style={styles.statsTxtContainer}>
+          <Text style={styles.statsTxt}>Critical Cases: {critical}</Text>
+          <Text style={styles.statsTxt}>
+            {((critical / confirmed) * 100).toFixed(2)}%
+          </Text>
+        </View>
+        <View style={styles.statsTxtContainer}>
+          <Text style={styles.statsTxt}>Deaths: {deaths}</Text>
+          <Text style={styles.statsTxt}>
+            {((deaths / confirmed) * 100).toFixed(2)}%
+          </Text>
+        </View>
+        <View style={styles.statsTxtContainer}>
+          <Text style={styles.statsTxt}>Last Updated</Text>
+          <Text style={styles.statsTxt}>
+            {lastUpdate.substr(0, 10)} {lastUpdate.substr(11, 8)}
+          </Text>
+        </View>
+        <View style={styles.statsTxtContainer}>
+          <Text style={styles.statsTxt}>Total Population: {pop}</Text>
+        </View>
+      </View>
     </View>
   );
 };

@@ -1,10 +1,17 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
-import {Text, TouchableOpacity, SafeAreaView, FlatList} from 'react-native';
+import {
+  Text,
+  TouchableOpacity,
+  SafeAreaView,
+  FlatList,
+  TextInput,
+  View,
+} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import {styles} from '../constants/style';
+import {colors, styles} from '../constants/style';
 
 const Countries = ({navigation, route}) => {
   // Hooks
@@ -74,7 +81,12 @@ const Countries = ({navigation, route}) => {
     navigation.setOptions({
       headerRight: () => (
         <TouchableOpacity onPress={fav ? getFavs : getCountries}>
-          <Ionicons name={'refresh'} size={30} color={'black'} />
+          <Ionicons
+            name={'refresh'}
+            size={30}
+            color={colors.darker}
+            style={{paddingRight: 10}}
+          />
         </TouchableOpacity>
       ),
     });
@@ -116,31 +128,45 @@ const Countries = ({navigation, route}) => {
   };
 
   // Item to display FlatList Items
-  const render_item = ({item}) => (
-    <TouchableOpacity
-      style={{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-      }}
-      onPress={() => {
-        navigation.navigate('Stats', {cntry: item.name + ''});
-      }}
-      key={item.key}>
-      <Text style={{fontSize: 20, color: 'black'}}>{item.name}</Text>
+  const render_item = ({item}) => {
+    // Variable to decide heart type
+    const heart = fav ? 'heart' : 'heart-outline';
 
-      <TouchableOpacity onPress={() => save(item)} style={{padding: 10}}>
-        <Text style={{fontSize: 20}}>+</Text>
+    return (
+      <TouchableOpacity
+        style={styles.flatlistItemContainer}
+        onPress={() => {
+          navigation.navigate('Stats', {cntry: item.name + ''});
+        }}
+        key={item.key}>
+        <View style={styles.flatlistItem}>
+          <Text style={styles.flatlistTxt}>{item.name}</Text>
+        </View>
+
+        <TouchableOpacity
+          onPress={() => save(item)}
+          style={styles.faltlistHeart}>
+          <Ionicons name={heart} color={colors.darker} size={30} />
+        </TouchableOpacity>
       </TouchableOpacity>
-    </TouchableOpacity>
-  );
+    );
+  };
 
   return (
     <SafeAreaView style={styles.container}>
+      <TextInput
+        style={styles.search}
+        placeholder={'Search'}
+        placeholderTextColor={colors.dark}
+        inlineImageLeft={'search'}
+        selectTextOnFocus={true}
+      />
       <FlatList
         data={fav ? getFav : countries}
         renderItem={render_item}
         keyExtractor={(item) => item.key?.toString()}
         extraData={{navigation}}
+        style={styles.flatlistContainer}
       />
     </SafeAreaView>
   );

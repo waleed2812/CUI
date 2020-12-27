@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import * as React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
@@ -7,8 +6,13 @@ import {createStackNavigator} from '@react-navigation/stack';
 // My Components
 import Stats from './screen-components/Stats';
 import Countries from './screen-components/Countries';
-import {Text, TouchableOpacity} from 'react-native';
-import {styles} from './constants/style';
+import {
+  Text,
+  TouchableOpacity,
+  StatusBar,
+  useWindowDimensions,
+} from 'react-native';
+import {colors, styles} from './constants/style';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Stack = createStackNavigator();
@@ -23,15 +27,22 @@ const Country = ({navigation, route}) => {
         name={'List'}
         component={Countries}
         options={{
+          headerStyle: styles.header,
+
           headerTitle: () => (
-            <Text style={styles.header}>
-              {fav ? 'Favourite' : 'All'} Countries
+            <Text style={styles.headerTxt}>
+              {fav ? 'Favourites' : 'All Countries'}
             </Text>
           ),
 
           headerLeft: () => (
             <TouchableOpacity onPress={navigation.toggleDrawer}>
-              <Ionicons name={'menu'} size={30} color={'black'} />
+              <Ionicons
+                name={'menu'}
+                size={30}
+                color={colors.darker}
+                style={{paddingLeft: 10}}
+              />
             </TouchableOpacity>
           ),
         }}
@@ -58,16 +69,41 @@ const Drawer = createDrawerNavigator();
 
 const MyDrawer = () => {
   return (
-    <Drawer.Navigator>
-      <Drawer.Screen name={'World'} component={World} />
+    <Drawer.Navigator
+      drawerStyle={styles.drawer}
+      drawerType={useWindowDimensions().width >= 768 ? 'permanent' : 'front'}
+      drawerContentOptions={{
+        activeTintColor: colors.darker,
+        inactiveTintColor: colors.dark,
+        labelStyle: styles.drawerItem,
+      }}>
       <Drawer.Screen
-        name={'All Countries'}
+        name={'World'}
+        component={World}
+        options={{
+          drawerIcon: ({color}) => (
+            <Ionicons name={'earth'} size={20} color={color} />
+          ),
+        }}
+      />
+      <Drawer.Screen
+        name={'Countries'}
         component={Country}
+        options={{
+          drawerIcon: ({color}) => (
+            <Ionicons name={'flag'} size={20} color={color} />
+          ),
+        }}
         initialParams={{fav: false}}
       />
       <Drawer.Screen
-        name={'Favourite Countries'}
+        name={'Favourites'}
         component={Country}
+        options={{
+          drawerIcon: ({color}) => (
+            <Ionicons name={'heart'} size={20} color={color} />
+          ),
+        }}
         initialParams={{fav: true}}
       />
     </Drawer.Navigator>
@@ -76,9 +112,16 @@ const MyDrawer = () => {
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <MyDrawer />
-    </NavigationContainer>
+    <>
+      <StatusBar
+        translucent={false}
+        backgroundColor={colors.light}
+        barStyle={'dark-content'}
+      />
+      <NavigationContainer>
+        <MyDrawer />
+      </NavigationContainer>
+    </>
   );
 };
 
