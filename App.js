@@ -29,12 +29,6 @@ const Country = ({navigation, route}) => {
             </Text>
           ),
 
-          headerRight: () => (
-            <TouchableOpacity onPress={() => {}}>
-              <Ionicons name={'refresh'} size={30} color={'black'} />
-            </TouchableOpacity>
-          ),
-
           headerLeft: () => (
             <TouchableOpacity onPress={navigation.toggleDrawer}>
               <Ionicons name={'menu'} size={30} color={'black'} />

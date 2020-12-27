@@ -1,12 +1,10 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, SafeAreaView, FlatList} from 'react-native';
-import {createStackNavigator} from '@react-navigation/stack';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {styles} from '../constants/style';
-import Stats from './Stats';
 
 const Countries = ({navigation, route}) => {
   // Hooks
@@ -14,7 +12,19 @@ const Countries = ({navigation, route}) => {
   const [getFav, setFav] = useState([]);
 
   // Filter Favourite
-  const fav = route.params?.fav;
+  const fav = route.params?.fav || false;
+
+  // Function to get Data from World Population API
+  const getFavs = async () => {
+    // Options for API
+    try {
+      const data = await AsyncStorage.getItem('fav');
+      setFav(JSON.parse(data));
+    } catch (err) {
+      setFav([]);
+    }
+  };
+
   // Function to get Data from World Population API
   const getCountries = () => {
     // Options for API
@@ -55,33 +65,60 @@ const Countries = ({navigation, route}) => {
   };
 
   // Rendering Call
-  React.useEffect(getCountries, []);
-
-  // Function to get Data from World Population API
-  const getFavs = async () => {
-    // Options for API
-    try {
-      const data = await AsyncStorage.getItem('fav');
-      setFav(JSON.parse(data));
-    } catch (err) {
-      // Set Empty list if no data was found
-      setFav([]);
+  React.useEffect(() => {
+    if (fav) {
+      getFavs().done();
+    } else {
+      getCountries();
     }
-  };
-  getFavs();
+    navigation.setOptions({
+      headerRight: () => (
+        <TouchableOpacity onPress={fav ? getFavs : getCountries}>
+          <Ionicons name={'refresh'} size={30} color={'black'} />
+        </TouchableOpacity>
+      ),
+    });
+  }, [fav, navigation]);
 
-  // Function to save favourites
-  const save = (item) => {
-    setFav([...getFav, item]);
-    AsyncStorage.setItem('fav', JSON.stringify([...getFav, item]));
-    console.log('Saving...');
+  // remove from favourites
+  const removeItem = (itemName) => {
+    // Fetching current items from fav hooks
+    const prev = getFav || [];
+
+    // Updating Local Storage
+    AsyncStorage.setItem(
+      'fav',
+      JSON.stringify(prev.filter((item) => item.name !== itemName)),
+    )
+      .then(() => {
+        // Updating Hook
+        setFav(prev.filter((item) => item.name !== itemName));
+      })
+      .catch((e) => console.error('While Removing', e));
+  };
+
+  // Function To save/remove Favourites
+  const save = async (item) => {
+    // Fetching current items from fav hooks
+    const prev = JSON.parse(await AsyncStorage.getItem('fav')) || [];
+
+    // Checking if item already exists
+    if (prev.find((items) => items.name === item.name) !== undefined) {
+      // Removing Item if exists
+      removeItem(item.name);
+    } else {
+      // Save to favourites states and memory if new item
+      setFav([...prev, item]);
+      AsyncStorage.setItem('fav', JSON.stringify([...prev, item])).catch((e) =>
+        console.error('Adding New Value: ', e),
+      );
+    }
   };
 
   // Item to display FlatList Items
   const render_item = ({item}) => (
     <TouchableOpacity
       style={{
-        width: '90%',
         flexDirection: 'row',
         justifyContent: 'space-between',
       }}
@@ -90,11 +127,9 @@ const Countries = ({navigation, route}) => {
       }}
       key={item.key}>
       <Text style={{fontSize: 20, color: 'black'}}>{item.name}</Text>
-      <TouchableOpacity
-        onPress={() => {
-          save(item);
-        }}>
-        <Ionicons name={'heart'} size={20} />
+
+      <TouchableOpacity onPress={() => save(item)} style={{padding: 10}}>
+        <Text style={{fontSize: 20}}>+</Text>
       </TouchableOpacity>
     </TouchableOpacity>
   );
@@ -104,7 +139,8 @@ const Countries = ({navigation, route}) => {
       <FlatList
         data={fav ? getFav : countries}
         renderItem={render_item}
-        keyExtractor={(item) => item.key}
+        keyExtractor={(item) => item.key?.toString()}
+        extraData={{navigation}}
       />
     </SafeAreaView>
   );
