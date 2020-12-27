@@ -10,6 +10,7 @@ const colors = {
   font_family: 'Al Nile',
 };
 
+// Stylesheet
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
 
   headerTxt: {
     color: colors.darker,
-    fontSize: 30,
+    fontSize: 20,
     fontWeight: 'bold',
     width: '100%',
     textAlign: 'center',
@@ -101,4 +102,5 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
 });
+
 export {styles, colors};

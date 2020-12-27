@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -28,7 +29,9 @@ const Stats = ({navigation, route}) => {
   // Change Variable Values if Country Name was given
   if (route.params?.cntry) {
     world = 'population';
-    cntry = route.params?.cntry.toLowerCase();
+    cntry = route.params?.cntry;
+    // Title String
+    cntry = cntry.charAt(0).toUpperCase() + cntry.substr(1).toLowerCase();
     covid = 'country';
   }
 
@@ -82,18 +85,31 @@ const Stats = ({navigation, route}) => {
     axios
       .request(options)
       .then(function (response) {
-        // Update List from response
-        setPopulation(response.data?.body.world_population);
+        // Update List from response according to
+        // country or world
+        if (route.params?.cntry) {
+          // Update List from response
+          setPopulation(response.data?.body.population);
 
-        // Save on Local Storage for later use
-        AsyncStorage.setItem(
-          'population',
-          `${response.data.body.world_population}`,
-        );
+          // console.error(response.data?.body.population);
+          // Save on Local Storage for later use
+          AsyncStorage.setItem(
+            'population',
+            `${response.data?.body.population}`,
+          );
+        } else {
+          // Update List from response
+          setPopulation(response.data?.body.world_population);
+
+          // Save on Local Storage for later use
+          AsyncStorage.setItem(
+            'population',
+            `${response.data?.body.world_population}`,
+          );
+        }
       })
-      .catch(async () => {
+      .catch(async (err) => {
         // Get Data From Memory if Online Fails
-
         // Checking If Data was fetched
         try {
           const data = await AsyncStorage.getItem('population');

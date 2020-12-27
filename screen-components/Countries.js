@@ -15,8 +15,14 @@ import {colors, styles} from '../constants/style';
 
 const Countries = ({navigation, route}) => {
   // Hooks
-  const [countries, setCountries] = useState([]); // To Update COVID Data
+  // To Update COVID Data
+  const [countries, setCountries] = useState([]);
+
+  // Hooks for current text on text Input
   const [getText, setText] = useState('');
+
+  // Updated Record of Favourites
+  const [favs, setFavs] = useState([]);
 
   // Filter Favourite
   const fav = route.params?.fav || false;
@@ -26,9 +32,9 @@ const Countries = ({navigation, route}) => {
     // Options for API
     try {
       const data = await AsyncStorage.getItem('fav');
-      setCountries(JSON.parse(data));
+      setFavs(JSON.parse(data));
     } catch (err) {
-      setCountries([]);
+      setFavs([]);
     }
   };
 
@@ -73,11 +79,14 @@ const Countries = ({navigation, route}) => {
 
   // Rendering Call
   React.useEffect(() => {
-    if (fav) {
-      getFavs().done();
-    } else {
+    // Don't Fetch All Countries If Favourites
+    // component is loaded
+    if (!fav) {
       getCountries();
     }
+
+    // Update Favourites
+    getFavs().done();
     navigation.setOptions({
       headerRight: () => (
         <TouchableOpacity onPress={fav ? getFavs : getCountries}>
@@ -90,12 +99,17 @@ const Countries = ({navigation, route}) => {
         </TouchableOpacity>
       ),
     });
+
+    // Refresh everytime focus is changed
+    // So it updates favourites on returning
+    // from favourite screen
+    navigation.addListener('focus', getFavs);
   }, [fav, navigation]);
 
   // remove from favourites
   const removeItem = (itemName) => {
     // Fetching current items from fav hooks
-    const prev = setCountries || [];
+    const prev = favs || [];
 
     // Updating Local Storage
     AsyncStorage.setItem(
@@ -104,7 +118,7 @@ const Countries = ({navigation, route}) => {
     )
       .then(() => {
         // Updating Hook
-        setCountries(prev.filter((item) => item.name !== itemName));
+        setFavs(prev.filter((item) => item.name !== itemName));
       })
       .catch((e) => console.error('While Removing', e));
   };
@@ -120,6 +134,7 @@ const Countries = ({navigation, route}) => {
       removeItem(item.name);
     } else {
       // Save to favourites states and memory if new item
+      setFavs([...prev, item]);
       AsyncStorage.setItem('fav', JSON.stringify([...prev, item])).catch((e) =>
         console.error('Adding New Value: ', e),
       );
@@ -129,7 +144,10 @@ const Countries = ({navigation, route}) => {
   // Item to display FlatList Items
   const render_item = ({item}) => {
     // Variable to decide heart type
-    const heart = fav ? 'heart' : 'heart-outline';
+    const heart =
+      favs.find((items) => items.name === item.name) !== undefined
+        ? 'heart'
+        : 'heart-outline';
 
     return (
       <TouchableOpacity
@@ -162,7 +180,7 @@ const Countries = ({navigation, route}) => {
         onChangeText={(text) => setText(text)}
       />
       <FlatList
-        data={countries.filter((item) => {
+        data={(fav ? favs : countries).filter((item) => {
           if (item.name.toLowerCase().search(getText.toLowerCase()) >= 0) {
             return item;
           }

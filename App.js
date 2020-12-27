@@ -1,22 +1,39 @@
+/* eslint-disable react-native/no-inline-styles */
 import * as React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-
-// My Components
-import Stats from './screen-components/Stats';
-import Countries from './screen-components/Countries';
 import {
   Text,
   TouchableOpacity,
   StatusBar,
   useWindowDimensions,
 } from 'react-native';
-import {colors, styles} from './constants/style';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import changeNavigationBarColor from 'react-native-navigation-bar-color';
 
+// My Components
+import Stats from './screen-components/Stats';
+import Countries from './screen-components/Countries';
+
+// My Constants
+import {colors, styles} from './constants/style';
+
+// Change Navigation Bar Color
+const navbar_color = async () => {
+  try {
+    const response = await changeNavigationBarColor(colors.light, true);
+    console.log(response); // {success: true}
+  } catch (e) {
+    console.log(e); // {success: false}
+  }
+};
+navbar_color().done();
+
+// Stack Navigator Object
 const Stack = createStackNavigator();
 
+// Component to display Countries List
 const Country = ({navigation, route}) => {
   // To See if favourites are to be printed or all
   const fav = route.params?.fav || false;
@@ -57,6 +74,7 @@ const Country = ({navigation, route}) => {
   );
 };
 
+// Component to display World's Statistics
 const World = () => {
   return (
     <Stack.Navigator>
@@ -65,8 +83,10 @@ const World = () => {
   );
 };
 
+// Drawer Object for Drawer Screens
 const Drawer = createDrawerNavigator();
 
+// Drawer Navigator for Countries and World
 const MyDrawer = () => {
   return (
     <Drawer.Navigator
@@ -110,6 +130,7 @@ const MyDrawer = () => {
   );
 };
 
+// Main App Component
 const App = () => {
   return (
     <>
