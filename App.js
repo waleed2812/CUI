@@ -6,9 +6,51 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 // My Components
 import Stats from './screen-components/Stats';
-import Country from './screen-components/Country';
+import Countries from './screen-components/Countries';
+import {Text, TouchableOpacity} from 'react-native';
+import {styles} from './constants/style';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Stack = createStackNavigator();
+
+const Country = ({navigation, route}) => {
+  // To See if favourites are to be printed or all
+  const fav = route.params?.fav || false;
+
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name={'List'}
+        component={Countries}
+        options={{
+          headerTitle: () => (
+            <Text style={styles.header}>
+              {fav ? 'Favourite' : 'All'} Countries
+            </Text>
+          ),
+
+          headerRight: () => (
+            <TouchableOpacity onPress={() => {}}>
+              <Ionicons name={'refresh'} size={30} color={'black'} />
+            </TouchableOpacity>
+          ),
+
+          headerLeft: () => (
+            <TouchableOpacity onPress={navigation.toggleDrawer}>
+              <Ionicons name={'menu'} size={30} color={'black'} />
+            </TouchableOpacity>
+          ),
+        }}
+        initialParams={{fav: fav}}
+      />
+      <Stack.Screen
+        name={'Stats'}
+        component={Stats}
+        initialParams={{cntry: 'Pakistan'}}
+      />
+    </Stack.Navigator>
+  );
+};
 
 const World = () => {
   return (
