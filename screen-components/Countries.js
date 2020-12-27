@@ -16,7 +16,7 @@ import {colors, styles} from '../constants/style';
 const Countries = ({navigation, route}) => {
   // Hooks
   const [countries, setCountries] = useState([]); // To Update COVID Data
-  const [getFav, setFav] = useState([]);
+  const [getText, setText] = useState('');
 
   // Filter Favourite
   const fav = route.params?.fav || false;
@@ -26,9 +26,9 @@ const Countries = ({navigation, route}) => {
     // Options for API
     try {
       const data = await AsyncStorage.getItem('fav');
-      setFav(JSON.parse(data));
+      setCountries(JSON.parse(data));
     } catch (err) {
-      setFav([]);
+      setCountries([]);
     }
   };
 
@@ -95,7 +95,7 @@ const Countries = ({navigation, route}) => {
   // remove from favourites
   const removeItem = (itemName) => {
     // Fetching current items from fav hooks
-    const prev = getFav || [];
+    const prev = setCountries || [];
 
     // Updating Local Storage
     AsyncStorage.setItem(
@@ -104,7 +104,7 @@ const Countries = ({navigation, route}) => {
     )
       .then(() => {
         // Updating Hook
-        setFav(prev.filter((item) => item.name !== itemName));
+        setCountries(prev.filter((item) => item.name !== itemName));
       })
       .catch((e) => console.error('While Removing', e));
   };
@@ -120,7 +120,6 @@ const Countries = ({navigation, route}) => {
       removeItem(item.name);
     } else {
       // Save to favourites states and memory if new item
-      setFav([...prev, item]);
       AsyncStorage.setItem('fav', JSON.stringify([...prev, item])).catch((e) =>
         console.error('Adding New Value: ', e),
       );
@@ -160,9 +159,14 @@ const Countries = ({navigation, route}) => {
         placeholderTextColor={colors.dark}
         inlineImageLeft={'search'}
         selectTextOnFocus={true}
+        onChangeText={(text) => setText(text)}
       />
       <FlatList
-        data={fav ? getFav : countries}
+        data={countries.filter((item) => {
+          if (item.name.toLowerCase().search(getText.toLowerCase()) >= 0) {
+            return item;
+          }
+        })}
         renderItem={render_item}
         keyExtractor={(item) => item.key?.toString()}
         extraData={{navigation}}

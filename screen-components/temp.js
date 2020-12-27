@@ -1,3 +1,5 @@
+let str = 'Some String';
+console.log(str.search(''));
 // import {ScrollView, Text, TouchableOpacity} from 'react-native';
 // import Ionicons from 'react-native-vector-icons/Ionicons';
 //
