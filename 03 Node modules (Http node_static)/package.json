@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handler": "^0.2.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "node-static": "^0.7.11",
+    "nodemon": "^2.0.7",
+    "pm2": "^4.5.5"
+  },
+  "name": "03",
+  "description": "",
+  "version": "1.0.0",
+  "main": "readfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waleed Butt",
+  "license": "ISC"
+}
