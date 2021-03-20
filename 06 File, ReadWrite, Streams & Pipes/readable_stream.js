@@ -10,20 +10,20 @@
 
 const fs = require('fs');
 
-const stream = fs.createReadStream('package.json');
+const readable_stream = fs.createReadStream('package.json');
 
-stream.on('data', function(data) {
+readable_stream.on('data', function(data) {
 
     console.log('my_new_file.txt: Async File Stream Read Successful');
 
     process.stdout.write(data.toString());
 });
 
-stream.on('end', function() {
+readable_stream.on('end', function() {
     console.log();
 });
 
-stream.on('error', function(error) {
+readable_stream.on('error', function(error) {
 
     console.error('my_new_file.txt: Async File Stream Read Failed');
 
