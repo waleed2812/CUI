@@ -59,6 +59,12 @@ mongoose.connect('mongodb://localhost:27017/lec9mongoose', function (err, db) {
         author: jamieAuthor._id
     });
 
+    const myBook = new Book ({
+        _id: new mongoose.Types.ObjectId(),
+        title: 'My Book',
+        author: jamieAuthor._id
+    });
+
     jamieAuthor.save( (err) => {
 
         if (err) {
@@ -96,15 +102,26 @@ mongoose.connect('mongodb://localhost:27017/lec9mongoose', function (err, db) {
 
                 console.log('Knockout Book successfully saved.');
 
-                db.close();
+                myBook.save((err) => {
+
+                    if (err) {
+
+                        db.close();
+
+                        console.error("Failed My Book");
+
+                        throw err;
+                    }
+
+                    console.log('My Book successfully saved.');
+
+                    db.close();
+                });
             });
         });
     });
 
 });
-
-
-
 
 
 
