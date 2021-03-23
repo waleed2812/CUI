@@ -1,0 +1,14 @@
+{
+  "name": "09-mongose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "schema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waleed Butt",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.1"
+  }
+}
