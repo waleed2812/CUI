@@ -1,0 +1,38 @@
+export const orders = [
+  {
+    ID: Math.random().toString(),
+    Image: require('../assets/iphonexdesign-800x669.jpg'),
+    Product: 'Iphone X',
+    Quantity: 2,
+    OrderBy: 'waleed3072@gmail.com',
+    DeliveryAddress: 'House # 448, Street 29, D-12/3',
+    City: 'Islamabad',
+  },
+  {
+    ID: Math.random().toString(),
+    Image: require('../assets/kpoSe2Jmn4ghwMAxnBtdid.jpg'),
+    Product: 'Galaxy S20',
+    Quantity: 1,
+    OrderBy: 'ajsdkjsah@gmail.com',
+    DeliveryAddress: 'House # 123, Street 45, I-10/3',
+    City: 'Islamabad',
+  },
+  {
+    ID: Math.random().toString(),
+    Image: require('../assets/Oppo-Reno2-Z.webp'),
+    Product: 'Oppo F2',
+    Quantity: 3,
+    OrderBy: 'adsa81726jhbjh@gmail.com',
+    DeliveryAddress: 'House # 567, Street 12312, Chandni Chowk',
+    City: 'Rawalpindi',
+  },
+  {
+    ID: Math.random().toString(),
+    Image: require('../assets/Samsung-Galaxy-A10s-500x500.webp'),
+    Product: 'Galaxy A10s',
+    Quantity: 1,
+    OrderBy: 'akdhaksjh1231@gmail.com',
+    DeliveryAddress: 'House # 1231, Street 2, Near Badshahi Mosque',
+    City: 'Lahore',
+  },
+];

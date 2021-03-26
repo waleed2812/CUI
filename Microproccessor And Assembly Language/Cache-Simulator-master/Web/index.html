@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <!-- If IE use the latest rendering engine -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Set the page to the width of the device and set the zoon level -->
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>Cache Simulator</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+        </style>        
+    </head>
+    <body>
+
+        <div class="container">
+            
+            <div class="page-header">
+                <h1 class="display-1">Cache Simulator</h1>
+            </div><br>
+			
+            <div class="jumbotron jumbotron.mine">
+                <p class="introText">
+                    A simple direct mapped cache simulator. Takes addresses as input and calculates hits, miss and hit ratio.
+                </p>
+            </div>
+
+            <div>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                    <td colspan="3" style="text-align: center;"><h1>System Description</h1></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-center">Ram Size</td>
+                            <th class="text-center">Cache Size</td>
+                            <th class="text-center">Block Size</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="ramSizeInput" type="number" min="0" value="64" placeholder="2,4,16 etc." style="width: 150px;">
+                                <div class="form-check-inline">
+                                    <input type="radio" id="ramB" class="form-check-input" name="optradio" style="margin-left:5px;">B
+                                    <input type="radio" id="ramKB" class="form-check-input" name="optradio" style="margin-left:5px;" checked="checked">KB
+                                    <input type="radio" id="ramMB" class="form-check-input" name="optradio" style="margin-left:5px;">MB
+                                </div>
+                            </td>
+                            <td>
+                                <input id="cacheSizeInput" type="number" min="0" value="4096" placeholder="2,4,16 etc." style="width: 150px;">
+                                <div class="form-check-inline">
+                                    <input type="radio" id="cacheB" class="form-check-input" name="optradio1" style="margin-left:5px;" checked="checked">B
+                                    <input type="radio" id="cacheKB" class="form-check-input" name="optradio1" style="margin-left:5px;">KB
+                                    <input type="radio" id="cacheMB" class="form-check-input" name="optradio1" style="margin-left:5px;">MB
+                                </div>
+                            </td>
+                            <td>
+                                <input id="blockSizeInput" type="number" min="0" value="8" placeholder="2,4,16 etc." style="width: 150px;">
+                                <div class="form-check-inline">
+                                    <input type="radio" id="blockB" class="form-check-input" name="optradio2" style="margin-left:5px;" checked="checked">B
+                                    <input type="radio" id="blockKB" class="form-check-input" name="optradio2" style="margin-left:5px;">KB
+                                    <input type="radio" id="blockMB" class="form-check-input" name="optradio2" style="margin-left:5px;">MB
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" id="rdbtnLoop" class="form-check-input" name="loopRandom">Loop
+                </label>
+            </div>
+
+            <div class="form-inline">
+                <p style="padding: 0px;">Starting Address: 
+                    <input type="number" min="0" id="startingIn" value="900" placeholder="900 etc." style="width: 100px;"></p style="padding: 0px;">
+                </p>
+                <p style="padding: 10px;">Ending Address: 
+                    <input type="number" min="0"  id="endingIn" value="1049" placeholder="1049 etc." sty style="p1adding: 0px;"le="width:100px;">
+                </p>
+                <p style="padding: 10px;">Loop limit: 
+                    <input type="number" min="0"  id="loopIn" value="4" placeholder="4 etc." styl style="padding: 01px;"e="width: 100px;">
+                </p>
+            </div>
+
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" id="rdbtnRandom" class="form-check-input" name="loopRandom" checked="checked">Random
+                </label>
+            </div>
+
+            <div class="form-inline">
+                <p style="padding: 0px;">Array of addresses: 
+                    <input type="text" min="0" id="arrayIn" value="0,1,2,3,4,5,6,7" placeholder="900,901,1050,400,500...(seperated by comma)"style="width:500px;">
+                </p>
+                <button type="submit" role = "button" onclick="calculate();"
+                    class="btn-secondary" style="margin-left: 10px;margin-top: -15px;">
+                    Calculate
+                </button>
+                <a href="output.txt" target="_blank" style="margin-left: 10px;margin-top: -15px;">
+                    See Details
+                </a>
+            </div>
+
+            <div class="list-group-horizontal">
+                Address Size: <a id="adressSize">0</a> bits<br>
+                Tag bits: <a id="tagSize">0</a> bits<br>
+                Block: <a id="blockSize">0</a> bits<br>
+                Offset: <a id="offsetSize">0</a> bits<br>
+                Total Instructions: <a id="hitAndMiss">0</a><br>
+                Cache Hits: <a id="hits">0</a><br>
+                Cache Miss: <a id="miss">0</a><br>
+                Hit Rate: <a id="hitRate">0</a>%<br>
+            </div >
+
+        </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

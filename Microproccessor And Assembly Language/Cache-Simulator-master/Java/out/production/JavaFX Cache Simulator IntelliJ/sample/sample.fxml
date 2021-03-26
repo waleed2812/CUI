@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="585.0" maxWidth="1040.0" minHeight="585.0" minWidth="1040.0" prefHeight="585.0" prefWidth="1040.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <!--
+           Main Title
+        -->
+        <Label fx:id="mainTitle" layoutX="20.0" layoutY="14.0" prefHeight="98.0" prefWidth="776.0" text="Cache Simulator">
+            <font>
+                <Font name="System Italic" size="70.0" />
+            </font>
+        </Label>
+        <!--
+           Description
+        -->
+        <Label layoutX="20.0" layoutY="133.0" prefHeight="49.0" prefWidth="942.0" text="A simple direct mapped cache simulator. Takes addresses as input and calculates hits, miss and hit ratio." textFill="#7c7878">
+            <font>
+                <Font name="Arial Italic" size="20.0" />
+            </font>
+        </Label>
+        <!--
+           Ram Size Input
+        -->
+        <Label layoutX="20.0" layoutY="207.0" prefHeight="26.0" prefWidth="80.0" text="Ram Size">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="ramSizeIn" layoutX="100.0" layoutY="207.0" prefHeight="26.0" prefWidth="80.0" text="64" />
+        <RadioButton fx:id="ramB" layoutX="200.0" layoutY="211.0" mnemonicParsing="false" selected="true" text="B">
+            <toggleGroup>
+                <ToggleGroup fx:id="rdbtnRAM" />
+            </toggleGroup></RadioButton>
+        <RadioButton fx:id="ramKB" layoutX="240.0" layoutY="211.0" mnemonicParsing="true" selected="true" text="KB" toggleGroup="$rdbtnRAM" />
+        <RadioButton fx:id="ramMB" layoutX="280.0" layoutY="211.0" mnemonicParsing="false" text="MB" toggleGroup="$rdbtnRAM" />
+        <!--
+           Cache Size Input
+        -->
+        <Label layoutX="345.0" layoutY="207.0" prefHeight="26.0" prefWidth="80.0" text="Cache Size">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="cacheSizeIn" layoutX="425.0" layoutY="207.0" prefHeight="26.0" prefWidth="80.0" text="4096" />
+        <RadioButton fx:id="cacheB" layoutX="515.0" layoutY="211.0" mnemonicParsing="true" selected="true" text="B">
+            <toggleGroup>
+                <ToggleGroup fx:id="rdbtnCache" />
+            </toggleGroup></RadioButton>
+        <RadioButton fx:id="cacheKB" layoutX="555.0" layoutY="211.0" mnemonicParsing="false" text="KB" toggleGroup="$rdbtnCache" />
+        <RadioButton fx:id="cacheMB" layoutX="595.0" layoutY="211.0" mnemonicParsing="false" text="MB" toggleGroup="$rdbtnCache" />
+        <!--
+           Block Size Input
+        -->
+        <Label layoutX="655.0" layoutY="207.0" prefHeight="26.0" prefWidth="80.0" text="Block Size">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="blockSizeIn" layoutX="735.0" layoutY="207.0" prefHeight="26.0" prefWidth="80.0" text="8" />
+        <RadioButton fx:id="blockB" layoutX="825.0" layoutY="211.0" mnemonicParsing="true" selected="true" text="B">
+            <toggleGroup>
+                <ToggleGroup fx:id="rdbtnBlock" />
+            </toggleGroup></RadioButton>
+        <RadioButton fx:id="blockKB" layoutX="865.0" layoutY="211.0" mnemonicParsing="false" text="KB" toggleGroup="$rdbtnBlock" />
+        <RadioButton fx:id="blockMB" layoutX="905.0" layoutY="211.0" mnemonicParsing="false" text="MB" toggleGroup="$rdbtnBlock" />
+        <!--
+         Loop Input
+        -->
+        <RadioButton fx:id="rdbtnLoop" layoutX="20.0" layoutY="250.0" mnemonicParsing="true" selected="true" text="Loop">
+            <toggleGroup>
+                <ToggleGroup fx:id="rdbtnLoopRandom" />
+            </toggleGroup></RadioButton>
+        <!--Starting Address-->
+        <Label layoutX="100.0" layoutY="246.0" prefHeight="26.0" prefWidth="100.0" text="Starting Address">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="startAddIn" layoutX="218.0" layoutY="246.0" prefHeight="26.0" prefWidth="80.0" text="900" />
+        <!--Ending Address-->
+        <Label layoutX="319.0" layoutY="246.0" prefHeight="26.0" prefWidth="100.0" text="Ending Address">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="endAddIn" layoutX="425.0" layoutY="246.0" prefHeight="26.0" prefWidth="80.0" text="1049" />
+        <!--Loop Count-->
+        <Label layoutX="515.0" layoutY="246.0" prefHeight="26.0" prefWidth="100.0" text="Loop Count">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="loopCountIn" layoutX="625.0" layoutY="246.0" prefHeight="26.0" prefWidth="80.0" text="4" />
+        <!--
+         Random Array Input
+        -->
+        <RadioButton fx:id="rdbtnRandom" layoutX="19.0" layoutY="290.0" selected="false" text="Random" toggleGroup="$rdbtnLoopRandom" />
+        <Label layoutX="99.0" layoutY="286.0" prefHeight="26.0" prefWidth="100.0" text="Addresses">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Label>
+        <TextField fx:id="addArrayIn" layoutX="217.0" layoutY="286.0" prefHeight="26.0" prefWidth="200.0" text="0,1,2,3,4,5,6,7" />
+
+        <!--Caculate Button-->
+      <Button layoutX="425.0" layoutY="286.0" mnemonicParsing="false" onAction="#calculate" prefHeight="25.0" prefWidth="80.0" text="Calculate" />
+        <!--Address Size Label-->
+      <Label layoutX="20.0" layoutY="330.0" text="Address Size: ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="addressSizeLabel" layoutX="99.0" layoutY="330.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0 bits" />
+        <!--Tag Size Label-->
+        <Label layoutX="20.0" layoutY="360.0" text="Tag Size: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="tagSizeLabel" layoutX="99.0" layoutY="360.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0 bits" />
+        <!--Block Size Label-->
+        <Label layoutX="20.0" layoutY="390.0" text="Block Size: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="blockSizeLabel" layoutX="99.0" layoutY="390.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0 bits" />
+        <!--Offset Size Label-->
+        <Label layoutX="20.0" layoutY="420.0" text="Offset Size: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="offsetSizeLabel" layoutX="99.0" layoutY="420.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0 bits" />
+        <!--Cache Miss-->
+        <Label layoutX="20.0" layoutY="450.0" text="Cache Miss: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="missLabel" layoutX="99.0" layoutY="450.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0" />
+        <!--Cache Hits Label-->
+        <Label layoutX="20.0" layoutY="480.0" text="Cache Hits: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="hitLabel" layoutX="99.0" layoutY="480.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0" />
+        <!--Total Label-->
+        <Label layoutX="20.0" layoutY="510.0" text="Total: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="totalLabel" layoutX="99.0" layoutY="510.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0" />
+        <!--Hit Rate Label-->
+        <Label layoutX="20.0" layoutY="540.0" text="Hit Rate: ">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+        <Label fx:id="hitRateLabel" layoutX="99.0" layoutY="540.0" maxHeight="17.0" maxWidth="50.0" minHeight="17.0" minWidth="50.0" prefHeight="17.0" prefWidth="50.0" text="0 %" />
+      <ToggleButton id="btnFullscreen" fx:id="btnFullscreen" layoutX="868.0" layoutY="25.0" mnemonicParsing="false" onAction="#fullScreen" text="Full Screen" />
+      <Button layoutX="517.0" layoutY="286.0" mnemonicParsing="false" onAction="#loadFile" text="See Details" />
+
+
+
+    </children>
+</Pane>
