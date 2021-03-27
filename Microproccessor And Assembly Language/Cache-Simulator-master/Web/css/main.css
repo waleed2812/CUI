@@ -1,0 +1,16 @@
+
+.page-header{
+    font-style: italic;
+    border-bottom: 1px solid lightslategray;
+}
+.jumbotron{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-size-adjust: 100px;
+}
+.introText{
+    color: lightslategrey;
+    font-size: large;
+    font-style: italic;
+
+}
