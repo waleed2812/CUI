@@ -1,0 +1,67 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      div.col-12
+        table.table.person
+          tbody
+            tr
+              th Frist Name
+              th Last Name
+              th Age
+              th Email
+              th Bio
+              th Delete
+            form(action="/", method='get')#filter
+              tr
+                td
+                  input(type="text", class="form-control", placeholder="First Name", id="fnamef", name="fname" value=fname)
+                td
+                  input(type="text", class="form-control", placeholder="Last Name", id="lnamef", name="lname" value=lname)
+                td
+                  input(type="number", class="form-control", placeholder="Age", id="agef", name="age" value=age)
+                td
+                  input(type="email", class="form-control", placeholder="Enter email", id="emailf", name="email" value=email)
+                td
+                  input(type="text", class="form-control", placeholder="Bio", id="biof", name="bio" value=bio)
+                td
+                  button(type='submit' for='filter').btn.btn-success Apply Filter
+            if persons.length === 0
+              tr
+                td(colspan=7, style='text-align: center') No Person Added
+            else
+              for person in persons
+                tr
+                  td #{person.name.firstName}
+                  td #{person.name.lastName}
+                  td #{person.age}
+                  td #{person.email}
+                  td #{person.bio[0].summary}
+                  td
+                    button(id=person.id, onclick='delete_(this.id)').btn.btn-danger Delete
+
+  div.container
+    form(action="/form", method='get')#form
+
+      div.form-group
+        label(for="fname") First Name:
+        input(type="text", class="form-control", placeholder="First Name", id="fname", name="fname" value="New")
+    
+      div.form-group
+        label(for="lname") Last Name:
+        input(type="text", class="form-control", placeholder="Last Name", id="lname", name="lname" value="New")
+
+      div.form-group
+        label(for="age") Age:
+        input(type="number", class="form-control", placeholder="Age", id="age", name="age" value=22)
+
+      div.form-group
+        label(for="email") Email address:
+        input(type="email", class="form-control", placeholder="Enter email", id="email", name="email" value="new@domain.com")
+
+      div.form-group
+        label(for="bio") Bio:
+        input(type="text", class="form-control", placeholder="Bio", id="bio", name="bio" value="New")
+
+      button(type='submit' for='form').btn.btn-primary Add

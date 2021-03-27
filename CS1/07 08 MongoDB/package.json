@@ -1,0 +1,15 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "learning mongodb from COMSATS",
+  "main": "crud.js",
+  "dependencies": {
+    "mongodb": "^3.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waleed Butt",
+  "license": "ISC"
+}
