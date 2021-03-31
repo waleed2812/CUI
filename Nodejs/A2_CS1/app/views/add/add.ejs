@@ -1,0 +1,46 @@
+<%- include("../includes/header") %>
+
+<% if (saved === 'saved') { %>
+    <div id='message' class="container bg-success">
+        <div class="row">
+            <div class="col-12 text-right">
+                <button class="btn" onclick="message('close')">X</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotron bg-success w-100 text-center">
+                <h1>Data Saved</h1>
+            </div>
+        </div>
+    </div>
+<% } %>
+
+<div class="container">
+    <form action="/add", method='get' id="form">
+
+    <div class="form-group">
+        <label for="fname">First Name:</label>
+        <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" value="New" />
+    </div>
+    <div class="form-group">
+        <label for="lname">Last Name:</label>
+        <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" value="New" />
+    </div>
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" class="form-control" placeholder="Age" id="age" name="age" value=22 />
+    </div>
+    <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" placeholder="Enter email" id="email" name="email" value="new@domain.com" />
+    </div>
+    <div class="form-group">
+        <label for="bio">Bio:</label>
+        <input type="text" class="form-control" placeholder="Bio" id="bio" name="bio" value="New" />
+    </div>
+    <button type='submit' for='form' class='btn btn-primary'>Add</button>
+    
+    </form>
+</div>
+
+<%- include("../includes/footer") %>

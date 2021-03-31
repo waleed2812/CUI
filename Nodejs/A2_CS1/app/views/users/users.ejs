@@ -1,0 +1,62 @@
+<%- include("../includes/header") %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table class="table person">
+                <tbody>
+                    <tr>
+                        <th>Frist Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Bio</th>
+                        <th>Delete</th>
+                    </tr>
+                    <form action="/", method='get' id="filter">
+                        <tr>
+                            <td>
+                                <input type="text" class="form-control" placeholder="First Name" id="fnamef" name="fname" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" placeholder="Last Name" id="lnamef" name="lname" />
+                            </td>
+                            <td>
+                                <input type="number" class="form-control" placeholder="Age" id="agef" name="age" />
+                            </td>
+                            <td>
+                                <input type="email" class="form-control" placeholder="Enter email" id="emailf" name="email" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control" placeholder="Bio" id="biof" name="bio" />
+                            </td>
+                            <td>
+                                <button type='submit' for='filter' class='btn btn-success'>Apply Filter</button>
+                            </td>
+                        </tr>
+                    </form>
+                    <% if (users.length === 0) { %>
+                        <tr>
+                            <td colspan=7 style='text-align: center'> No User Added</td>
+                        </tr>
+                    <%} else { %>
+                        <% for (user of users) { %>
+                            <tr>
+                                <td><%= user.name.firstName %></td>
+                                <td><%= user.name.lastName %></td>
+                                <td><%= user.age %></td>
+                                <td><%= user.email %></td>
+                                <td><%= user.bio[0].summary %></td>
+                                <td>
+                                    <a href='/delete?id=<%= user.id %>' class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                         <% } %>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<%- include("../includes/footer") %>
