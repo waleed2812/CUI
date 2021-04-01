@@ -3,7 +3,7 @@ let router = express.Router();
 
 const mongoose = require('mongoose');
 
-const dbUrl = 'mongodb://localhost:27017/A1';
+const dbUrl = require('../constants/global').dbUrl;
 
 const Person = require('../constants/People');
 
