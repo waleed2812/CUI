@@ -1440,3 +1440,184 @@ TypeError: Cannot read property 'name' of undefined
     at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
     at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
 [2021-04-18 14:18:17] [31merror[39m:  [object Object] 
+[2021-04-18 14:21:34] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:21:34] [31merror[39m:  [object Object] 
+[2021-04-18 14:30:27] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:30:27] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:30:27] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:30:27] [32minfo[39m:  models are loading... 
+[2021-04-18 14:32:26] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:32:26] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:32:26] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:32:26] [32minfo[39m:  models are loading... 
+[2021-04-18 14:32:26] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:32:26] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:32:26] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:32:28] [31merror[39m:  [object Object] 
+[2021-04-18 14:33:58] [31merror[39m:  [object Object] 
+[2021-04-18 14:35:17] [31merror[39m:  [object Object] 
+[2021-04-18 14:35:23] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:35:23] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:35:23] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:35:23] [32minfo[39m:  models are loading... 
+[2021-04-18 14:35:23] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:35:23] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:35:23] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:35:25] [31merror[39m:  [object Object] 
+[2021-04-18 14:35:41] [31merror[39m:  [object Object] 
+[2021-04-18 14:38:01] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:38:01] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:38:01] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:38:01] [32minfo[39m:  models are loading... 
+[2021-04-18 14:38:01] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:38:01] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:38:01] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:38:05] [31merror[39m:  [object Object] 
+[2021-04-18 14:38:12] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:38:12] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:38:12] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:38:12] [32minfo[39m:  models are loading... 
+[2021-04-18 14:38:12] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:38:12] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:38:12] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:38:45] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:38:45] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:38:45] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:38:45] [32minfo[39m:  models are loading... 
+[2021-04-18 14:38:45] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:38:45] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:38:45] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:38:47] [31merror[39m:  [object Object] 
+[2021-04-18 14:39:23] [31merror[39m:  [object Object] 
+[2021-04-18 14:39:35] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:39:35] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:39:35] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:39:35] [32minfo[39m:  models are loading... 
+[2021-04-18 14:39:35] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:39:35] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:39:35] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:39:42] [31merror[39m:  [object Object] 
+[2021-04-18 14:41:28] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:41:28] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:41:28] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:41:28] [32minfo[39m:  models are loading... 
+[2021-04-18 14:41:28] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:41:28] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:41:28] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:41:38] [31merror[39m:  [object Object] 
+[2021-04-18 14:42:15] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:42:15] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:42:15] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:42:15] [32minfo[39m:  models are loading... 
+[2021-04-18 14:42:15] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:42:15] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:42:15] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:42:19] [31merror[39m:  [object Object] 
+[2021-04-18 14:42:44] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:42:44] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:42:44] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:42:44] [32minfo[39m:  models are loading... 
+[2021-04-18 14:42:44] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:42:44] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:42:44] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:42:48] [31merror[39m:  [object Object] 
+[2021-04-18 14:44:32] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:44:32] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:44:32] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:44:32] [32minfo[39m:  models are loading... 
+[2021-04-18 14:44:32] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:44:33] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:44:33] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:44:36] [31merror[39m:  [object Object] 
+[2021-04-18 14:45:45] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:45:45] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:45:46] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:45:46] [32minfo[39m:  models are loading... 
+[2021-04-18 14:45:46] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:45:46] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:45:46] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:46:07] [31merror[39m:  [object Object] 
+[2021-04-18 14:50:53] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:50:53] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:50:53] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:50:53] [32minfo[39m:  models are loading... 
+[2021-04-18 14:50:53] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:50:53] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:50:53] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:52:46] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:52:46] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:52:46] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:52:46] [32minfo[39m:  models are loading... 
+[2021-04-18 14:52:46] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:52:46] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:52:46] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:55:11] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:55:11] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:55:11] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:55:11] [32minfo[39m:  models are loading... 
+[2021-04-18 14:55:11] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:55:12] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:55:12] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:55:16] [31merror[39m:  [object Object] 
+[2021-04-18 14:55:34] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:55:34] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:55:34] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:55:34] [32minfo[39m:  models are loading... 
+[2021-04-18 14:55:34] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:55:35] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:55:35] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:55:38] [31merror[39m:  [object Object] 
+[2021-04-18 14:56:28] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:56:28] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:56:28] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:56:28] [32minfo[39m:  models are loading... 
+[2021-04-18 14:56:28] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:56:28] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:56:28] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:56:40] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:56:40] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:56:40] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:56:40] [32minfo[39m:  models are loading... 
+[2021-04-18 14:56:40] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:56:40] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:56:40] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:56:45] [31merror[39m:  [object Object] 
+[2021-04-18 14:57:20] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:57:20] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:57:20] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:57:20] [32minfo[39m:  models are loading... 
+[2021-04-18 14:57:20] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:57:21] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:57:21] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:57:23] [31merror[39m:  [object Object] 
+[2021-04-18 14:58:09] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:58:09] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:58:09] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:58:09] [32minfo[39m:  models are loading... 
+[2021-04-18 14:58:09] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:58:10] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:58:10] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:58:16] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:58:16] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:58:16] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:58:16] [32minfo[39m:  models are loading... 
+[2021-04-18 14:58:16] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:58:16] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:58:16] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 

@@ -32,6 +32,7 @@ userAccount.methods.comparePassword = (candidatePassword, cb) => {
 }
 
 userAccount.pre('save', async (next) => {
+
     try {
 
         let user = this;
@@ -43,10 +44,12 @@ userAccount.pre('save', async (next) => {
         let salt = await bcrypt.genSalt(SALT_WORK_FACTOR);
         console.log('Password Salt', salt);
 
-        let hash = await bcrypt.hash(user.password, salt);
+        console.log('typeof user.password',typeof this.password)
+
+        let hash = await bcrypt.hash(this.password, salt);
         console.log('Password hash: ', hash);
 
-        // override clear text password with hashed one
+        // override clear text password with hashed one        
         user.password = hash;
 
     } catch (err) {

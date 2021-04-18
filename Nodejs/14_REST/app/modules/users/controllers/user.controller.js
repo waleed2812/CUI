@@ -104,16 +104,30 @@ const createUser = async (req, res, next) => {
     
     try {
 
-        console.log(req.body);
+
         const name = req.body.name;
         const profileImage = req.body.profileImage;
         const email = req.body.email;
         const password = req.body.password;
-        
-        new userAccountModel({name: name, profileImage: profileImage, email: email, password: password})
+        const userType = req.body.userType;
+        const phoneNumber = req.body.phoneNumber;
+
+        const options = {
+             name,
+             profileImage,
+             email,
+             password,
+             userType,
+             phoneNumber
+
+        }
+        new userAccountModel(options)
             .save( err => {
 
-                if (err) return next({msgCode: 5});
+                if (err) {
+                    console.log(err);
+                    return next({msgCode: 5})
+                };
 
                 return res.json({
                     status: 0,
