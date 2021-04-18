@@ -466,3 +466,977 @@ TypeError: Cannot read property 'name' of undefined
     at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
     at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
     at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:42:30] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:42:30] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:42:30] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:42:30] [32minfo[39m:  models are loading... 
+[2021-04-18 13:42:30] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:42:30] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:42:30] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:44:57] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:44:57] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:44:57] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:44:57] [32minfo[39m:  models are loading... 
+[2021-04-18 13:44:57] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:44:57] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:44:57] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:47:01] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:47:01] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:47:02] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:47:02] [32minfo[39m:  models are loading... 
+[2021-04-18 13:47:02] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:47:02] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:47:02] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:47:03] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:47:03] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:47:03] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:47:03] [32minfo[39m:  models are loading... 
+[2021-04-18 13:47:03] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:47:03] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:47:03] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:48:48] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:48:48] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:48:48] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:48:48] [32minfo[39m:  models are loading... 
+[2021-04-18 13:48:50] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:48:50] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:48:51] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:48:51] [32minfo[39m:  models are loading... 
+[2021-04-18 13:48:51] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:48:51] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:48:51] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:48:55] [31merror[39m:  [object Object] 
+[2021-04-18 13:49:39] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:49:39] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:49:39] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:49:39] [32minfo[39m:  models are loading... 
+[2021-04-18 13:49:39] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:49:39] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:49:39] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:49:44] [31merror[39m:  [object Object] 
+[2021-04-18 13:50:41] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:50:41] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:50:41] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:50:41] [32minfo[39m:  models are loading... 
+[2021-04-18 13:50:41] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:50:41] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:50:41] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:51:20] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:51:20] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:51:20] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:51:20] [32minfo[39m:  models are loading... 
+[2021-04-18 13:51:20] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:51:20] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:51:20] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:51:26] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:51:26] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:51:26] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:51:26] [32minfo[39m:  models are loading... 
+[2021-04-18 13:51:26] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:51:26] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:51:26] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:51:35] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:51:35] [31merror[39m:  [object Object] 
+[2021-04-18 13:53:19] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:53:19] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:53:19] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:53:19] [32minfo[39m:  models are loading... 
+[2021-04-18 13:53:19] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:53:19] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:53:19] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:53:28] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:53:28] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:53:28] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:53:28] [32minfo[39m:  models are loading... 
+[2021-04-18 13:53:28] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:53:28] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:53:28] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:53:31] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:53:31] [31merror[39m:  [object Object] 
+[2021-04-18 13:54:01] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:54:01] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:54:02] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:54:02] [32minfo[39m:  models are loading... 
+[2021-04-18 13:54:02] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:54:02] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:54:02] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:54:05] [31merror[39m:  [object Object] 
+[2021-04-18 13:54:23] [31merror[39m:  [object Object] 
+[2021-04-18 13:55:13] [31merror[39m:  [object Object] 
+[2021-04-18 13:55:18] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:55:18] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:55:18] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:55:18] [32minfo[39m:  models are loading... 
+[2021-04-18 13:55:18] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:55:18] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:55:18] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:55:21] [31merror[39m:  [object Object] 
+[2021-04-18 13:55:35] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:55:35] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:55:35] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:55:35] [32minfo[39m:  models are loading... 
+[2021-04-18 13:55:35] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:55:35] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:55:35] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:55:39] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:55:39] [31merror[39m:  [object Object] 
+[2021-04-18 13:56:07] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:56:07] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:56:07] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:56:07] [32minfo[39m:  models are loading... 
+[2021-04-18 13:56:07] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:56:08] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:56:08] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:56:16] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:56:16] [31merror[39m:  [object Object] 
+[2021-04-18 13:56:43] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:56:43] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:56:43] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:56:43] [32minfo[39m:  models are loading... 
+[2021-04-18 13:56:43] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:56:43] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:56:43] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:56:47] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:56:47] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:56:47] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:56:47] [32minfo[39m:  models are loading... 
+[2021-04-18 13:56:52] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:56:52] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:56:52] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:56:52] [32minfo[39m:  models are loading... 
+[2021-04-18 13:56:52] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:56:52] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:56:52] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:56:57] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:56:57] [31merror[39m:  [object Object] 
+[2021-04-18 13:57:10] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:57:10] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:57:10] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:57:10] [32minfo[39m:  models are loading... 
+[2021-04-18 13:57:10] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:57:10] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:57:10] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:57:13] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:57:13] [31merror[39m:  [object Object] 
+[2021-04-18 13:57:36] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 13:57:36] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 13:57:36] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 13:57:36] [32minfo[39m:  models are loading... 
+[2021-04-18 13:57:36] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 13:57:36] [32minfo[39m:  error messages are loading... 
+[2021-04-18 13:57:36] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 13:58:13] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:58:13] [31merror[39m:  [object Object] 
+[2021-04-18 13:58:19] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:58:19] [31merror[39m:  [object Object] 
+[2021-04-18 13:58:25] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:58:25] [31merror[39m:  [object Object] 
+[2021-04-18 14:00:15] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:00:16] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:00:16] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:00:16] [32minfo[39m:  models are loading... 
+[2021-04-18 14:00:16] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:00:16] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:00:16] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:00:45] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:00:45] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:00:45] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:00:45] [32minfo[39m:  models are loading... 
+[2021-04-18 14:00:45] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:00:45] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:00:45] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:02:52] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:02:52] [31merror[39m:  [object Object] 
+[2021-04-18 14:07:23] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:07:28] [31merror[39m:  [object Object] 
+[2021-04-18 14:07:29] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:07:29] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:07:29] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:07:29] [32minfo[39m:  models are loading... 
+[2021-04-18 14:07:29] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:07:29] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:07:29] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:07:33] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:07:33] [31merror[39m:  [object Object] 
+[2021-04-18 14:08:10] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:08:10] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:08:10] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:08:10] [32minfo[39m:  models are loading... 
+[2021-04-18 14:08:10] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:08:10] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:08:10] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:08:14] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:08:14] [31merror[39m:  [object Object] 
+[2021-04-18 14:09:01] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:09:01] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:09:01] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:09:01] [32minfo[39m:  models are loading... 
+[2021-04-18 14:09:01] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:09:01] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:09:01] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:09:04] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:30)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:09:04] [31merror[39m:  [object Object] 
+[2021-04-18 14:09:14] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:09:14] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:09:14] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:09:14] [32minfo[39m:  models are loading... 
+[2021-04-18 14:09:14] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:09:14] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:09:14] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:09:17] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:09:17] [31merror[39m:  [object Object] 
+[2021-04-18 14:09:33] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:09:33] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:09:33] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:09:33] [32minfo[39m:  models are loading... 
+[2021-04-18 14:09:33] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:09:33] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:09:33] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:09:39] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:09:39] [31merror[39m:  [object Object] 
+[2021-04-18 14:09:56] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:09:56] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:09:56] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:09:56] [32minfo[39m:  models are loading... 
+[2021-04-18 14:09:57] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:09:57] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:09:57] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:10:00] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:10:00] [31merror[39m:  [object Object] 
+[2021-04-18 14:10:17] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:10:17] [31merror[39m:  [object Object] 
+[2021-04-18 14:10:21] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:10:21] [31merror[39m:  [object Object] 
+[2021-04-18 14:10:29] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:10:29] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:10:29] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:10:29] [32minfo[39m:  models are loading... 
+[2021-04-18 14:10:29] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:10:29] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:10:29] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:10:31] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:10:31] [31merror[39m:  [object Object] 
+[2021-04-18 14:10:35] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:10:35] [31merror[39m:  [object Object] 
+[2021-04-18 14:10:38] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:10:38] [31merror[39m:  [object Object] 
+[2021-04-18 14:11:27] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:11:27] [31merror[39m:  [object Object] 
+[2021-04-18 14:12:24] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:12:24] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:12:24] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:12:25] [32minfo[39m:  models are loading... 
+[2021-04-18 14:12:25] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:12:25] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:12:25] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:12:33] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:12:33] [31merror[39m:  [object Object] 
+[2021-04-18 14:13:22] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:13:22] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:13:22] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:13:22] [32minfo[39m:  models are loading... 
+[2021-04-18 14:13:22] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:13:22] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:13:22] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:13:25] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:13:25] [31merror[39m:  [object Object] 
+[2021-04-18 14:14:02] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:14:02] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:14:02] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:14:02] [32minfo[39m:  models are loading... 
+[2021-04-18 14:14:02] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:14:02] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:14:02] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:14:07] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:14:30] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:14:30] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:14:30] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:14:30] [32minfo[39m:  models are loading... 
+[2021-04-18 14:14:30] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:14:30] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:14:30] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:14:33] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:15:31] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:15:31] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:15:31] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:15:31] [32minfo[39m:  models are loading... 
+[2021-04-18 14:15:31] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:15:31] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:15:31] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:15:36] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:15:36] [31merror[39m:  [object Object] 
+[2021-04-18 14:16:14] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:16:14] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:16:14] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:16:14] [32minfo[39m:  models are loading... 
+[2021-04-18 14:16:14] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:16:14] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:16:14] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:16:17] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:16:17] [31merror[39m:  [object Object] 
+[2021-04-18 14:16:41] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:16:41] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:16:41] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:16:41] [32minfo[39m:  models are loading... 
+[2021-04-18 14:16:41] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:16:41] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:16:41] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:16:44] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:16:44] [31merror[39m:  [object Object] 
+[2021-04-18 14:17:07] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:17:07] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:17:08] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:17:08] [32minfo[39m:  models are loading... 
+[2021-04-18 14:17:08] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:17:08] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:17:08] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:17:31] [32minfo[39m:  Loaded Config File: development 
+[2021-04-18 14:17:31] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-18 14:17:31] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-18 14:17:31] [32minfo[39m:  models are loading... 
+[2021-04-18 14:17:31] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-18 14:17:31] [32minfo[39m:  error messages are loading... 
+[2021-04-18 14:17:31] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-18 14:17:38] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:17:38] [31merror[39m:  [object Object] 
+[2021-04-18 14:17:45] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:17:45] [31merror[39m:  [object Object] 
+[2021-04-18 14:17:48] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:17:48] [31merror[39m:  [object Object] 
+[2021-04-18 14:17:51] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:17:51] [31merror[39m:  [object Object] 
+[2021-04-18 14:17:58] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:17:58] [31merror[39m:  [object Object] 
+[2021-04-18 14:18:03] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:18:03] [31merror[39m:  [object Object] 
+[2021-04-18 14:18:17] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:108:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 14:18:17] [31merror[39m:  [object Object] 

@@ -9,24 +9,23 @@ winston.info('error messages are loading...');
 
 //initialize with common error objects
 let errorObject = {
-
     '1': {
-        'msh': {
+        'msg': {
             'EN' : "User Does Not Exist"
         }
     },
     '2': {
-        'msh': {
+        'msg': {
             'EN' : "Incorrect Password"
         }
     },
     '3': {
-        'msh': {
+        'msg': {
             'EN' : "User is not authenticated"
         }
     },
     '4': {
-        'msh': {
+        'msg': {
             'EN' : "User is not authorized to visit the api"
         }
     }
@@ -38,6 +37,7 @@ glob.sync(routePath).forEach( file => {
         _.extend(errorObject, JSON.parse(errorFile));
         winston.info(file + ' is loaded');
     }
+
 });
 
 module.exports = errorObject;

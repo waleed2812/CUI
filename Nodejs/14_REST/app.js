@@ -39,11 +39,11 @@ require('./config/mongooseConnection')((err) => {
             winston.error(err);
             res.status(err.status || 500);
                 
-            if (err & err.hasOwnProperty('msgCode')) {
+            if (err && err.hasOwnProperty('msgCode')) {
                 let errorCode = err.msgCode;
                 return res.json({
                     success: 0,
-                    message: global.errors(errorCode),
+                    message: global.errors[errorCode],
                     response: 200,
                     data: {}
                 });

@@ -104,6 +104,7 @@ const createUser = async (req, res, next) => {
     
     try {
 
+        console.log(req.body);
         const name = req.body.name;
         const profileImage = req.body.profileImage;
         const email = req.body.email;
@@ -112,7 +113,7 @@ const createUser = async (req, res, next) => {
         new userAccountModel({name: name, profileImage: profileImage, email: email, password: password})
             .save( err => {
 
-                if (err) return res.redirect('/error');
+                if (err) return next({msgCode: 5});
 
                 return res.json({
                     status: 0,
@@ -123,7 +124,8 @@ const createUser = async (req, res, next) => {
             
     } catch (err) {
         winston.error(err);
-        res.redirect('/error');
+        // res.redirect('/error');
+        return next({msgCode: 6});
     }
 };
 

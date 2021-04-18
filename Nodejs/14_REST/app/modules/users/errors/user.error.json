@@ -1,8 +1,12 @@
 {
-    "100": {
+    "5": {
         "msg": {
-            "EN": "Error Code 100",
-            "URD": "100 Code Error Aya Hai"
+            "EN": "Error in Saving New User"
+        }
+    },
+    "6": {
+        "msg": {
+            "EN": "Error in Data Recieved"
         }
     }
 }
