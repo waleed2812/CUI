@@ -57,6 +57,20 @@ module.exports = function(callback) {
                     }
                 }
             });
+        },
+        (modelsCB) => {
+            // load all models
+            glob('app/modules/**/*.model.js', (err, files) => {
+                if (err) return modelsCB(err);
+
+                else {
+                    winston.info('models are loading...');
+                    files.forEach( file => {
+                        require(path.join(__dirname, '../', file));
+                        winston.info(file, 'is loaded');
+                    });
+                }
+            });
         }
     ], function(err) {
         if (err){
