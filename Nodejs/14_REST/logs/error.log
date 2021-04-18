@@ -1,0 +1,162 @@
+[2021-04-18 12:33:53] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 12:34:20] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 12:34:40] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 12:35:01] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 12:35:59] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 12:38:24] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:20:13] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:26:50] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+[2021-04-18 13:36:10] [31merror[39m:  Cannot read property 'name' of undefined 
+TypeError: Cannot read property 'name' of undefined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\14_REST\app\modules\users\controllers\user.controller.js:107:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\14_REST\node_modules\express\lib\router\layer.js:95:5)

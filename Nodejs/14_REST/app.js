@@ -26,12 +26,14 @@ require('./config/mongooseConnection')((err) => {
 
         app.use(express.static(path.join(__dirname, 'public')));
 
-        let webRoutes = 'app/modules/**/*.routes.js';
+        const webRoutes = 'app/modules/**/*.routes.js';
 
         glob.sync(webRoutes).forEach((file) => {
             require('./' + file)(app, '');
             console.log(file + ' is loaded');
         });
+
+        global.errors = require('./config/errors');
 
         app.use( async (err, req, res, next) => {
             winston.error(err);

@@ -120,6 +120,7 @@ const createUser = async (req, res, next) => {
                     data:{}
                 });
             });
+            
     } catch (err) {
         winston.error(err);
         res.redirect('/error');

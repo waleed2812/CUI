@@ -70,6 +70,7 @@ module.exports = function(callback) {
                         winston.info(file, 'is loaded');
                     });
                 }
+                return modelsCB();
             });
         }
     ], function(err) {
