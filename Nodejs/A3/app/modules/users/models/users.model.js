@@ -20,7 +20,6 @@ let userAccount = new schema ({
 userAccount.plugin(mongoose_timestamps);
 userAccount.index( {email: 1}, {background: true, unique: true, name: 'IDX_USERNAME'});
 userAccount.index({ phoneNumber: 1 }, { unique: true, name: 'IDX_USERPHONE'}); 
-
 userAccount.methods.comparePassword = function(candidatePassword, cb) {
     bcrypt.compare(candidatePassword, this.password, function(err, isMatch) {
         
@@ -31,7 +30,17 @@ userAccount.methods.comparePassword = function(candidatePassword, cb) {
 
 }
 
-userAccount.pre('save', async function (next) {
+// userAccount.method({comparePassword: function(candidatePassword, cb) {
+//     bcrypt.compare(candidatePassword, this.password, function(err, isMatch) {
+        
+//         if (err) return cb(err);
+
+//         cb(null, isMatch);
+//     });
+
+// }});
+
+userAccount.pre('save', async function(next) {
 
     try {
 

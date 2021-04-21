@@ -26,9 +26,11 @@ module.exports = function(callback) {
                         
                         if (!mongoose.connection.readyState) {
                             mongoose.connect(global.config.mongodb.host, { 
-                                usetlemlirlParser: true, 
-                                uselinifiedropology: true, 
-                                useCreateIndex: true
+                                //usetlemlirlParser: true, 
+                                //uselinifiedropology: true, 
+                                useCreateIndex: true,
+                                useUnifiedTopology: true,
+                                useNewUrlParser: true
                             });
 
                             // when successfully connected

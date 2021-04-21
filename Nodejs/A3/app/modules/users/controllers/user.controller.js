@@ -1,6 +1,7 @@
 const winston = require('../../../../config/winston'),
     mongoose = require('mongoose'),
-    userAccountModel = mongoose.model('userAccounts');
+    userAccountModel = mongoose.model('userAccounts'),
+    bcrypt = require('bcryptjs');
 
 const getUserListing = async (req, res, next) => {
     
@@ -27,7 +28,7 @@ const getUserListing = async (req, res, next) => {
 
     } catch (err) {
         winston.error(err);
-        res.redirect('/error');
+        next({msgCode: 10});
     }
 };
 
@@ -41,6 +42,7 @@ const getUserDetail = async (req, res, next) => {
         const filters = {_id: userID};
         
         const userDetail = await userAccountModel.findOne(filters);
+        
         if(userDetail) {
             return res.json({
                 status: 0,
@@ -50,6 +52,7 @@ const getUserDetail = async (req, res, next) => {
                 }
             });
         } else {
+            winston.error(err);
             return res.json({
                 status: 1,
                 messsage: 'User Does Not Exist',
@@ -60,7 +63,7 @@ const getUserDetail = async (req, res, next) => {
 
     } catch (err) {
         winston.error(err);
-        res.redirect('/error');
+        next({msgCode: 9});
     }
 };
 
@@ -82,7 +85,7 @@ const updateUserInfo = async (req, res, next) => {
         });
     } catch (err) {
         winston.error(err);
-        res.redirect('/error');
+        next({msgCode: 8});
     }
 };
 
@@ -96,7 +99,7 @@ const deleteUser = async (req, res, next) => {
         });
     } catch (err) {
         winston.error(err);
-        res.redirect('/error');
+        next({msgCode: 7});
     }
 };
 
@@ -125,7 +128,7 @@ const createUser = async (req, res, next) => {
             .save( err => {
 
                 if (err) {
-                    console.log(err);
+                    winston.error(err);
                     return next({msgCode: 5})
                 };
 
@@ -138,7 +141,55 @@ const createUser = async (req, res, next) => {
             
     } catch (err) {
         winston.error(err);
-        // res.redirect('/error');
+        return next({msgCode: 6});
+    }
+};
+
+const loginUser = async (req, res, next) => {
+
+    try {
+        const username = req.body.username ;
+        const password = req.body.password ;
+
+        if (!username || !password) return next({msgCode: 13})
+
+        const query = {$or:[{email: username}, {phoneNumber: username}]};
+        
+        userAccountModel.find(query, function(err, users) {
+            if (err || users.length === 0) {
+                winston.error(err);
+                return next({msgCode: 11});
+            };
+            
+            bcrypt.compare(password, users[0].password, function(err, isMatch) {
+                if (err || !isMatch){
+                    winston.error(err);
+                    next({msgCode: 12});
+                }
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Password Matched',
+                    data:{}
+                });
+            });
+            
+            // userAccountModel.comparePassword(password, function(err, isMatch){
+            //     if (err || !isMatch){
+            //         winston.error(err);
+            //         next({msgCode: 12});
+            //     }
+
+            //     return res.json({
+            //         status: 0,
+            //         messsage: 'Password Matched',
+            //         data:{}
+            //     });
+
+            // });     
+        });
+    } catch (err) {
+        winston.error(err);
         return next({msgCode: 6});
     }
 };
@@ -148,5 +199,6 @@ module.exports = {
     getUserDetail,
     updateUserInfo,
     deleteUser,
-    createUser
+    createUser,
+    loginUser
 }
