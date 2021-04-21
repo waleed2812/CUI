@@ -22,7 +22,7 @@ userAccount.index( {email: 1}, {background: true, unique: true, name: 'IDX_USERN
 userAccount.index({ phoneNumber: 1 }, { unique: true, name: 'IDX_USERPHONE'}); 
 
 userAccount.methods.comparePassword = function(candidatePassword, cb) {
-    bcrypt.compare(candidatePassword, this.password, function(err, isMatch){
+    bcrypt.compare(candidatePassword, this.password, function(err, isMatch) {
         
         if (err) return cb(err);
 
@@ -31,11 +31,12 @@ userAccount.methods.comparePassword = function(candidatePassword, cb) {
 
 }
 
-userAccount.pre('save', async function(next) {
+userAccount.pre('save', async function (next) {
 
     try {
 
         let user = this;
+        console.log('this: ', this);
 
         // only hash the password if it has been modified or is new
         if (!user.isModified('password')) return next();
