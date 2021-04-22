@@ -557,3 +557,47 @@ Error: Illegal arguments: undefined, string
 [2021-04-22 18:38:18] [32minfo[39m:  app/modules/student/errors/student.error.json is loaded 
 [2021-04-22 18:38:18] [32minfo[39m:  app/modules/teacher/errors/teacher.error.json is loaded 
 [2021-04-22 18:38:18] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-22 18:39:40] [32minfo[39m:  Loaded Config File: development 
+[2021-04-22 18:39:40] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-22 18:39:40] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-22 18:39:40] [32minfo[39m:  models are loading... 
+[2021-04-22 18:39:41] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-22 18:39:41] [32minfo[39m:  error messages are loading... 
+[2021-04-22 18:39:41] [32minfo[39m:  app/modules/admin/errors/admin.error.json is loaded 
+[2021-04-22 18:39:41] [32minfo[39m:  app/modules/head/errors/head.error.json is loaded 
+[2021-04-22 18:39:41] [32minfo[39m:  app/modules/student/errors/student.error.json is loaded 
+[2021-04-22 18:39:41] [32minfo[39m:  app/modules/teacher/errors/teacher.error.json is loaded 
+[2021-04-22 18:39:41] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-22 18:40:41] [32minfo[39m:  Loaded Config File: development 
+[2021-04-22 18:40:41] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-22 18:40:41] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-22 18:40:41] [32minfo[39m:  models are loading... 
+[2021-04-22 18:40:41] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-22 18:40:41] [32minfo[39m:  error messages are loading... 
+[2021-04-22 18:40:41] [32minfo[39m:  app/modules/admin/errors/admin.error.json is loaded 
+[2021-04-22 18:40:41] [32minfo[39m:  app/modules/head/errors/head.error.json is loaded 
+[2021-04-22 18:40:41] [32minfo[39m:  app/modules/student/errors/student.error.json is loaded 
+[2021-04-22 18:40:41] [32minfo[39m:  app/modules/teacher/errors/teacher.error.json is loaded 
+[2021-04-22 18:40:41] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-22 18:41:22] [32minfo[39m:  Loaded Config File: development 
+[2021-04-22 18:41:22] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-22 18:41:22] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-22 18:41:22] [32minfo[39m:  models are loading... 
+[2021-04-22 18:41:22] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-22 18:41:22] [32minfo[39m:  error messages are loading... 
+[2021-04-22 18:41:22] [32minfo[39m:  app/modules/admin/errors/admin.error.json is loaded 
+[2021-04-22 18:41:22] [32minfo[39m:  app/modules/head/errors/head.error.json is loaded 
+[2021-04-22 18:41:22] [32minfo[39m:  app/modules/student/errors/student.error.json is loaded 
+[2021-04-22 18:41:22] [32minfo[39m:  app/modules/teacher/errors/teacher.error.json is loaded 
+[2021-04-22 18:41:22] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 
+[2021-04-22 18:42:03] [32minfo[39m:  Loaded Config File: development 
+[2021-04-22 18:42:03] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-04-22 18:42:03] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-04-22 18:42:03] [32minfo[39m:  models are loading... 
+[2021-04-22 18:42:03] [32minfo[39m:  app/modules/users/models/users.model.js 
+[2021-04-22 18:42:03] [32minfo[39m:  error messages are loading... 
+[2021-04-22 18:42:03] [32minfo[39m:  app/modules/admin/errors/admin.error.json is loaded 
+[2021-04-22 18:42:03] [32minfo[39m:  app/modules/head/errors/head.error.json is loaded 
+[2021-04-22 18:42:03] [32minfo[39m:  app/modules/student/errors/student.error.json is loaded 
+[2021-04-22 18:42:03] [32minfo[39m:  app/modules/teacher/errors/teacher.error.json is loaded 
+[2021-04-22 18:42:03] [32minfo[39m:  app/modules/users/errors/user.error.json is loaded 

@@ -8,5 +8,4 @@ module.exports = (app, version) => {
     app.get(version + '/head/results/student/:id', headController.resultsStd);
     app.get(version + '/head/materials', headController.materials);
     app.get(version + '/head/graph', headController.graph);
-
 }
