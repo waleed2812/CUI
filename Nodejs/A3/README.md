@@ -95,7 +95,21 @@ const validateUser = async function(req, res, next) {
 
 ### Admin Router
 ```
+app/modules/admin/routes/admin.routes.js
+app.get(version + '/admin', adminController.getAdminDashboard);
+app.get(version + '/classes', adminController.getClasses);
 
+app.post(version + '/addteacher', adminController.addTeacher);
+app.post(version + '/addstudent', adminController.addStudent);
+app.post(version + '/addclass', adminController.addClass);
+
+app.put(version + '/class/:id', adminController.updateClass);
+app.put(version + '/assignteacher/:id', adminController.assignTeacher);
+app.put(version + '/assignstudent/:id', adminController.assignStudent);
+
+app.delete(version + '/class/:id', adminController.deleteClass);
+app.delete(version + '/teacher/:id', adminController.deleteTeacher);
+app.delete(version + '/student/:id', adminController.deleteStudent);
 ```
 #### Show Dashboard
 ```
@@ -132,6 +146,19 @@ const validateUser = async function(req, res, next) {
 ```
 
 ### Student Router
+```
+app/modules/student/routes/student.routes.js
+app.get(version + '/student', studentController.getstudentDashboard);
+app.get(version + '/attemptquiz', studentController.attemptQuiz);
+app.get(version + '/viewassignment', studentController.viewAssignment);
+app.get(version + '/material', studentController.getMaterials);
+app.get(version + '/material/:id', studentController.getMaterial);
+app.get(version + '/result', studentController.getResults);
+app.get(version + '/result/:subid', studentController.getResult);
+
+app.post(version + '/viewquiz', studentController.viewQuiz);
+app.post(version + '/submitassignment', studentController.submitAssignment);
+```
 #### View Quiz
 ```
 ```
