@@ -12,3 +12,9 @@
 
 ### Submission Procedure:  
 * Please submit the binder or colab link to your respective CRs
+
+### Submission  
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/waleedbutt98/A2_CS2AI.git/HEAD)
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/waleedbutt98/A2_CS2AI/blob/master/A2.ipynb)
