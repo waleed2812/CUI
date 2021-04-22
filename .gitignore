@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 AI/env/
 AI/.ipynb_checkpoints/
 node_modules/
+=======
+.ipynb_checkpoints
+.idea
+env/
+>>>>>>> A1_TCS2/master
