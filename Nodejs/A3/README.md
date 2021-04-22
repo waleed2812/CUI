@@ -26,7 +26,9 @@ Done in Class
 Done with Class
 For A3
 app/modules/users/routes/user.routes.js
-app.post(version + '/user/login', usersController.loginUser);
+app.post(version + '/login', usersController.loginUser);
+app.get(version + '/logout', usersController.logoutUser);
+app.get(version + '/validate', usersController.validateUser);
 ```
 #### Login
 ```
@@ -66,36 +68,34 @@ const loginUser = async (req, res, next) => {
     }
 };
 ```
+#### Logout
+```
+app/modules/users/controller/user.controller.js
+const logoutUser = async function(req, res, next) {
+    return res.json({
+        status: 0,
+        messsage: 'Logout',
+        data:{}
+    })
+
+} 
+```
 #### Validate
 ```
-Done With Getting User Detail
+app/modules/users/controller/user.controller.js
+const validateUser = async function(req, res, next) {
+    return res.json({
+        status: 0,
+        messsage: 'Validate',
+        data:{}
+    })
+
+}
 ```
 
 ### Admin Router
 ```
-app/modules/admin/routes/admin.routes.js
-// Dashboard
-app.get(version + '/admin', adminController.getAdminDashboard);
-// Class List
-app.get(version + '/admin/classes', adminController.getClasses);
-// Add New Class
-app.post(version + '/admin/add/class', adminController.addClass);
-// Add New Teacher
-app.post(version + '/admin/add/teacher', adminController.addTeacher);
-// Add New Student
-app.post(version + '/admin/add/student', adminController.addStudent);
-// Assign Teacher to Class
-app.post(version + '/admin/assign/teacher', adminController.assignTeacher);
-// Add student to Class
-app.post(version + '/admin/assign/student', adminController.assignStudent);
-// Modify Class
-app.post(version + '/admin/update/class', adminController.updateClass);
-// Delete Class
-app.delete(version + '/admin/class', adminController.deleteClass);
-// Delete Teacher
-app.delete(version + '/admin/teacher', adminController.deleteTeacher);
-// Delete Student
-app.delete(version + '/admin/student', adminController.deleteStudent);
+
 ```
 #### Show Dashboard
 ```

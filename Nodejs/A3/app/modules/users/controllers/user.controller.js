@@ -3,7 +3,7 @@ const winston = require('../../../../config/winston'),
     userAccountModel = mongoose.model('userAccounts'),
     bcrypt = require('bcryptjs');
 
-const getUserListing = async (req, res, next) => {
+const getUserListing = async function(req, res, next) {
     
     try {
 
@@ -32,7 +32,7 @@ const getUserListing = async (req, res, next) => {
     }
 };
 
-const getUserDetail = async (req, res, next) => {
+const getUserDetail = async function(req, res, next) {
         
     try {
 
@@ -67,7 +67,7 @@ const getUserDetail = async (req, res, next) => {
     }
 };
 
-const updateUserInfo = async (req, res, next) => {
+const updateUserInfo = async function(req, res, next) {
     
     try {
 
@@ -89,7 +89,7 @@ const updateUserInfo = async (req, res, next) => {
     }
 };
 
-const deleteUser = async (req, res, next) => {
+const deleteUser = async function(req, res, next) {
     try {
         await userAccountModel.deleteOne({_id: req.params.userID});
         return res.json({
@@ -103,7 +103,7 @@ const deleteUser = async (req, res, next) => {
     }
 };
 
-const createUser = async (req, res, next) => {
+const createUser = async function(req, res, next) {
     
     try {
 
@@ -145,7 +145,7 @@ const createUser = async (req, res, next) => {
     }
 };
 
-const loginUser = async (req, res, next) => {
+const loginUser = async function(req, res, next) {
 
     try {
         const username = req.body.username ;
@@ -194,11 +194,31 @@ const loginUser = async (req, res, next) => {
     }
 };
 
+const logoutUser = async function(req, res, next) {
+    return res.json({
+        status: 0,
+        messsage: 'Logout',
+        data:{}
+    })
+
+} 
+
+const validateUser = async function(req, res, next) {
+    return res.json({
+        status: 0,
+        messsage: 'Validate',
+        data:{}
+    })
+
+} 
+
 module.exports = {
     getUserListing,
     getUserDetail,
     updateUserInfo,
     deleteUser,
     createUser,
-    loginUser
+    loginUser,
+    logoutUser,
+    validateUser
 }

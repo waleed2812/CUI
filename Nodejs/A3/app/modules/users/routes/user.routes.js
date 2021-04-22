@@ -7,6 +7,7 @@ module.exports = (app, version) => {
     app.delete(version + '/users/:userID', usersController.deleteUser);
     app.post(version + '/user/create', usersController.createUser);
     // Assignment 3
-    app.post(version + '/user/login', usersController.loginUser);
-    
+    app.post(version + '/login', usersController.loginUser);
+    app.get(version + '/logout', usersController.logoutUser);
+    app.get(version + '/validate', usersController.validateUser);
 }
