@@ -8,6 +8,7 @@
 Assignment You have to implement the LMS CaseStudy Module and Write the API with Express, and Mongoose
 
 ### Solution
+
 ### Index Router
 ```
 Done With Class
@@ -251,7 +252,17 @@ app.delete(version + '/teacher/marks/:id', teacherController.deleteMarks);
 #### Delete Assignment
 ```
 ```
+
 ### Head Router
+```
+app/modules/head/routes/head.routes.js
+app.get(version + '/head', headController.head);
+app.get(version + '/head/class', headController.getClass);
+app.get(version + '/head/results/class/:id', headController.resultsClass);
+app.get(version + '/head/results/student/:id', headController.resultsStd);
+app.get(version + '/head/materials', headController.materials);
+app.get(version + '/head/graph', headController.graph);
+```
 #### View classes
 ```
 ```
