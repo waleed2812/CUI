@@ -155,13 +155,13 @@ const loginUser = async function(req, res, next) {
 
         const query = {$or:[{email: username}, {phoneNumber: username}]};
         
-        userAccountModel.find(query, function(err, users) {
-            if (err || users.length === 0) {
+        userAccountModel.findOne(query, function(err, user) {
+            if (err) {
                 winston.error(err);
                 return next({msgCode: 11});
             };
-            
-            bcrypt.compare(password, users[0].password, function(err, isMatch) {
+
+            user.comparePassword(password, function(err, isMatch){
                 if (err || !isMatch){
                     winston.error(err);
                     next({msgCode: 12});
@@ -172,21 +172,8 @@ const loginUser = async function(req, res, next) {
                     messsage: 'Password Matched',
                     data:{}
                 });
-            });
-            
-            // userAccountModel.comparePassword(password, function(err, isMatch){
-            //     if (err || !isMatch){
-            //         winston.error(err);
-            //         next({msgCode: 12});
-            //     }
 
-            //     return res.json({
-            //         status: 0,
-            //         messsage: 'Password Matched',
-            //         data:{}
-            //     });
-
-            // });     
+            });     
         });
     } catch (err) {
         winston.error(err);
