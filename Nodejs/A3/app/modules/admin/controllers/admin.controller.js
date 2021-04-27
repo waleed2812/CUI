@@ -73,35 +73,82 @@ const addClass= async function (req, res, next){
 };
 // Add New Teacher
 const addTeacher= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'addTeacher',
-        data:{}
-    })
+    try {
+        const name = req.body.name;
+        const profileImage = req.body.profileImage;
+        const email = req.body.email;
+        const password = req.body.password;
+        const userType = 'teacher';
+        const phoneNumber = req.body.phoneNumber;
+
+        const options = {
+             name,
+             profileImage,
+             email,
+             password,
+             userType,
+             phoneNumber
+
+        }
+        new userAccount(options)
+            .save( err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 5})
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'User Created Successfully',
+                    data:{}
+                });
+            });
+            
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 6});
+    }
 };
+
 // Add New Student
 const addStudent= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'addStudent',
-        data:{}
-    })
-};
-// Assign Teacher to Class
-const assignTeacher= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'assignTeacher',
-        data:{}
-    })
-};
-// Add student to Class
-const assignStudent= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'assignStudent',
-        data:{}
-    })
+    try {
+        const name = req.body.name;
+        const profileImage = req.body.profileImage;
+        const email = req.body.email;
+        const password = req.body.password;
+        const userType = 'student';
+        const phoneNumber = req.body.phoneNumber;
+
+        const options = {
+             name,
+             profileImage,
+             email,
+             password,
+             userType,
+             phoneNumber
+
+        }
+        new userAccount(options)
+            .save( err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 5})
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'User Created Successfully',
+                    data:{}
+                });
+            });
+            
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 6});
+    }
 };
 // Modify Class
 const updateClass= async function (req, res, next){
@@ -111,6 +158,25 @@ const updateClass= async function (req, res, next){
         data:{}
     })
 };
+
+// Assign Teacher to Class
+const assignTeacher= async function (req, res, next){
+    return res.json({
+        status: 0,
+        messsage: 'assignTeacher',
+        data:{}
+    })
+};
+
+// Add student to Class
+const assignStudent= async function (req, res, next){
+    return res.json({
+        status: 0,
+        messsage: 'assignStudent',
+        data:{}
+    })
+};
+
 // Delete Class
 const deleteClass= async function (req, res, next){
     return res.json({
@@ -119,6 +185,7 @@ const deleteClass= async function (req, res, next){
         data:{}
     })
 };
+
 // Delete Teacher
 const deleteTeacher= async function (req, res, next){
     return res.json({
@@ -127,6 +194,7 @@ const deleteTeacher= async function (req, res, next){
         data:{}
     })
 };
+
 // Delete Student
 const deleteStudent= async function (req, res, next){
     return res.json({
@@ -135,7 +203,6 @@ const deleteStudent= async function (req, res, next){
         data:{}
     })
 };
-
 
 module.exports = {
     getAdminDashboard,

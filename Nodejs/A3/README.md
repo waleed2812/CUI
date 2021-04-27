@@ -114,21 +114,20 @@ const validateUser = async function(req, res, next) {
 
 ### Admin Router
 ```
-app/modules/admin/routes/admin.routes.js
 app.get(version + '/admin', adminController.getAdminDashboard);
-app.get(version + '/classes', adminController.getClasses);
+app.get(version + '/admin/classes', adminController.getClasses);
 
-app.post(version + '/addteacher', adminController.addTeacher);
-app.post(version + '/addstudent', adminController.addStudent);
-app.post(version + '/addclass', adminController.addClass);
+app.post(version + '/admin/addteacher', adminController.addTeacher);
+app.post(version + '/admin/addstudent', adminController.addStudent);
+app.post(version + '/admin/addclass', adminController.addClass);
 
-app.put(version + '/class/:id', adminController.updateClass);
-app.put(version + '/assignteacher/:id', adminController.assignTeacher);
-app.put(version + '/assignstudent/:id', adminController.assignStudent);
+app.put(version + '/admin/class/:id', adminController.updateClass);
+app.put(version + '/admin/assignteacher/:id', adminController.assignTeacher);
+app.put(version + '/admin/assignstudent/:id', adminController.assignStudent);
 
-app.delete(version + '/class/:id', adminController.deleteClass);
-app.delete(version + '/teacher/:id', adminController.deleteTeacher);
-app.delete(version + '/student/:id', adminController.deleteStudent);
+app.delete(version + '/admin/class/:id', adminController.deleteClass);
+app.delete(version + '/admin/teacher/:id', adminController.deleteTeacher);
+app.delete(version + '/admin/student/:id', adminController.deleteStudent);
 ```
 #### Show Dashboard
 ```
@@ -171,15 +170,123 @@ const getClasses= async function (req, res, next){
 #### Add New Class
 ```
 app/modules/admin/routes/admin.controller.js
+const addClass= async function (req, res, next){
+    try {
+        const course = req.body.course;
+        const code = req.body.code;
+        const room = req.body.room;
 
+        const options = {
+             course,
+             code,
+             room
+        }
+        new Class(options)
+            .save( err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 17})
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Class Added Successfully',
+                    data:{}
+                });
+            });
+            
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 17});
+    }
+};
 ```
 #### Add New Teacher
 ```
 app/modules/admin/routes/admin.controller.js
+// Add New Teacher
+const addTeacher= async function (req, res, next){
+    try {
+        const name = req.body.name;
+        const profileImage = req.body.profileImage;
+        const email = req.body.email;
+        const password = req.body.password;
+        const userType = 'teacher';
+        const phoneNumber = req.body.phoneNumber;
+
+        const options = {
+             name,
+             profileImage,
+             email,
+             password,
+             userType,
+             phoneNumber
+
+        }
+        new userAccount(options)
+            .save( err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 5})
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'User Created Successfully',
+                    data:{}
+                });
+            });
+            
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 6});
+    }
+};
 ```
 #### Add New Student
 ```
 app/modules/admin/routes/admin.controller.js
+// Add New Student
+const addStudent= async function (req, res, next){
+    try {
+        const name = req.body.name;
+        const profileImage = req.body.profileImage;
+        const email = req.body.email;
+        const password = req.body.password;
+        const userType = 'student';
+        const phoneNumber = req.body.phoneNumber;
+
+        const options = {
+             name,
+             profileImage,
+             email,
+             password,
+             userType,
+             phoneNumber
+
+        }
+        new userAccount(options)
+            .save( err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 5})
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'User Created Successfully',
+                    data:{}
+                });
+            });
+            
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 6});
+    }
+};
 ```
 #### Assign Teacher to Class
 ```
