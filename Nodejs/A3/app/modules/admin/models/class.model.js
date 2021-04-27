@@ -9,7 +9,7 @@ let Class = new schema ({
     course: {type: String, default: '', required: true},
     code: {type: String, default: '', required: true},
     room: { type: String, default: '', required: true},
-    teacher: {type: schema.Types.ObjectId, required: true, ref: 'userAccount'},
+    teacher: {type: schema.Types.ObjectId, ref: 'userAccount'},
     students: [{type: schema.Types.ObjectId, ref: 'userAccount'}]
 }); 
 

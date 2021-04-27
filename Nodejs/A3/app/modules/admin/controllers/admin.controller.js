@@ -41,11 +41,35 @@ const getClasses= async function (req, res, next){
 
 // Add New Class
 const addClass= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'addClass',
-        data:{}
-    })
+    try {
+        const course = req.body.course;
+        const code = req.body.code;
+        const room = req.body.room;
+
+        const options = {
+             course,
+             code,
+             room
+        }
+        new Class(options)
+            .save( err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 17})
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Class Added Successfully',
+                    data:{}
+                });
+            });
+            
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 17});
+    }
 };
 // Add New Teacher
 const addTeacher= async function (req, res, next){

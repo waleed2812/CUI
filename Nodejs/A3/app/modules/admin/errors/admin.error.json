@@ -8,6 +8,10 @@
         "msg": {
             "EN": "Failed to Fetch Classes"
         }
+    },
+    "17": {
+        "msg": {
+            "EN": "Failed to Add a Class"
+        }
     }
-    
 }
