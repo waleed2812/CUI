@@ -1,8 +1,7 @@
 'use strict'; 
 
 const mongoose = require('mongoose'),
-    mongoose_timestamps = require('mongoose-timestamp'),
-    userAccount = require('./users.model');
+    mongoose_timestamps = require('mongoose-timestamp');
 
 const schema = mongoose.Schema; 
 

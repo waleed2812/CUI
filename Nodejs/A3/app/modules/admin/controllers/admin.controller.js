@@ -38,6 +38,7 @@ const getClasses= async function (req, res, next){
         data:{classes}
     });
 };
+
 // Add New Class
 const addClass= async function (req, res, next){
     return res.json({

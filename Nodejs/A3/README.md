@@ -154,10 +154,24 @@ const getAdminDashboard= async function (req, res, next){
 #### View Class List
 ```
 app/modules/admin/routes/admin.controller.js
+// Class List
+const getClasses= async function (req, res, next){
+    const classes = await Class.find({});
+
+    if (!classes) {
+        return next({msgCode: 15});
+    }
+    return res.json({
+        status: 0,
+        messsage: 'Class Lists Available',
+        data:{classes}
+    });
+};
 ```
 #### Add New Class
 ```
 app/modules/admin/routes/admin.controller.js
+
 ```
 #### Add New Teacher
 ```
