@@ -52,7 +52,7 @@ const addClass= async function (req, res, next){
              room
         }
         new Class(options)
-            .save( err => {
+            .save( function(err) {
 
                 if (err) {
                     winston.error(err);
@@ -92,7 +92,7 @@ const addTeacher= async function (req, res, next){
 
         }
         new userAccount(options)
-            .save( err => {
+            .save( function(err) {
 
                 if (err) {
                     winston.error(err);
@@ -132,7 +132,7 @@ const addStudent= async function (req, res, next){
 
         }
         new userAccount(options)
-            .save( err => {
+            .save( function(err) {
 
                 if (err) {
                     winston.error(err);
@@ -151,6 +151,7 @@ const addStudent= async function (req, res, next){
         return next({msgCode: 6});
     }
 };
+
 // Modify Class
 const updateClass= async function (req, res, next){
     try {
@@ -175,7 +176,7 @@ const updateClass= async function (req, res, next){
         }
 
         Class.findByIdAndUpdate(classID, options, 
-            err => {
+            function(err) {
 
                 if (err) {
                     winston.error(err);
@@ -197,24 +198,85 @@ const updateClass= async function (req, res, next){
 
 // Assign Teacher to Class
 const assignTeacher= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'assignTeacher',
-        data:{}
-    })
+    try {
+
+        const teacherID = req.params.id || '';
+
+        const teacherToUpdate = await userAccount.findOne({_id: teacherID});
+
+        if (!teacherToUpdate) {
+            const err = next({msgCode: 20})
+            winston.error(err);
+            return err
+        }
+
+        const classID = req.body.classID;
+
+        Class.findByIdAndUpdate(classID, {teacher: teacherToUpdate._id}, 
+            function(err) {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 21});
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Teacher Successfully assigned to Class',
+                    data:{}
+                });
+            });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 21})
+    }
 };
 
 // Add student to Class
 const assignStudent= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'assignStudent',
-        data:{}
-    })
+    try {
+
+        const stdID = req.params.id || '';
+        console.log('stdID: ', stdID);
+
+        const classID = req.body.classID;
+        console.log('classID: ', classID);
+
+        const stdToUpdate = await userAccount.findOne({_id: stdID});
+        console.log('stdToUpdate: ', stdToUpdate);
+
+        if(!stdToUpdate) {
+            const err = next({msgCode: 21});
+            winston.error(err);
+            return err;
+        }
+
+        Class.findByIdAndUpdate({_id: classID},
+            {$push: {students: stdToUpdate._id}}, 
+            function(err) {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 21});
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Student Successfully added to Class',
+                    data:{}
+                });
+            });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 21})
+    }
 };
 
 // Delete Class
 const deleteClass= async function (req, res, next){
+    
     return res.json({
         status: 0,
         messsage: 'deleteClass',

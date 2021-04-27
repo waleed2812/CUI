@@ -23,5 +23,15 @@
         "msg": {
             "EN": "Failed to Get Class for Update"
         }
+    },
+    "20": {
+        "msg": {
+            "EN": "Teacher/Student Does not Exist"
+        }
+    },
+    "21": {
+        "msg": {
+            "EN": "Failed to Assign Teacher/Student"
+        }
     }
 }

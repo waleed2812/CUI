@@ -1,8 +1,11 @@
-<h1 style='text-align: center'> COMSATS University, Islamabad </h1>
-<h1 style='text-align: center'> Department of Computer Science </h1>
-<h1 style='text-align: center'> CSC350 - Topics in Computer Science I (Web Technologies and Programming) </h1>
-<h2 style='text-align: center'> Assignment 03 </h2>
-<h2 style='text-align: center'> Submitted by: Waleed Butt SP18-BCS-170 </h2>
+# COMSATS University, Islamabad
+# Department of Computer Science
+# CSC350 - Topics in Computer Science I (Web Technologies and Programming)
+## Assignment 03
+## Submitted by: Waleed Butt SP18-BCS-170
+### Talha Ejaz SP18-BCS-161
+### Wasiq Qamar SP18-BCS-173
+### Zainab Gulab SP18-BCS-177
 
 ### Question CLO-3
 Assignment You have to implement the LMS CaseStudy Module and Write the API with Express, and Mongoose
@@ -109,6 +112,66 @@ const validateUser = async function(req, res, next) {
         return next({msgCode: 6});
     }
 
+}
+```
+
+
+
+
+#### Errors
+```
+app/modules/users/errors/user.error.js
+{
+    "5": {
+        "msg": {
+            "EN": "Error in Saving New User"
+        }
+    },
+    "6": {
+        "msg": {
+            "EN": "Error in Data Recieved"
+        }
+    },
+    "7": {
+        "msg": {
+            "EN": "Failed to Delete User"
+        }
+    },
+    "8": {
+        "msg": {
+            "EN": "Failed to Update User"
+        }
+    },
+    "9": {
+        "msg": {
+            "EN": "Failed to Fetch User Details! User Does not Exist"
+        }
+    },
+    "10": {
+        "msg": {
+            "EN": "Failed to Fetch Users."
+        }
+    },
+    "11": {
+        "msg": {
+            "EN": "Username Not Found"
+        }
+    },
+    "12": {
+        "msg": {
+            "EN": "Invalid Password"
+        }
+    },
+    "13": {
+        "msg": {
+            "EN": "Enter username & password"
+        }
+    },
+    "14": {
+        "msg": {
+            "EN": "Enter username"
+        }
+    }
 }
 ```
 
@@ -288,21 +351,141 @@ const addStudent= async function (req, res, next){
     }
 };
 ```
-#### Assign Teacher to Class
+#### Modify Class
 ```
 app/modules/admin/routes/admin.controller.js
+// Modify Class
+const updateClass= async function (req, res, next){
+    try {
+
+        const classID = req.params.id || '';
+
+        const classToUpdate = await Class.findOne({_id: classID});
+
+        if (!classToUpdate) {
+            const err = next({msgCode: 19})
+            winston.error(err);
+            return err
+        }
+        const course = req.body.course || classToUpdate.course;
+        const code = req.body.code || classToUpdate.code;
+        const room = req.body.room || classToUpdate.room;
+
+        const options = {
+             course,
+             code,
+             room
+        }
+
+        Class.findByIdAndUpdate(classID, options, 
+            err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 18});
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Class Updated Successfully',
+                    data:{}
+                });
+            });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 18})
+    }
+};
+```
+#### Assign Teacher to Class
+```
+// Assign Teacher to Class
+app/modules/admin/routes/admin.controller.js
+const assignTeacher= async function (req, res, next){
+    try {
+
+        const teacherID = req.params.id || '';
+
+        const teacherToUpdate = await userAccount.findOne({_id: teacherID});
+
+        if (!teacherToUpdate) {
+            const err = next({msgCode: 20})
+            winston.error(err);
+            return err
+        }
+
+        const classID = req.body.classID;
+
+        Class.findByIdAndUpdate(classID, {teacher: teacherToUpdate._id}, 
+            err => {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 21});
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Teacher Successfully assigned to Class',
+                    data:{}
+                });
+            });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 21})
+    }
+};
 ```
 #### Add student to Class
 ```
 app/modules/admin/routes/admin.controller.js
-```
-#### Modify Class
-```
-app/modules/admin/routes/admin.controller.js
+// Add student to Class
+const assignStudent= async function (req, res, next){
+    try {
+
+        const stdID = req.params.id || '';
+        console.log('stdID: ', stdID);
+
+        const classID = req.body.classID;
+        console.log('classID: ', classID);
+
+        const stdToUpdate = await userAccount.findOne({_id: stdID});
+        console.log('stdToUpdate: ', stdToUpdate);
+
+        if(!stdToUpdate) {
+            const err = next({msgCode: 21});
+            winston.error(err);
+            return err;
+        }
+
+        Class.findByIdAndUpdate({_id: classID},
+            {$push: {students: stdToUpdate._id}}, 
+            function(err) {
+
+                if (err) {
+                    winston.error(err);
+                    return next({msgCode: 21});
+                };
+
+                return res.json({
+                    status: 0,
+                    messsage: 'Student Successfully added to Class',
+                    data:{}
+                });
+            });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 21})
+    }
+};
 ```
 #### Delete Class
 ```
 app/modules/admin/routes/admin.controller.js
+
 ```
 #### Delete Teacher
 ```
