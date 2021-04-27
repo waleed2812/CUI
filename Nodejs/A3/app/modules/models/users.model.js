@@ -57,7 +57,7 @@ userAccount.pre('save', async function(next) {
     }
 });
 
-module.exports = mongoose.model('userAccounts', userAccount);
+module.exports = mongoose.model('userAccount', userAccount);
 
 
 

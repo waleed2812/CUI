@@ -34,7 +34,7 @@ app.get(version + '/validate', usersController.validateUser);
 #### Login
 ```
 app/modules/users/controller/user.controller.js
-const loginUser = async (req, res, next) => {
+const loginUser = async function(req, res, next) {
 
     try {
         const username = req.body.username ;
@@ -44,13 +44,13 @@ const loginUser = async (req, res, next) => {
 
         const query = {$or:[{email: username}, {phoneNumber: username}]};
         
-        userAccountModel.find(query, function(err, users) {
-            if (err || users.length === 0) {
+        userAccountModel.findOne(query, function(err, user) {
+            if (err) {
                 winston.error(err);
                 return next({msgCode: 11});
             };
-            
-            bcrypt.compare(password, users[0].password, function(err, isMatch) {
+
+            user.comparePassword(password, function(err, isMatch){
                 if (err || !isMatch){
                     winston.error(err);
                     next({msgCode: 12});
@@ -61,7 +61,8 @@ const loginUser = async (req, res, next) => {
                     messsage: 'Password Matched',
                     data:{}
                 });
-            });  
+
+            });     
         });
     } catch (err) {
         winston.error(err);
@@ -85,11 +86,28 @@ const logoutUser = async function(req, res, next) {
 ```
 app/modules/users/controller/user.controller.js
 const validateUser = async function(req, res, next) {
-    return res.json({
-        status: 0,
-        messsage: 'Validate',
-        data:{}
-    })
+    try {
+        const username = req.query.username ;
+
+        if (!username) return next({msgCode: 14})
+
+        const query = {$or:[{email: username}, {phoneNumber: username}]};
+        
+        userAccountModel.findOne(query, function(err, user) {
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 11});
+            }
+            return res.json({
+                status: 0,
+                messsage: 'Valid User',
+                data:{}
+            });   
+        });
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 6});
+    }
 
 }
 ```
@@ -114,36 +132,64 @@ app.delete(version + '/student/:id', adminController.deleteStudent);
 ```
 #### Show Dashboard
 ```
+app/modules/admin/routes/admin.controller.js
+const getAdminDashboard= async function (req, res, next){
+
+    const users = await userAccount.find({});
+    const classes = await Class.find({});
+
+    if (!users || !classes) {
+        return next({msgCode: 15});
+    }
+    return res.json({
+        status: 0,
+        messsage: 'Data for Admin Dashboard',
+        data:{
+            users,
+            classes
+        }
+    })
+};
 ```
 #### View Class List
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Add New Class
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Add New Teacher
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Add New Student
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Assign Teacher to Class
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Add student to Class
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Modify Class
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Delete Class
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Delete Teacher
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 #### Delete Student
 ```
+app/modules/admin/routes/admin.controller.js
 ```
 
 ### Student Router

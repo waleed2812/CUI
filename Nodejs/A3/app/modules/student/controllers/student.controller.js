@@ -1,6 +1,6 @@
 const winston = require('../../../../config/winston'),
     mongoose = require('mongoose'),
-    userAccountModel = mongoose.model('userAccounts'),
+    userAccountModel = mongoose.model('userAccount'),
     bcrypt = require('bcryptjs');
 
 // Assignment 3

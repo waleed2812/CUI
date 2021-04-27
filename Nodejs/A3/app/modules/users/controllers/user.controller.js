@@ -1,6 +1,6 @@
 const winston = require('../../../../config/winston'),
     mongoose = require('mongoose'),
-    userAccountModel = mongoose.model('userAccounts'),
+    userAccount = mongoose.model('userAccount'),
     bcrypt = require('bcryptjs');
 
 const getUserListing = async function(req, res, next) {
@@ -13,8 +13,8 @@ const getUserListing = async function(req, res, next) {
 
         const filters = {};
 
-        const userListing = await userAccountModel.find(filters).skip(offset).limit(limit).lean();
-        const totalRecords = await userAccountModel.countDocuments(filters);
+        const userListing = await userAccount.find(filters).skip(offset).limit(limit).lean();
+        const totalRecords = await userAccount.countDocuments(filters);
         
         
         res.json({
@@ -41,7 +41,7 @@ const getUserDetail = async function(req, res, next) {
 
         const filters = {_id: userID};
         
-        const userDetail = await userAccountModel.findOne(filters);
+        const userDetail = await userAccount.findOne(filters);
         
         if(userDetail) {
             return res.json({
@@ -76,7 +76,7 @@ const updateUserInfo = async function(req, res, next) {
         const name = req.body.name;
         const profileImage = req.body.profileImage;
         
-        await userAccountModel.updateOne({_id: userID}, {$set: {name: name, profileImage: profileImage}});
+        await userAccount.updateOne({_id: userID}, {$set: {name: name, profileImage: profileImage}});
 
         return res.json({
             status: 0,
@@ -91,7 +91,7 @@ const updateUserInfo = async function(req, res, next) {
 
 const deleteUser = async function(req, res, next) {
     try {
-        await userAccountModel.deleteOne({_id: req.params.userID});
+        await userAccount.deleteOne({_id: req.params.userID});
         return res.json({
             status: 0,
             messsage: 'User Deleted',
@@ -124,7 +124,7 @@ const createUser = async function(req, res, next) {
              phoneNumber
 
         }
-        new userAccountModel(options)
+        new userAccount(options)
             .save( err => {
 
                 if (err) {
@@ -155,7 +155,7 @@ const loginUser = async function(req, res, next) {
 
         const query = {$or:[{email: username}, {phoneNumber: username}]};
         
-        userAccountModel.findOne(query, function(err, user) {
+        userAccount.findOne(query, function(err, user) {
             if (err) {
                 winston.error(err);
                 return next({msgCode: 11});
@@ -198,7 +198,7 @@ const validateUser = async function(req, res, next) {
 
         const query = {$or:[{email: username}, {phoneNumber: username}]};
         
-        userAccountModel.findOne(query, function(err, user) {
+        userAccount.findOne(query, function(err, user) {
             if (err) {
                 winston.error(err);
                 return next({msgCode: 11});

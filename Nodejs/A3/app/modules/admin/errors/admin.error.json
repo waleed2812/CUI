@@ -1,7 +1,12 @@
 {
-    "14": {
+    "15": {
         "msg": {
-            "EN": "Admin Dashboard Not Available"
+            "EN": "Failed to Fetch Users and Classes"
+        }
+    },
+    "16": {
+        "msg": {
+            "EN": "Failed to Fetch Classes"
         }
     }
     
