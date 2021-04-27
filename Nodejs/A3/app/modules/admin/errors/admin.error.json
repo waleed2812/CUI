@@ -13,5 +13,15 @@
         "msg": {
             "EN": "Failed to Add a Class"
         }
+    },
+    "18": {
+        "msg": {
+            "EN": "Failed to Update Class"
+        }
+    },
+    "19": {
+        "msg": {
+            "EN": "Failed to Get Class for Update"
+        }
     }
 }
