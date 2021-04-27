@@ -31,7 +31,7 @@
     },
     "11": {
         "msg": {
-            "EN": "Failed to Fetch Username for Login"
+            "EN": "Username Not Found"
         }
     },
     "12": {
@@ -42,6 +42,11 @@
     "13": {
         "msg": {
             "EN": "Enter username & password"
+        }
+    },
+    "14": {
+        "msg": {
+            "EN": "Enter username"
         }
     }
 }

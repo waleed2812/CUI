@@ -191,11 +191,28 @@ const logoutUser = async function(req, res, next) {
 } 
 
 const validateUser = async function(req, res, next) {
-    return res.json({
-        status: 0,
-        messsage: 'Validate',
-        data:{}
-    })
+    try {
+        const username = req.query.username ;
+
+        if (!username) return next({msgCode: 14})
+
+        const query = {$or:[{email: username}, {phoneNumber: username}]};
+        
+        userAccountModel.findOne(query, function(err, user) {
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 11});
+            }
+            return res.json({
+                status: 0,
+                messsage: 'Valid User',
+                data:{}
+            });   
+        });
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 6});
+    }
 
 } 
 
