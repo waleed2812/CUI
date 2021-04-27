@@ -276,30 +276,74 @@ const assignStudent= async function (req, res, next){
 
 // Delete Class
 const deleteClass= async function (req, res, next){
-    
-    return res.json({
-        status: 0,
-        messsage: 'deleteClass',
-        data:{}
-    })
+    try {
+
+        Class.findOneAndDelete({_id: req.params.id}, function(err){
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 22});
+            }
+
+            return res.json({
+                status: 0,
+                messsage: 'Deleted Successfully',
+                data:{}
+            });
+
+        });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 22});
+    }
 };
 
 // Delete Teacher
 const deleteTeacher= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'deleteTeacher',
-        data:{}
-    })
+    try {
+
+        userAccount.findOneAndDelete({_id: req.params.id}, function(err){
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 22});
+            }
+
+            return res.json({
+                status: 0,
+                messsage: 'Deleted Successfully',
+                data:{}
+            });
+
+        });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 22});
+    }
 };
 
 // Delete Student
 const deleteStudent= async function (req, res, next){
-    return res.json({
-        status: 0,
-        messsage: 'deleteStudent',
-        data:{}
-    })
+    try {
+
+        userAccount.findOneAndDelete({_id: req.params.id}, function(err){
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 22});
+            }
+
+            return res.json({
+                status: 0,
+                messsage: 'Deleted Successfully',
+                data:{}
+            });
+
+        });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 22});
+    }
 };
 
 module.exports = {

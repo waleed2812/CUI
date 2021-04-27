@@ -33,5 +33,10 @@
         "msg": {
             "EN": "Failed to Assign Teacher/Student"
         }
+    },
+    "22": {
+        "msg": {
+            "EN": "Failed to Delete"
+        }
     }
 }
