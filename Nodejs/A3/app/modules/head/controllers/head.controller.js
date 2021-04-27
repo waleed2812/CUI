@@ -1,6 +1,7 @@
 const winston = require('../../../../config/winston'),
     mongoose = require('mongoose'),
-    userAccountModel = mongoose.model('userAccount'),
+    userAccount = mongoose.model('userAccount'),
+    Class = mongoose.model('Class'),
     bcrypt = require('bcryptjs');
 
 // Assignment 3
@@ -13,13 +14,20 @@ const head = async function(req, res, next) {
         data: {}
     });
 }
+
 const getClass = async function(req, res, next) {
+    const classes = await Class.find({});
+
+    if (!classes) {
+        return next({msgCode: 15});
+    }
     return res.json({
         status: 0,
-        message: 'class',
-        data: {}
+        messsage: 'Class Lists Available',
+        data:{classes}
     });
 }
+
 const resultsClass = async function(req, res, next) {
     return res.json({
         status: 0,

@@ -27,7 +27,7 @@ Done in Class
 
 ### User Router
 ```
-Done with Class
+Done with Class Except
 For A3
 app/modules/users/routes/user.routes.js
 app.post(version + '/login', usersController.loginUser);
@@ -485,30 +485,155 @@ const assignStudent= async function (req, res, next){
 #### Delete Class
 ```
 app/modules/admin/routes/admin.controller.js
+const deleteClass= async function (req, res, next){
+    try {
 
+        Class.findOneAndDelete({_id: req.params.id}, function(err){
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 22});
+            }
+
+            return res.json({
+                status: 0,
+                messsage: 'Deleted Successfully',
+                data:{}
+            });
+
+        });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 22});
+    }
+};
 ```
 #### Delete Teacher
 ```
 app/modules/admin/routes/admin.controller.js
+// Delete Teacher
+const deleteTeacher= async function (req, res, next){
+    try {
+
+        userAccount.findOneAndDelete({_id: req.params.id}, function(err){
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 22});
+            }
+
+            return res.json({
+                status: 0,
+                messsage: 'Deleted Successfully',
+                data:{}
+            });
+
+        });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 22});
+    }
+};
 ```
 #### Delete Student
 ```
 app/modules/admin/routes/admin.controller.js
+// Delete Student
+const deleteStudent= async function (req, res, next){
+    try {
+
+        userAccount.findOneAndDelete({_id: req.params.id}, function(err){
+            if (err) {
+                winston.error(err);
+                return next({msgCode: 22});
+            }
+
+            return res.json({
+                status: 0,
+                messsage: 'Deleted Successfully',
+                data:{}
+            });
+
+        });
+
+    } catch (err) {
+        winston.error(err);
+        return next({msgCode: 22});
+    }
+};
+```
+
+
+### Head Router
+```
+app/modules/head/routes/head.routes.js
+app.get(version + '/head', headController.head);
+app.get(version + '/head/class', headController.getClass);
+app.get(version + '/head/results/class/:id', headController.resultsClass);
+app.get(version + '/head/results/student/:id', headController.resultsStd);
+app.get(version + '/head/materials', headController.materials);
+app.get(version + '/head/graph', headController.graph);
+```
+#### Dashboard
+```
+app/modules/head/controllers/head.controller.js
+const head = async function(req, res, next) {
+    return res.json({
+        status: 0,
+        message: 'head',
+        data: {}
+    });
+}
+```
+#### View classes
+```
+app/modules/head/controllers/head.controller.js
+const getClass = async function(req, res, next) {
+    const classes = await Class.find({});
+
+    if (!classes) {
+        return next({msgCode: 15});
+    }
+    return res.json({
+        status: 0,
+        messsage: 'Class Lists Available',
+        data:{classes}
+    });
+}
+```
+#### View Results
+```
+app/modules/head/controllers/head.controller.js
+
+```
+#### View Individual Results
+```
+app/modules/head/controllers/head.controller.js
+```
+#### View Material
+```
+app/modules/head/controllers/head.controller.js
+```
+#### View Dashboard
+```
+app/modules/head/controllers/head.controller.js
+```
+#### View Graph
+```
+app/modules/head/controllers/head.controller.js
 ```
 
 ### Student Router
 ```
-app/modules/student/routes/student.routes.js
 app.get(version + '/student', studentController.getstudentDashboard);
-app.get(version + '/attemptquiz', studentController.attemptQuiz);
-app.get(version + '/viewassignment', studentController.viewAssignment);
-app.get(version + '/material', studentController.getMaterials);
-app.get(version + '/material/:id', studentController.getMaterial);
-app.get(version + '/result', studentController.getResults);
-app.get(version + '/result/:subid', studentController.getResult);
-
-app.post(version + '/viewquiz', studentController.viewQuiz);
-app.post(version + '/submitassignment', studentController.submitAssignment);
+app.get(version + '/student/attemptquiz', studentController.attemptQuiz);
+app.get(version + '/student/viewassignment', studentController.viewAssignment);
+app.get(version + '/student/material', studentController.getMaterials);
+app.get(version + '/student/material/:id', studentController.getMaterial);
+app.get(version + '/student/result', studentController.getResults);
+app.get(version + '/student/result/:subid', studentController.getResult);
+app.post(version + '/student/viewquiz', studentController.viewQuiz);
+app.post(version + '/student/submitassignment', studentController.submitAssignment);
 ```
 #### View Quiz
 ```
@@ -603,31 +728,3 @@ app.delete(version + '/teacher/marks/:id', teacherController.deleteMarks);
 ```
 ```
 
-### Head Router
-```
-app/modules/head/routes/head.routes.js
-app.get(version + '/head', headController.head);
-app.get(version + '/head/class', headController.getClass);
-app.get(version + '/head/results/class/:id', headController.resultsClass);
-app.get(version + '/head/results/student/:id', headController.resultsStd);
-app.get(version + '/head/materials', headController.materials);
-app.get(version + '/head/graph', headController.graph);
-```
-#### View classes
-```
-```
-#### View Results
-```
-```
-#### View Individual Results
-```
-```
-#### View Material
-```
-```
-#### View Dashboard
-```
-```
-#### View Graph
-```
-```
