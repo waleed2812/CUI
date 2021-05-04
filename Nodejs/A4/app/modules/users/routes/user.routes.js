@@ -1,7 +1,7 @@
 const usersController = require('../controllers/user.controller'),
     passport = require('../../../../config/passport');
 
-module.exports = (app, version) => {
+module.exports = function(app, version) {
     app.get(version + '/users', 
         passport.isAuthenticated,
         passport.isAuthorized('admin'),

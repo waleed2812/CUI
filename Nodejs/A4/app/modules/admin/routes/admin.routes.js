@@ -1,6 +1,6 @@
 const adminController = require('../controllers/admin.controller');
 
-module.exports = (app, version) => {
+module.exports = function(app, version) {
     // Assignment 3
 
     app.get(version + '/admin', adminController.getAdminDashboard);

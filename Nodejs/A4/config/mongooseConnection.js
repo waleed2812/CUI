@@ -3,14 +3,14 @@ const asynLib = require('async') ,
     glob = require('glob') ,
     mongoose = require('mongoose'),
     winston = require('./winston'),
-    env = process.env.NODE_ENV || ('development');
+    env = process.env.NODE_ENV || 'development';
     
 global.config = {}
 
 module.exports = function(callback) {
     asynLib.series([
-        (envCB) => {
-            glob('config/env/*.json', (err, files) => {
+        function(envCB) {
+            glob('config/env/*.json', function(err, files) {
                 
                 if (err) {
                     return envCB(err);
@@ -58,9 +58,9 @@ module.exports = function(callback) {
                 }
             });
         },
-        (modelsCB) => {
+        function(modelsCB) {
             // load all models
-            glob('app/modules/**/*.model.js', (err, files) => {
+            glob('app/modules/**/*.model.js', function(err, files) {
                 if (err) return modelsCB(err);
 
                 else {

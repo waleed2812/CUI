@@ -1,6 +1,6 @@
 const studentController = require('../controllers/student.controller');
 
-module.exports = (app, version) => {
+module.exports = function(app, version) {
     // Assignment 3
     app.get(version + '/student', studentController.getstudentDashboard);
     app.get(version + '/student/attemptquiz', studentController.attemptQuiz);

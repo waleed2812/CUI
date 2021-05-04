@@ -1,4 +1,6 @@
 {
+    "Method" : "http",
+    "IP": "localhost",
     "PORT": 3100,
     "mongodb" : {
         "host": "mongodb://localhost:27017/lms",

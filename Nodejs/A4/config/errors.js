@@ -31,7 +31,7 @@ let errorObject = {
     }
 }
 
-glob.sync(routePath).forEach( file => {
+glob.sync(routePath).forEach( function(file) {
     const errorFile = fs.readFileSync(file, 'utf-8');
     if (errorFile.length >= 10) {
         _.extend(errorObject, JSON.parse(errorFile));

@@ -1,6 +1,6 @@
 const headController = require('../controllers/head.controller');
 
-module.exports = (app, version) => {
+module.exports = function(app, version) {
     // Assignment 3
     app.get(version + '/head', headController.head);
     app.get(version + '/head/class', headController.getClass);

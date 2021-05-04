@@ -1,6 +1,6 @@
 const teacherController = require('../controllers/teacher.controller');
 
-module.exports = (app, version) => {
+module.exports = function(app, version) {
     // Assignment 3
 
     app.get(version + '/teacher', teacherController.teacher);

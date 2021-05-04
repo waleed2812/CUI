@@ -9,13 +9,16 @@ const express = require('express'),
     session = require('express-session'),
     mongoStore = require('connect-mongo'),
     expressListeners = require('./config/expressListeners'),
-    winston = require('./config/winston');
+    winston = require('./config/winston'),
+    app = express();
 
-const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app/views'));
 app.set('view engine', 'ejs');
+
+// Some Global Constants
+global.constants = {}
 
 logger.token('remote-user', function(req, res){
     if (req.user) {
@@ -39,13 +42,11 @@ app.use(express.json());
 
 app.use(express.urlencoded({extended: true}));
 
-
 // Cor Implementation
-let corsOptionsDelegate = (req, callback) => {
+let corsOptionsDelegate = function(req, callback) {
     let corsOptions;
-    let allowedOrigins = [
-        'http://localhost:' + global.config.PORT,
-    ];
+    const uri = global.config.Method + '://' + global.config.IP + ':' + global.config.PORT;
+    let allowedOrigins = [uri];
     if (allowedOrigins.indexOf(req.header('Origin')) !== -1) {
         corsOptions = {
             credentials: true,
@@ -60,7 +61,7 @@ let corsOptionsDelegate = (req, callback) => {
 };
 
 
-require('./config/mongooseConnection')((err) => {
+require('./config/mongooseConnection')(function(err) {
 
     if (err) {
         winston.error;
@@ -78,7 +79,7 @@ require('./config/mongooseConnection')((err) => {
         app.use(cookieParser());
 
         app.use(session({
-            secret: config.session.secret,
+            secret: global.config.session.secret,
             store: mongoStore.create({
                 mongoUrl: config.mongodb.host,
                 touchAfter: 14 * 24 * 60 * 60, // time period in seconds,
@@ -99,14 +100,14 @@ require('./config/mongooseConnection')((err) => {
 
         const webRoutes = 'app/modules/**/*.routes.js';        
         winston.info('Routes are loading...');
-        glob.sync(webRoutes).forEach((file) => {
+        glob.sync(webRoutes).forEach(function(file) {
             require('./' + file)(app, '');
             winston.info(file + ' is loaded');
         });
 
         global.errors = require('./config/errors');
 
-        app.use( async (err, req, res, next) => {
+        app.use( async function(err, req, res, next) {
             winston.error(err);
             res.status(err.status || 500);
                 
@@ -128,7 +129,7 @@ require('./config/mongooseConnection')((err) => {
         });
 
         //catch 404 and forward to error handler
-        app.use((err, req, res, next) => {
+        app.use( function(err, req, res, next) {
             err = new Error('Not Found');
             err.status = 404;
             next(err);

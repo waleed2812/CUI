@@ -126,7 +126,7 @@ const createUser = async function(req, res, next) {
 
         }
         new userAccount(options)
-            .save( err => {
+            .save( function(err) {
 
                 if (err) {
                     winston.error(err);

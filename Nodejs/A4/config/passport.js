@@ -8,14 +8,14 @@ passport.use(new LocalStrategy({
     usernameField: 'userName',
     passwordField: 'password',
 }, function(username, password, done) {
-    userAccount.findOne({ userName: username }, (err, user) => {
+    userAccount.findOne({ userName: username }, function(err, user) {
         if (err) {
             return done(err);
         }
         if (!user) {
             return done(null, false, { message: 'Invalid UserName provided' });
         }
-        user.comparePassword(password, (err, isMatch) => {
+        user.comparePassword(password, function(err, isMatch) {
             if (err) {
                 return done(err);
             }
@@ -27,11 +27,11 @@ passport.use(new LocalStrategy({
     });
 }));
 
-passport.serializeUser((user, done) => {
+passport.serializeUser(function(user, done) {
     done(null, { _id: user._id, userType: user.userType });
 });
 
-passport.deserializeUser((user, done) => {
+passport.deserializeUser(function(user, done) {
    userAccount .findById(user._id, function(err, user) {
         if (user) {
             done(err, user);
@@ -42,15 +42,15 @@ passport.deserializeUser((user, done) => {
 });
 
 // passport middlewares
-passport.isAuthenticated = (req, res, next) => {
+passport.isAuthenticated = function(req, res, next) {
     if (req.isAuthenticated()) {
         return next();
     }
     return next({ message: 'User is not authenticated' });
 };
 
-passport.isAuthorized = (userType) => {
-    return (req, res, next) => {
+passport.isAuthorized = function(userType) {
+    return function(req, res, next) {
         if (req.user.userType == userType) {
             return next();
         }

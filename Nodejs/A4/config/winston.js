@@ -9,7 +9,7 @@ const options = winston.LoggerOptions = {
         winston.format.colorize(),
         winston.format.splat(),
         winston.format.printf(
-            ({ timestamp, level, label, message, stack, ...rest }) => { 
+            function ({ timestamp, level, label, message, stack, ...rest })  { 
                 
                 const namespace = label ? `(${label})` : "";
                 const errStack = stack ? `\n${stack}` : "";

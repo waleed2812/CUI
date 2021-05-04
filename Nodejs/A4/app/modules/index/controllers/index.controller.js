@@ -1,4 +1,4 @@
-const indexFunction = async (req, res, next) => {
+const indexFunction = async function(req, res, next) {
 
     return res.json({
         status: 1,
@@ -8,7 +8,7 @@ const indexFunction = async (req, res, next) => {
 
 };
 
-const errorFunction = async (req, res, next) => {
+const errorFunction = async function(req, res, next) {
 
     return res.json({
         status: 1,
