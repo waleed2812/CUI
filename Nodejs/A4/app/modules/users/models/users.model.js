@@ -3,9 +3,8 @@
 const mongoose = require('mongoose'),
     mongoose_timestamps = require('mongoose-timestamp'), 
     bcrypt = require('bcryptjs'),
-    SALT_WORK_FACTOR = 10;
-
-const schema = mongoose.Schema; 
+    SALT_WORK_FACTOR = 10,
+    schema = mongoose.Schema; 
 
 let userAccount = new schema ({
     email: {type: String, default: ''},

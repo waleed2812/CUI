@@ -3,8 +3,13 @@ const express = require('express'),
     glob = require('glob'),
     http = require('http'),
     logger = require('morgan'),
-    winston = require('./config/winston'),
-    expressListeners = require('./config/expressListeners');
+    cors = require('cors'),
+    cookieParser = require('cookie-parser'),
+    helmet = require('helmet'),
+    session = require('express-session'),
+    mongoStore = require('connect-mongo'),
+    expressListeners = require('./config/expressListeners'),
+    winston = require('./config/winston');
 
 const app = express();
 
@@ -28,8 +33,32 @@ logger.token('clientIP', function(req, res){
         req.connection.remoteAddress;
 });
 
-app.use(logger(':date[iso] :clientIP :remote-user :method :url HTTP/:http-version'+
-    ' :status :res[content-length] - :response-time ms'));
+app.use(logger(':date[iso] :clientIP :remote-user :method :url HTTP/:http-version :status :res[content-length] - :response-time ms'));
+
+app.use(express.json());
+
+app.use(express.urlencoded({extended: true}));
+
+
+// Cor Implementation
+let corsOptionsDelegate = (req, callback) => {
+    let corsOptions;
+    let allowedOrigins = [
+        'http://localhost:' + global.config.PORT,
+    ];
+    if (allowedOrigins.indexOf(req.header('Origin')) !== -1) {
+        corsOptions = {
+            credentials: true,
+            origin: true
+        };
+    } else {
+        corsOptions = {
+            origin: false
+        };
+    }
+    callback(null, corsOptions);
+};
+
 
 require('./config/mongooseConnection')((err) => {
 
@@ -44,16 +73,37 @@ require('./config/mongooseConnection')((err) => {
         global.server.on('error', expressListeners.onError);
         global.server.on('listening', expressListeners.onListening);
 
-        app.use(express.static(path.join(__dirname, 'public')));
+        //app.use(express.static(path.join(__dirname, 'public')));
 
-        app.use(express.json());
-        app.use(express.urlencoded({extended: true}));
+        app.use(cors(corsOptionsDelegate));
+        app.use(helmet());
+        app.use(cookieParser());
 
-        const webRoutes = 'app/modules/**/*.routes.js';
+        app.use(session({
+            secret: config.session.secret,
+            store: mongoStore.create({
+                mongoUrl: config.mongodb.host,
+                touchAfter: 14 * 24 * 60 * 60, // time period in seconds,
+                mongoOptions: { useNewUrlParser: true, useUnifiedTopology: true }
+            }),
+            resave: true,
+            saveUninitialized: true,
+            clearExpired: true,
+            checkExpirationInterval: 900000,
+            cookie: {
+                maxAge: 60 * 24 * 3600 * 1000,
+            }
+        }));
 
+        var passport = require('./config/passport');
+        app.use(passport.initialize());
+        app.use(passport.session());
+
+        const webRoutes = 'app/modules/**/*.routes.js';        
+        winston.info('Routes are loading...');
         glob.sync(webRoutes).forEach((file) => {
             require('./' + file)(app, '');
-            console.log(file + ' is loaded');
+            winston.info(file + ' is loaded');
         });
 
         global.errors = require('./config/errors');
@@ -63,10 +113,9 @@ require('./config/mongooseConnection')((err) => {
             res.status(err.status || 500);
                 
             if (err && err.hasOwnProperty('msgCode')) {
-                let errorCode = err.msgCode;
                 return res.json({
                     success: 0,
-                    message: global.errors[errorCode],
+                    message: (err.message) ? err.message : global.errors[err.msgCode],
                     response: 200,
                     data: {}
                 });
