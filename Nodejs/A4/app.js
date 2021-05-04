@@ -30,7 +30,7 @@ logger.token('remote-user', function(req, res){
 logger.token('clientIP', function(req, res){
     
     return (req.headers['x-forwarded-for'] || '').split(',')[0] || 
-        req.connection.remoteAddress;
+        req.socket.remoteAddress;
 });
 
 app.use(logger(':date[iso] :clientIP :remote-user :method :url HTTP/:http-version :status :res[content-length] - :response-time ms'));
@@ -72,8 +72,6 @@ require('./config/mongooseConnection')((err) => {
         global.server.listen(global.config.PORT);
         global.server.on('error', expressListeners.onError);
         global.server.on('listening', expressListeners.onListening);
-
-        //app.use(express.static(path.join(__dirname, 'public')));
 
         app.use(cors(corsOptionsDelegate));
         app.use(helmet());

@@ -19,6 +19,7 @@ let userAccount = new schema ({
 userAccount.plugin(mongoose_timestamps);
 userAccount.index( {email: 1}, {background: true, unique: true, name: 'IDX_USERNAME'});
 userAccount.index({ phoneNumber: 1 }, { unique: true, name: 'IDX_USERPHONE'}); 
+
 userAccount.methods.comparePassword = function(candidatePassword, cb) {
     bcrypt.compare(candidatePassword, this.password, function(err, isMatch) {
         
@@ -43,14 +44,12 @@ userAccount.pre('save', async function(next) {
         let salt = await bcrypt.genSalt(SALT_WORK_FACTOR);
         console.log('Password Salt', salt);
 
-        console.log('typeof user.password',typeof this.password)
-
         let hash = await bcrypt.hash(this.password, salt);
         console.log('Password hash: ', hash);
 
         // override clear text password with hashed one        
         user.password = hash;
-
+        next();
     } catch (err) {
         return next(err);
     }

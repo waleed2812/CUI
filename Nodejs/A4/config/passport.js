@@ -1,14 +1,14 @@
 var passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy,
     mongoose = require('mongoose'),
-    userAccounts = mongoose.model('userAccounts');
+    userAccount = mongoose.model('userAccount');
 
 // Local Login Strategy
 passport.use(new LocalStrategy({
     usernameField: 'userName',
     passwordField: 'password',
 }, function(username, password, done) {
-    userAccounts.findOne({ userName: username }, (err, user) => {
+    userAccount.findOne({ userName: username }, (err, user) => {
         if (err) {
             return done(err);
         }
@@ -32,7 +32,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser((user, done) => {
-   userAccounts .findById(user._id, function(err, user) {
+   userAccount .findById(user._id, function(err, user) {
         if (user) {
             done(err, user);
         } else {

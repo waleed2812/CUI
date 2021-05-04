@@ -10,7 +10,7 @@ global.config = {}
 module.exports = function(callback) {
     asynLib.series([
         (envCB) => {
-            glob('config/env/*.json', (err, filer) => {
+            glob('config/env/*.json', (err, files) => {
                 
                 if (err) {
                     return envCB(err);
@@ -65,7 +65,7 @@ module.exports = function(callback) {
 
                 else {
                     winston.info('models are loading...');
-                    files.forEach( file => {
+                    files.forEach( function(file) {
                         require(path.join(__dirname, '../', file));
                         winston.info(file, 'is loaded');
                     });

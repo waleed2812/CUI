@@ -79,6 +79,7 @@ require('./config/mongooseConnection')((err) => {
         app.use(helmet());
         app.use(cookieParser());
 
+        console.log(config.session.secret);
         app.use(session({
             secret: config.session.secret,
             store: mongoStore.create({

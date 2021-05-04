@@ -1,4 +1,5 @@
 const winston = require('../../../../config/winston'),
+    passport = require('../../../../config/passport'),
     mongoose = require('mongoose'),
     userAccount = mongoose.model('userAccount'),
     bcrypt = require('bcryptjs');
@@ -146,39 +147,31 @@ const createUser = async function(req, res, next) {
 };
 
 const loginUser = async function(req, res, next) {
-
-    try {
-        const username = req.body.username ;
-        const password = req.body.password ;
-
-        if (!username || !password) return next({msgCode: 13})
-
-        const query = {$or:[{email: username}, {phoneNumber: username}]};
+    passport.authenticate('local', function(err, user, info) {
+        if (err) {
+            return next(err);
+        }
+        if (!user) {
+            return next(info);
+        }
         
-        userAccount.findOne(query, function(err, user) {
+        req.logIn(user, function(err) {
             if (err) {
                 winston.error(err);
-                return next({msgCode: 11});
-            };
-
-            user.comparePassword(password, function(err, isMatch){
-                if (err || !isMatch){
-                    winston.error(err);
-                    next({msgCode: 12});
-                }
-
-                return res.json({
-                    status: 0,
-                    messsage: 'Password Matched',
-                    data:{}
-                });
-
-            });     
+                return next({ msgCode: 5051 });
+            }
+            return next();
         });
-    } catch (err) {
-        winston.error(err);
-        return next({msgCode: 6});
-    }
+    })(req, res, next);
+};
+
+const sendSingInSuccess = function (req, res, next) {
+    return res.json({
+        message: 'User signIn successfully.',
+        data: {
+            user: req.user
+        }
+    });
 };
 
 const logoutUser = async function(req, res, next) {
@@ -224,5 +217,6 @@ module.exports = {
     createUser,
     loginUser,
     logoutUser,
-    validateUser
+    validateUser,
+    sendSingInSuccess
 }
