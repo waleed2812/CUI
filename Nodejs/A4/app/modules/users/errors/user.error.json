@@ -1,0 +1,52 @@
+{
+    "5": {
+        "msg": {
+            "EN": "Error in Saving New User"
+        }
+    },
+    "6": {
+        "msg": {
+            "EN": "Error in Data Recieved"
+        }
+    },
+    "7": {
+        "msg": {
+            "EN": "Failed to Delete User"
+        }
+    },
+    "8": {
+        "msg": {
+            "EN": "Failed to Update User"
+        }
+    },
+    "9": {
+        "msg": {
+            "EN": "Failed to Fetch User Details! User Does not Exist"
+        }
+    },
+    "10": {
+        "msg": {
+            "EN": "Failed to Fetch Users."
+        }
+    },
+    "11": {
+        "msg": {
+            "EN": "Username Not Found"
+        }
+    },
+    "12": {
+        "msg": {
+            "EN": "Invalid Password"
+        }
+    },
+    "13": {
+        "msg": {
+            "EN": "Enter username & password"
+        }
+    },
+    "14": {
+        "msg": {
+            "EN": "Enter username"
+        }
+    }
+}
