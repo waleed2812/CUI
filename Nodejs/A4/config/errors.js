@@ -8,28 +8,7 @@ winston.info('error messages are loading...');
 
 
 //initialize with common error objects
-let errorObject = {
-    '1': {
-        'msg': {
-            'EN' : "User Does Not Exist"
-        }
-    },
-    '2': {
-        'msg': {
-            'EN' : "Incorrect Password"
-        }
-    },
-    '3': {
-        'msg': {
-            'EN' : "User is not authenticated"
-        }
-    },
-    '4': {
-        'msg': {
-            'EN' : "User is not authorized to visit the api"
-        }
-    }
-}
+const errorObject = {}
 
 glob.sync(routePath).forEach( function(file) {
     const errorFile = fs.readFileSync(file, 'utf-8');

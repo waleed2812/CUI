@@ -46,7 +46,7 @@ passport.isAuthenticated = function(req, res, next) {
     if (req.isAuthenticated()) {
         return next();
     }
-    return next({ message: 'User is not authenticated' });
+    return next({ msgCode: 3 });
 };
 
 passport.isAuthorized = function(userType) {

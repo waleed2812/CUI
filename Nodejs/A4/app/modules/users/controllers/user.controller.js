@@ -1,8 +1,7 @@
 const winston = require('../../../../config/winston'),
     passport = require('../../../../config/passport'),
     mongoose = require('mongoose'),
-    userAccount = mongoose.model('userAccount'),
-    bcrypt = require('bcryptjs');
+    userAccount = mongoose.model('userAccount');
 
 const getUserListing = async function(req, res, next) {
     

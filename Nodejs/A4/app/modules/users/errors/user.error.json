@@ -1,52 +1,44 @@
 {
+    "1": {
+        "EN" : "User Does Not Exist"
+    },
+    "2": {
+        "EN" : "Incorrect Password"
+    },
+    "3": {
+        "EN" : "User is not authenticated"
+    },
+    "4": {
+        "EN" : "User is not authorized to visit the api"
+    },
     "5": {
-        "msg": {
-            "EN": "Error in Saving New User"
-        }
+        "EN": "Error in Saving New User"
     },
     "6": {
-        "msg": {
-            "EN": "Error in Data Recieved"
-        }
+        "EN": "Error in Data Recieved"
     },
     "7": {
-        "msg": {
-            "EN": "Failed to Delete User"
-        }
+        "EN": "Failed to Delete User"
     },
     "8": {
-        "msg": {
-            "EN": "Failed to Update User"
-        }
+        "EN": "Failed to Update User"
     },
     "9": {
-        "msg": {
-            "EN": "Failed to Fetch User Details! User Does not Exist"
-        }
+        "EN": "Failed to Fetch User Details! User Does not Exist"
     },
     "10": {
-        "msg": {
-            "EN": "Failed to Fetch Users."
-        }
+        "EN": "Failed to Fetch Users."
     },
     "11": {
-        "msg": {
-            "EN": "Username Not Found"
-        }
+        "EN": "Username Not Found"
     },
     "12": {
-        "msg": {
-            "EN": "Invalid Password"
-        }
+        "EN": "Invalid Password"
     },
     "13": {
-        "msg": {
-            "EN": "Enter username & password"
-        }
+        "EN": "Enter username & password"
     },
     "14": {
-        "msg": {
-            "EN": "Enter username"
-        }
+        "EN": "Enter username"
     }
 }

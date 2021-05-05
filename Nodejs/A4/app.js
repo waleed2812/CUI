@@ -94,10 +94,6 @@ require('./config/mongooseConnection')(function(err) {
             }
         }));
 
-        var passport = require('./config/passport');
-        app.use(passport.initialize());
-        app.use(passport.session());
-
         const webRoutes = 'app/modules/**/*.routes.js';        
         winston.info('Routes are loading...');
         glob.sync(webRoutes).forEach(function(file) {
@@ -108,7 +104,7 @@ require('./config/mongooseConnection')(function(err) {
         global.errors = require('./config/errors');
 
         app.use( async function(err, req, res, next) {
-            winston.error(err);
+            winston.error(JSON.stringify(err));
             res.status(err.status || 500);
                 
             if (err && err.hasOwnProperty('msgCode')) {
@@ -121,12 +117,16 @@ require('./config/mongooseConnection')(function(err) {
             } else {
                 return res.json({
                     success: 0,
-                    message: 'Something went wrong on server Side',
+                    message: 'Unhandeled Error',
                     response: 200,
                     data: {}
                 });
             }
         });
+
+        const passport = require('./config/passport');
+        app.use(passport.initialize());
+        app.use(passport.session());
 
         //catch 404 and forward to error handler
         app.use( function(err, req, res, next) {

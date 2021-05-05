@@ -12,7 +12,7 @@ const errorFunction = async function(req, res, next) {
 
     return res.json({
         status: 1,
-        message: 'Something Went Wrong on server side',
+        message: 'Index Error',
         data: {},
     });
 

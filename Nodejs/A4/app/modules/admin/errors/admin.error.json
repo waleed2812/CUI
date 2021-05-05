@@ -1,42 +1,26 @@
 {
     "15": {
-        "msg": {
-            "EN": "Failed to Fetch Users and Classes"
-        }
+        "EN": "Failed to Fetch Users and Classes"
     },
     "16": {
-        "msg": {
-            "EN": "Failed to Fetch Classes"
-        }
+        "EN": "Failed to Fetch Classes"
     },
     "17": {
-        "msg": {
-            "EN": "Failed to Add a Class"
-        }
+        "EN": "Failed to Add a Class"
     },
     "18": {
-        "msg": {
-            "EN": "Failed to Update Class"
-        }
+        "EN": "Failed to Update Class"
     },
     "19": {
-        "msg": {
-            "EN": "Failed to Get Class for Update"
-        }
+        "EN": "Failed to Get Class for Update"
     },
     "20": {
-        "msg": {
-            "EN": "Teacher/Student Does not Exist"
-        }
+        "EN": "Teacher/Student Does not Exist"
     },
     "21": {
-        "msg": {
-            "EN": "Failed to Assign Teacher/Student"
-        }
+        "EN": "Failed to Assign Teacher/Student"
     },
     "22": {
-        "msg": {
-            "EN": "Failed to Delete"
-        }
+        "EN": "Failed to Delete"
     }
 }
