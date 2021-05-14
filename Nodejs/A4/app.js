@@ -94,13 +94,6 @@ require('./config/mongooseConnection')(function(err) {
             }
         }));
 
-        const webRoutes = 'app/modules/**/*.routes.js';        
-        winston.info('Routes are loading...');
-        glob.sync(webRoutes).forEach(function(file) {
-            require('./' + file)(app, '');
-            winston.info(file + ' is loaded');
-        });
-
         global.errors = require('./config/errors');
 
         app.use( async function(err, req, res, next) {
@@ -128,11 +121,19 @@ require('./config/mongooseConnection')(function(err) {
         app.use(passport.initialize());
         app.use(passport.session());
 
+        const webRoutes = 'app/modules/**/*.routes.js';        
+        winston.info('Routes are loading...');
+        glob.sync(webRoutes).forEach(function(file) {
+            require('./' + file)(app, '');
+            winston.info(file + ' is loaded');
+        });
+
         //catch 404 and forward to error handler
         app.use( function(err, req, res, next) {
             err = new Error('Not Found');
             err.status = 404;
-            next(err);
+            winston.error(err);
+            res.redirect('/');
         });
     }
 });

@@ -5,22 +5,23 @@ var passport = require('passport'),
 
 // Local Login Strategy
 passport.use(new LocalStrategy({
-    usernameField: 'userName',
+    usernameField: 'username',
     passwordField: 'password',
 }, function(username, password, done) {
-    userAccount.findOne({ userName: username }, function(err, user) {
+    const query = {$or:[{email: username}, {phoneNumber: username}]};
+    userAccount.findOne(query, function(err, user) {
         if (err) {
             return done(err);
         }
         if (!user) {
-            return done(null, false, { message: 'Invalid UserName provided' });
+            return done(null, false, { msgCode: 11 });
         }
         user.comparePassword(password, function(err, isMatch) {
             if (err) {
                 return done(err);
             }
             if (!isMatch) {
-                return done(null, false, { message: 'Invalid Password Provided' });
+                return done(null, false, { msgCode: 12 });
             }
             return done(null, user);
         });
@@ -36,7 +37,7 @@ passport.deserializeUser(function(user, done) {
         if (user) {
             done(err, user);
         } else {
-            return done({ message: 'Unable to find user.' });
+            return done({ msgCode: 11 });
         }
     });
 });
@@ -54,7 +55,7 @@ passport.isAuthorized = function(userType) {
         if (req.user.userType == userType) {
             return next();
         }
-        return next({ message: 'User is authorized to access this api.' });
+        return next({ msgCode:  15});
     };
 };
 

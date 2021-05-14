@@ -40,5 +40,8 @@
     },
     "14": {
         "EN": "Enter username"
+    },
+    "15": {
+        "EN": "User is authorized to access this api."
     }
 }
