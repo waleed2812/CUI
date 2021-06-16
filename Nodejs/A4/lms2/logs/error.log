@@ -1,0 +1,1850 @@
+[2021-04-17 12:34:58] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:07] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:14] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:22] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:25] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:28] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:30] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:41] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:43] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:52] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:35:54] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:03] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:07] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:11] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:13] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:14] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:19] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:30] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:35] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:35] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:35] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:35] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:41] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:41] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:41] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:41] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:41] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:47] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:53] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:53] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:53] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:54] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:36:55] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:03] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:07] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:11] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:14] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:22] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:29] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:32] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:36] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:44] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:52] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:37:54] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:38:04] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:38:47] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:38:50] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:38:52] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:38:54] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:05] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:13] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:15] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:23] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:25] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:31] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:32] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:34] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:35] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:38] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:49] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:54] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:39:55] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:04] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:12] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:14] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:25] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:28] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:36] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:46] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:48] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:40:49] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:00] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:03] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:11] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:13] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:15] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:17] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:21] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:23] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:43] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:51] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:41:58] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:08] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:15] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:23] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:30] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:35] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:36] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:38] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:48] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:42:57] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:43:02] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:43:04] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:34:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (events.js:314:20)
+    at SendStream.error (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:421:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:763:28)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/send/index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:168:21)
+[2021-04-17 12:58:51] [31merror[39m:  userAccountModel.estimatedDocuments is not a function 
+TypeError: userAccountModel.estimatedDocuments is not a function
+    at getUserListing (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:12:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-17 12:59:18] [31merror[39m:  userAccountModel.estimatedDocuments is not a function 
+TypeError: userAccountModel.estimatedDocuments is not a function
+    at getUserListing (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:11:51)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-17 15:01:08] [31merror[39m:  mongoose connection disconnected 
+[2021-05-01 12:57:10] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:91:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+[2021-05-01 12:58:48] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:91:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+[2021-05-01 12:59:27] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:91:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/cors/lib/index.js:228:13
+    at corsOptionsDelegate (/Users/razatayyab/Comsats/Code Files/lms/app.js:36:5)
+    at corsMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+[2021-05-01 13:00:20] [31merror[39m:  object 
+[2021-05-01 13:00:20] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:91:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+[2021-05-01 13:01:10] [31merror[39m:  object 
+[2021-05-01 13:01:10] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:91:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+[2021-05-01 13:01:12] [31merror[39m:  object 
+[2021-05-01 13:01:12] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:91:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/razatayyab/Comsats/Code Files/lms/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+[2021-06-09 00:29:48] [31merror[39m:  object 
+[2021-06-09 00:29:48] [31merror[39m:  ENOENT: no such file or directory, open '../public/uploads/1623180588623-chips.png' 
+Error: ENOENT: no such file or directory, open '../public/uploads/1623180588623-chips.png'
+[2021-06-09 00:30:48] [31merror[39m:  object 
+[2021-06-09 00:30:48] [31merror[39m:  ENOENT: no such file or directory, open '../public/uploads/1623180648425-chips.png' 
+Error: ENOENT: no such file or directory, open '../public/uploads/1623180648425-chips.png'
+[2021-06-09 00:31:22] [31merror[39m:  object 
+[2021-06-09 00:31:22] [31merror[39m:  ENOENT: no such file or directory, open '/Users/razatayyab/Comsats/Code Files/lms/config../public/uploads/1623180682445-chips.png' 
+Error: ENOENT: no such file or directory, open '/Users/razatayyab/Comsats/Code Files/lms/config../public/uploads/1623180682445-chips.png'
+[2021-06-09 00:33:07] [31merror[39m:  object 
+[2021-06-09 00:33:07] [31merror[39m:  Allowed only .png, .jpg, .jpeg and .gif 
+Error: Allowed only .png, .jpg, .jpeg and .gif
+    at fileFilter (/Users/razatayyab/Comsats/Code Files/lms/config/multer.js:21:27)
+    at wrappedFileFilter (/Users/razatayyab/Comsats/Code Files/lms/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (/Users/razatayyab/Comsats/Code Files/lms/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (/Users/razatayyab/Comsats/Code Files/lms/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:314:20)
+    at SBMH._sbmh_feed (/Users/razatayyab/Comsats/Code Files/lms/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/razatayyab/Comsats/Code Files/lms/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/razatayyab/Comsats/Code Files/lms/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/razatayyab/Comsats/Code Files/lms/node_modules/dicer/lib/Dicer.js:197:25)
+[2021-06-09 01:06:54] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:06:54] [31merror[39m:  [object Object] 
+[2021-06-09 01:07:00] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:07:00] [31merror[39m:  [object Object] 
+[2021-06-09 01:08:58] [31merror[39m:  Invalid Password Provided 
+[2021-06-09 01:09:05] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:09:05] [31merror[39m:  [object Object] 
+[2021-06-09 01:10:05] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:10:05] [31merror[39m:  [object Object] 
+[2021-06-09 01:10:07] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:10:07] [31merror[39m:  [object Object] 
+[2021-06-09 01:10:31] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:10:31] [31merror[39m:  object 
+[2021-06-09 01:10:31] [31merror[39m:  [object Object] 
+[2021-06-09 01:11:58] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:11:58] [31merror[39m:  [object Object] 
+[2021-06-09 01:22:14] [31merror[39m:  userAccounts validation failed: phoneNumber: Path `phoneNumber` is required. 
+ValidationError: userAccounts validation failed: phoneNumber: Path `phoneNumber` is required.
+    at model.Document.invalidate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/document.js:2703:32)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/document.js:2523:17
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/schematype.js:1256:9
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2021-06-09 01:22:14] [31merror[39m:  [object Object] 
+[2021-06-09 01:23:11] [31merror[39m:  SignIn Validation:  
+[2021-06-09 01:23:11] [31merror[39m:  [object Object] 
+[2021-06-09 01:23:21] [31merror[39m:  Expected "payload" to be a plain object. 
+Error: Expected "payload" to be a plain object.
+    at validate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:40:11)
+    at validatePayload (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:62:10)
+    at Object.module.exports [as sign] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:114:7)
+    at sendSingInSuccess (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:135:23)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/route.js:137:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:129:20
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:52:7
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:26:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:277:43)
+    at serialized (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:286:7)
+    at /Users/razatayyab/Comsats/Code Files/lms/config/passport.js:49:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:294:9)
+    at Authenticator.serializeUser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:299:5)
+    at SessionManager.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:14:8)
+    at IncomingMessage.req.login.req.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:50:33)
+[2021-06-09 01:24:27] [31merror[39m:  Expected "payload" to be a plain object. 
+Error: Expected "payload" to be a plain object.
+    at validate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:40:11)
+    at validatePayload (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:62:10)
+    at Object.module.exports [as sign] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:114:7)
+    at sendSingInSuccess (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:136:23)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/route.js:137:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:129:20
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:52:7
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:26:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:277:43)
+    at serialized (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:286:7)
+    at /Users/razatayyab/Comsats/Code Files/lms/config/passport.js:49:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:294:9)
+    at Authenticator.serializeUser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:299:5)
+    at SessionManager.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:14:8)
+    at IncomingMessage.req.login.req.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:50:33)
+[2021-06-09 01:30:56] [31merror[39m:  Illegal arguments: string, undefined 
+Error: Illegal arguments: string, undefined
+    at _async (/Users/razatayyab/Comsats/Code Files/lms/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at Object.bcrypt.compare (/Users/razatayyab/Comsats/Code Files/lms/node_modules/bcryptjs/dist/bcrypt.js:304:13)
+    at model.userAccount.methods.comparePassword (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/models/user.model.js:23:12)
+    at /Users/razatayyab/Comsats/Code Files/lms/config/passport.js:27:14
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/model.js:4884:16
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/model.js:4884:16
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/helpers/promiseOrCallback.js:24:16
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/model.js:4907:21
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/mongoose/lib/query.js:4447:11
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/kareem/index.js:136:16
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2021-06-09 01:33:04] [31merror[39m:  Expected "payload" to be a plain object. 
+Error: Expected "payload" to be a plain object.
+    at validate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:40:11)
+    at validatePayload (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:62:10)
+    at Object.module.exports [as sign] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/jsonwebtoken/sign.js:114:7)
+    at sendSingInSuccess (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:135:23)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/route.js:137:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:129:20
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:52:7
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:26:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:277:43)
+    at serialized (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:286:7)
+    at /Users/razatayyab/Comsats/Code Files/lms/config/passport.js:57:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:294:9)
+    at Authenticator.serializeUser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:299:5)
+    at SessionManager.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:14:8)
+    at IncomingMessage.req.login.req.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:50:33)
+[2021-06-09 01:35:18] [31merror[39m:  req.user.toJSON is not a function 
+TypeError: req.user.toJSON is not a function
+    at sendSingInSuccess (/Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:138:37)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/route.js:137:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:132:20
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:52:7
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:26:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:277:43)
+    at serialized (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:286:7)
+    at /Users/razatayyab/Comsats/Code Files/lms/config/passport.js:55:5
+    at pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:294:9)
+    at Authenticator.serializeUser (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/authenticator.js:299:5)
+    at SessionManager.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/sessionmanager.js:14:8)
+    at IncomingMessage.req.login.req.logIn (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/http/request.js:50:33)
+    at /Users/razatayyab/Comsats/Code Files/lms/app/modules/users/controllers/user.controller.js:127:13
+    at Strategy.strategy.success (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:219:18)
+    at verified (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport-local/lib/strategy.js:83:10)
+[2021-06-09 01:37:37] [31merror[39m:  User is authorized to access this api. 
+[2021-06-09 22:13:14] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:95:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:343:9)
+    at SessionStrategy.authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/strategies/session.js:75:10)
+    at attempt (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at initialize (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/initialize.js:53:5)
+[2021-06-09 22:13:21] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:95:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:343:9)
+    at SessionStrategy.authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/strategies/session.js:75:10)
+    at attempt (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at initialize (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/initialize.js:53:5)
+[2021-06-09 22:24:01] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:95:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:343:9)
+    at SessionStrategy.authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/strategies/session.js:75:10)
+    at attempt (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at initialize (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/initialize.js:53:5)
+[2021-06-09 22:42:44] [31merror[39m:  Invalid UserName provided 
+[2021-06-09 22:42:50] [31merror[39m:  Invalid UserName provided 
+[2021-06-09 23:05:21] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:96:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:343:9)
+    at SessionStrategy.authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/strategies/session.js:75:10)
+    at attempt (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at initialize (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/initialize.js:53:5)
+[2021-06-09 23:11:15] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:96:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:343:9)
+    at SessionStrategy.authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/strategies/session.js:75:10)
+    at attempt (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at initialize (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/initialize.js:53:5)
+[2021-06-09 23:14:09] [31merror[39m:  Not Found 
+Error: Not Found
+    at /Users/razatayyab/Comsats/Code Files/lms/app.js:96:23
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at SessionStrategy.strategy.pass (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:343:9)
+    at SessionStrategy.authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/strategies/session.js:75:10)
+    at attempt (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:366:16)
+    at authenticate (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/authenticate.js:367:7)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms/node_modules/express/lib/router/index.js:275:10)
+    at initialize (/Users/razatayyab/Comsats/Code Files/lms/node_modules/passport/lib/middleware/initialize.js:53:5)
+[2021-06-09 23:30:40] [31merror[39m:  mongoose connection disconnected 
+[2021-06-12 12:01:05] [31merror[39m:  Illegal arguments: number, string 
+Error: Illegal arguments: number, string
+    at _async (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at Object.bcrypt.compare (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/bcryptjs/dist/bcrypt.js:304:13)
+    at model.userAccount.methods.comparePassword (/Users/razatayyab/Comsats/Code Files/lms2/app/modules/users/models/user.model.js:23:12)
+    at /Users/razatayyab/Comsats/Code Files/lms2/config/passport.js:26:14
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/mongoose/lib/model.js:4884:16
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/mongoose/lib/model.js:4884:16
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/mongoose/lib/helpers/promiseOrCallback.js:24:16
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/mongoose/lib/model.js:4907:21
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/mongoose/lib/query.js:4447:11
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/kareem/index.js:136:16
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+[2021-06-12 12:21:53] [31merror[39m:  Allowed only PNG, JPG and JPEG images 
+Error: Allowed only PNG, JPG and JPEG images
+    at fileFilter (/Users/razatayyab/Comsats/Code Files/lms2/config/multer.js:19:27)
+    at wrappedFileFilter (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:314:20)
+    at SBMH._sbmh_feed (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/streamsearch/lib/sbmh.js:159:14)
+    at SBMH.push (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/Dicer.js:197:25)
+[2021-06-12 13:22:38] [31merror[39m:  Cannot find module '../encodings'
+Require stack:
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/iconv-lite/lib/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/raw-body/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/lib/read.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/lib/types/json.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/express.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/app.js 
+Error: Cannot find module '../encodings'
+Require stack:
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/iconv-lite/lib/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/raw-body/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/lib/read.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/lib/types/json.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/express.js
+- /Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/index.js
+- /Users/razatayyab/Comsats/Code Files/lms2/app.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.getCodec (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/iconv-lite/lib/index.js:65:27)
+    at Object.getDecoder (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/iconv-lite/lib/index.js:127:23)
+    at getDecoder (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/raw-body/index.js:45:18)
+    at readStream (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/raw-body/index.js:180:15)
+    at getRawBody (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/raw-body/index.js:108:12)
+    at read (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/lib/read.js:77:3)
+    at jsonParser (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/body-parser/lib/types/json.js:135:5)
+    at Layer.handle [as handle_request] (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/router/index.js:317:13)
+    at /Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/express/lib/router/index.js:275:10)
+[2021-06-12 16:04:58] [31merror[39m:  Allowed only .png, jpg and jpeg images. 
+Error: Allowed only .png, jpg and jpeg images.
+    at fileFilter (/Users/razatayyab/Comsats/Code Files/lms2/config/multer.js:20:33)
+    at wrappedFileFilter (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/multer/index.js:44:7)
+    at Busboy.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/multer/lib/make-middleware.js:114:7)
+    at Busboy.emit (events.js:314:20)
+    at Busboy.emit (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:314:20)
+    at HeaderParser.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:314:20)
+    at HeaderParser._finish (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:40:12)
+    at SBMH.emit (events.js:314:20)
+    at SBMH._sbmh_feed (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/streamsearch/lib/sbmh.js:95:16)
+    at SBMH.push (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/streamsearch/lib/sbmh.js:56:14)
+    at HeaderParser.push (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:46:19)
+    at Dicer._oninfo (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/Dicer.js:197:25)
