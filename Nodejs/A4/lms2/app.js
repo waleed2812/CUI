@@ -7,12 +7,8 @@ const express = require('express'),
     logger = require('morgan'),
     cookieParser = require('cookie-parser'),
     winston = require('./config/winston'),
-    // session = require('express-session'),
-    // mongoStore = require('connect-mongo'),
-    expressListners = require('./config/expressListners');
-
-
-const app = express();
+    expressListners = require('./config/expressListners'),
+    app = express();
 
 // View Engine Setup
 app.set('views', path.join(__dirname, 'app/views'));
@@ -24,7 +20,7 @@ let corsOptionsDelegate = (req, callback) => {
     let allowedOrigins = [
         'http://localhost:3200',
         'http://localhost:4200',
-        'http://192.168.1.150:4200',
+        'http://192.168.1.73:4200',
         'http://domainName.com',
     ];
     if (allowedOrigins.indexOf(req.header('Origin')) !== -1) {

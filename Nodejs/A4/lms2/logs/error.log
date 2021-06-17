@@ -1848,3 +1848,21 @@ Error: Allowed only .png, jpg and jpeg images.
     at SBMH.push (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/streamsearch/lib/sbmh.js:56:14)
     at HeaderParser.push (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/HeaderParser.js:46:19)
     at Dicer._oninfo (/Users/razatayyab/Comsats/Code Files/lms2/node_modules/dicer/lib/Dicer.js:197:25)
+[2021-06-17 07:30:17] [31merror[39m:  mongoose connection disconnected 
+[2021-06-17 07:31:31] [31merror[39m:  mongoose connection disconnected 
+[2021-06-17 07:33:16] [31merror[39m:  mongoose connection disconnected 
+[2021-06-17 11:01:08] [31merror[39m:  Invalid UserName provided 
+[2021-06-17 12:26:06] [31merror[39m:  Invalid UserName provided 
+[2021-06-17 14:54:51] [31merror[39m:  Illegal arguments: string, undefined 
+Error: Illegal arguments: string, undefined
+    at _async (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at Object.bcrypt.compare (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:304:13)
+    at model.userAccount.methods.comparePassword (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app\modules\users\models\user.model.js:23:12)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\config\passport.js:26:14
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\model.js:4884:16
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\model.js:4884:16
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\helpers\promiseOrCallback.js:24:16
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\model.js:4907:21
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4447:11
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\kareem\index.js:136:16
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)

@@ -43,4 +43,16 @@ export class StatisticComponent implements OnInit {
       }
     );
   }
+
+  edit(): void {
+    console.log('edit');
+
+  }
+  delete(): void {
+    console.log('delete');
+  }
+
+  add(): void {
+    console.log('add');
+  }
 }

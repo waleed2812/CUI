@@ -5133,3 +5133,57 @@ Error: Allowed only .png, jpg and jpeg images.
 [2021-06-12 16:09:34] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
 [2021-06-12 16:09:34] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
 [2021-06-12 16:09:34] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 
+[2021-06-17 07:29:47] [32minfo[39m:  Loaded Config File: development 
+[2021-06-17 07:29:47] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-17 07:30:17] [31merror[39m:  mongoose connection disconnected 
+[2021-06-17 07:31:01] [32minfo[39m:  Loaded Config File: development 
+[2021-06-17 07:31:01] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-17 07:31:31] [31merror[39m:  mongoose connection disconnected 
+[2021-06-17 07:32:46] [32minfo[39m:  Loaded Config File: development 
+[2021-06-17 07:32:46] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-17 07:33:16] [31merror[39m:  mongoose connection disconnected 
+[2021-06-17 07:34:10] [32minfo[39m:  Loaded Config File: development 
+[2021-06-17 07:34:10] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-17 07:34:10] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-06-17 07:34:10] [32minfo[39m:  models are loading ... 
+[2021-06-17 07:34:10] [32minfo[39m:  app/modules/users/models/user.model.js 
+[2021-06-17 07:34:10] [32minfo[39m:  error messages are loading ... 
+[2021-06-17 07:34:10] [32minfo[39m:  app/modules/users/errors/user.errors.json is loaded 
+[2021-06-17 07:34:10] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
+[2021-06-17 07:34:10] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
+[2021-06-17 07:34:10] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 
+[2021-06-17 11:01:08] [31merror[39m:  Invalid UserName provided 
+[2021-06-17 12:26:06] [31merror[39m:  Invalid UserName provided 
+[2021-06-17 14:54:51] [31merror[39m:  Illegal arguments: string, undefined 
+Error: Illegal arguments: string, undefined
+    at _async (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at Object.bcrypt.compare (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:304:13)
+    at model.userAccount.methods.comparePassword (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app\modules\users\models\user.model.js:23:12)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\config\passport.js:26:14
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\model.js:4884:16
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\model.js:4884:16
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\helpers\promiseOrCallback.js:24:16
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\model.js:4907:21
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4447:11
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\kareem\index.js:136:16
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2021-06-17 14:55:06] [32minfo[39m:  Loaded Config File: development 
+[2021-06-17 14:55:06] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-17 14:55:06] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-06-17 14:55:06] [32minfo[39m:  models are loading ... 
+[2021-06-17 14:55:06] [32minfo[39m:  app/modules/users/models/user.model.js 
+[2021-06-17 14:55:06] [32minfo[39m:  error messages are loading ... 
+[2021-06-17 14:55:06] [32minfo[39m:  app/modules/users/errors/user.errors.json is loaded 
+[2021-06-17 14:55:06] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
+[2021-06-17 14:55:06] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
+[2021-06-17 14:55:06] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 
+[2021-06-17 14:55:26] [32minfo[39m:  Loaded Config File: development 
+[2021-06-17 14:55:26] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-17 14:55:26] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-06-17 14:55:26] [32minfo[39m:  models are loading ... 
+[2021-06-17 14:55:26] [32minfo[39m:  app/modules/users/models/user.model.js 
+[2021-06-17 14:55:26] [32minfo[39m:  error messages are loading ... 
+[2021-06-17 14:55:26] [32minfo[39m:  app/modules/users/errors/user.errors.json is loaded 
+[2021-06-17 14:55:26] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
+[2021-06-17 14:55:27] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
+[2021-06-17 14:55:27] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 
