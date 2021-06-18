@@ -17,6 +17,18 @@ const routes: Routes = [
         data: {},
       },
       {
+        path: 'features',
+        loadChildren: () =>
+          import('./features/features.module').then((m) => m.FeaturesModule),
+        data: {},
+      },
+      {
+        path: 'add',
+        loadChildren: () =>
+          import('./add/add.module').then((m) => m.AddModule),
+        data: {},
+      },
+      {
         path: 'login',
         redirectTo: '/login',
       },

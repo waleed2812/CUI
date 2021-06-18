@@ -5187,3 +5187,23 @@ Error: Illegal arguments: string, undefined
 [2021-06-17 14:55:26] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
 [2021-06-17 14:55:27] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
 [2021-06-17 14:55:27] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 
+[2021-06-18 17:59:38] [32minfo[39m:  Loaded Config File: development 
+[2021-06-18 17:59:38] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-18 17:59:38] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-06-18 17:59:38] [32minfo[39m:  models are loading ... 
+[2021-06-18 17:59:38] [32minfo[39m:  app/modules/users/models/user.model.js 
+[2021-06-18 17:59:38] [32minfo[39m:  error messages are loading ... 
+[2021-06-18 17:59:38] [32minfo[39m:  app/modules/users/errors/user.errors.json is loaded 
+[2021-06-18 17:59:38] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
+[2021-06-18 17:59:39] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
+[2021-06-18 17:59:39] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 
+[2021-06-18 18:21:25] [32minfo[39m:  Loaded Config File: development 
+[2021-06-18 18:21:25] [32minfo[39m:  Try to Connect MongoDb: mongodb://localhost:27017/lms 
+[2021-06-18 18:21:25] [32minfo[39m:  mongoose connection open to mongodb://localhost:27017/lms 
+[2021-06-18 18:21:25] [32minfo[39m:  models are loading ... 
+[2021-06-18 18:21:25] [32minfo[39m:  app/modules/users/models/user.model.js 
+[2021-06-18 18:21:25] [32minfo[39m:  error messages are loading ... 
+[2021-06-18 18:21:25] [32minfo[39m:  app/modules/users/errors/user.errors.json is loaded 
+[2021-06-18 18:21:25] [32minfo[39m:  app/modules/index/routes/index.routes.js file is loaded in system 
+[2021-06-18 18:21:26] [32minfo[39m:  app/modules/users/routes/user.routes.js file is loaded in system 
+[2021-06-18 18:21:26] [32minfo[39m:  [1m[32mServer is listening on port 3200[39m[22m 

@@ -6,9 +6,10 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { LoginComponent } from './login/login.component';
 import { PagesComponent } from './pages.component';
 import { HeaderComponent } from './common/header/header.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
-	declarations: [PagesComponent, LoginComponent, HeaderComponent],
+	declarations: [PagesComponent, LoginComponent, HeaderComponent, FooterComponent],
 	imports: [CommonModule, PagesRoutingModule, FormsModule],
 	exports: [],
 })
