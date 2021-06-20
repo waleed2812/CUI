@@ -25,8 +25,9 @@
         <td>{{user.userType}}</td>
         <td>{{user.createdAt | date : 'mediumDate'}}</td>
         <td>
-          <button class="btn btn-success" (click)="edit()">Edit</button>
-          <button class="btn btn-danger" (click)="delete()">Delete</button></td>
+          <button class="btn btn-success" (click)="edit(user)">Edit</button>
+          <button class="btn btn-danger" (click)="delete(user)">Delete</button>
+        </td>
       </tr>
     </tbody>
   </table>

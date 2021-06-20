@@ -21,7 +21,25 @@ export class LoginComponent implements OnInit {
 
   constructor(private service: HttpService, private router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const user = JSON.parse(localStorage.getItem('test-data'));
+    if (user !== null) {
+      this.router.navigate(['/dashboard']);
+      return;
+    } else {
+      this.service.getRequest(Globals.urls.currentUser).pipe(
+        map((user) => {
+          if (user && user['response'] === 200 && user['data']) {
+            localStorage.setItem('test-data', JSON.stringify(user['data']));
+            this.router.navigate(['/dashboard']);
+            return;
+          } else {
+            return;
+          }
+        })
+      );
+    }
+  }
 
   login() {
     const params = {

@@ -14,6 +14,9 @@ const express = require('express'),
 app.set('views', path.join(__dirname, 'app/views'));
 app.set('view engine', 'ejs');
 
+app.use(express.static('public'))
+app.use('/public/img', express.static('public/img'))
+
 // Enable CORS 
 let corsOptionsDelegate = (req, callback) => {
     let corsOptions;

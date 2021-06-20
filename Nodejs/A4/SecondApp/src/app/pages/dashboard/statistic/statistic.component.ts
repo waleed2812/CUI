@@ -33,7 +33,6 @@ export class StatisticComponent implements OnInit {
         if (res && res['success'] === 1) {
           if (res['data'].users.length) {
             this.userListing = res['data'].users;
-            console.log(this.userListing);
           }
         } else this.service.showError(res['data'].message, 'Users listing');
       },
@@ -44,15 +43,35 @@ export class StatisticComponent implements OnInit {
     );
   }
 
-  edit(): void {
+  edit(user: any): void {
     console.log('edit');
+    console.log(user);
 
   }
-  delete(): void {
-    console.log('delete');
+
+  delete(user: any): void {
+    try {
+      this.service.deleteRequest(this.globals.urls.dashBoard.users + "/" + user._id).
+      subscribe(
+        (res: any) => {  
+          console.log(res);
+          this.userListing = this.userListing.filter( (item: any) => item._id !== user._id);
+          this.service.showSuccess(res?.message, 'Users Delete');
+          return;
+        },
+        (error: any) => {
+          console.log("error: " + JSON.stringify(error))
+          this.service.showError(error?.message, 'Users Delete');
+        }
+        
+      )
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   add(): void {
     console.log('add');
+    this.router.navigate(['/dashboard/add']);
   }
 }

@@ -183,19 +183,18 @@ export class HttpService {
     );
   }
 
-  deleteRequest(url, params, headers = {}) {
+  deleteRequest(url: string, params: any = {}, headers = {}) {
     const options = {
       params: params,
       reportProgress: true,
     };
     return this.http.delete(url, options).pipe(
       map((res) => {
+        console.log(res);
         if (res['response'] === 401) {
           this.handleUnauthenticated();
-        } else if (
-          res['response'] === 200 ||
-          (res['response'] === 304 && res['success'] === 1)
-        ) {
+        } else if (res['response'] === 200 ||res['success'] === 1) {
+          
           return {
             data: res['data'],
             response: res['response'],

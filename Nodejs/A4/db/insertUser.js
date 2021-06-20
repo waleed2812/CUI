@@ -47,24 +47,32 @@ userAccount.pre('save', async function(next) {
 
 const userAccountModel = mongoose.model('userAccounts', userAccount);
 
-mongoose.connect("mongodb://localhost:27017/lms", {}, function(err){
+mongoose.connect("mongodb://localhost:27017/lms", function(err, db){
 
     if(err) {
-        console.error("Failed to Connect Mongoose")
-        console.error(err)
+        console.error("Failed to Connect Mongoose");
+        console.error(err);
+        db.close();
         return;
     }
 
-    new userAccountModel({
-        "name": "Test Admin",
-        "email": "testadmin@domain.com",
-        "profileImage": "" ,
-        "userType": "admin",
-        "phoneNumber": "+9234567891011",
-        "password": "12345678!@",
-    }).save((err) => {
+    let users = [];
+    const range = 10;
+
+    for (let i = 1 ; i <= range ; i ++ ) {
+        users.push({
+            "name": "Test Admin" + i,
+            "email": "testadmin" + i + "@domain.com",
+            "profileImage": "" ,
+            "userType": "admin",
+            "phoneNumber": "+923456789101" + i,
+            "password": "12345678!@",
+        })
+    }
+    userAccountModel.insertMany(users,(err) => {
         if (err) {
             console.error(err);
+            db.close();
             return;
         } else {
             console.log({
@@ -72,7 +80,29 @@ mongoose.connect("mongodb://localhost:27017/lms", {}, function(err){
                 message: 'User created successfully.',
                 data: {}
             });
+            db.close();
             return;
         }
     });
+
+    // new userAccountModel({
+    //         "name": "Test Admin",
+    //         "email": "testadmin@domain.com",
+    //         "profileImage": "" ,
+    //         "userType": "admin",
+    //         "phoneNumber": "+9234567891010",
+    //         "password": "12345678!@",
+    // }).save((err) => {
+    //     if (err) {
+    //         console.error(err);
+    //         return;
+    //     } else {
+    //         console.log({
+    //             success: 1,
+    //             message: 'User created successfully.',
+    //             data: {}
+    //         });
+    //         return;
+    //     }
+    // });
 });

@@ -1866,3 +1866,136 @@ Error: Illegal arguments: string, undefined
     at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4447:11
     at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\kareem\index.js:136:16
     at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2021-06-19 16:07:13] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:07:19] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 16:41:45] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:41:53] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 16:42:51] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:43:43] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:44:57] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:45:11] [31merror[39m:  Not Found 
+Error: Not Found
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app.js:96:23
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at SessionStrategy.strategy.pass (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:343:9)
+    at SessionStrategy.authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at initialize (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\initialize.js:53:5)
+[2021-06-19 16:48:25] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:50:25] [31merror[39m:  Unable to find user. 
+[2021-06-19 16:50:29] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 19:55:31] [31merror[39m:  Unable to find user. 
+[2021-06-19 19:56:18] [31merror[39m:  Unable to find user. 
+[2021-06-19 19:56:46] [31merror[39m:  Unable to find user. 
+[2021-06-19 20:32:00] [31merror[39m:  Unable to find user. 
+[2021-06-19 20:32:07] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 20:32:56] [31merror[39m:  Unable to find user. 
+[2021-06-19 20:34:33] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 20:34:56] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 20:37:01] [31merror[39m:  Unable to find user. 
+[2021-06-19 20:37:07] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 20:39:38] [31merror[39m:  Unable to find user. 
+[2021-06-19 20:40:35] [31merror[39m:  Unable to find user. 
+[2021-06-19 20:41:37] [31merror[39m:  Unable to find user. 
+[2021-06-19 21:00:41] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 21:56:59] [31merror[39m:  Unable to find user. 
+[2021-06-19 21:57:06] [31merror[39m:  Invalid UserName provided 
+[2021-06-19 21:57:14] [31merror[39m:  Invalid Password Provided 
+[2021-06-19 21:57:22] [31merror[39m:  Invalid Password Provided 
+[2021-06-19 22:03:43] [31merror[39m:  Cast to ObjectId failed for value "12360ce21b89dddfb3f948b4cb2" at path "_id" for model "userAccounts" 
+CastError: Cast to ObjectId failed for value "12360ce21b89dddfb3f948b4cb2" at path "_id" for model "userAccounts"
+    at model.Query.exec (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4502:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-06-19 22:03:43] [31merror[39m:  Not Found 
+Error: Not Found
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app.js:96:23
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at SessionStrategy.strategy.pass (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:343:9)
+    at SessionStrategy.authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at initialize (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\initialize.js:53:5)
+[2021-06-19 22:04:13] [31merror[39m:  Cast to ObjectId failed for value "12360ce21b89dddfb3f948b4cb2" at path "_id" for model "userAccounts" 
+CastError: Cast to ObjectId failed for value "12360ce21b89dddfb3f948b4cb2" at path "_id" for model "userAccounts"
+    at model.Query.exec (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4502:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-06-19 22:04:13] [31merror[39m:  Not Found 
+Error: Not Found
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app.js:96:23
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at SessionStrategy.strategy.pass (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:343:9)
+    at SessionStrategy.authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at initialize (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\initialize.js:53:5)
+[2021-06-20 10:21:17] [31merror[39m:  Cast to ObjectId failed for value "12360ce21b89dddfb3f948b4cb2" at path "_id" for model "userAccounts" 
+CastError: Cast to ObjectId failed for value "12360ce21b89dddfb3f948b4cb2" at path "_id" for model "userAccounts"
+    at model.Query.exec (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongoose\lib\query.js:4502:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-06-20 10:21:17] [31merror[39m:  Not Found 
+Error: Not Found
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app.js:96:23
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at SessionStrategy.strategy.pass (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:343:9)
+    at SessionStrategy.authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at initialize (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\initialize.js:53:5)
+[2021-06-20 12:46:09] [31merror[39m:  Not Found 
+Error: Not Found
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app.js:99:23
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at SessionStrategy.strategy.pass (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:343:9)
+    at SessionStrategy.authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\strategies\session.js:75:10)
+    at attempt (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at initialize (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\initialize.js:53:5)

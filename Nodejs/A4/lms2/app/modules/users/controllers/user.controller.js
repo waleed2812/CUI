@@ -74,9 +74,8 @@ let updateUserInfo = async (req, res, next) => {
 
 let deleteUser = async (req, res, next) => {
     try {
-        const userId = req.params.userId;
 
-        await userAccountModel.deleteOne({ _id: userId });
+        await userAccountModel.deleteOne({ _id: req.params.userId });
 
         return res.json({
             success: 1,
