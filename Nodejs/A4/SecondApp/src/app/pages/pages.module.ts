@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { LoginComponent } from './login/login.component';
@@ -10,7 +10,7 @@ import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
 	declarations: [PagesComponent, LoginComponent, HeaderComponent, FooterComponent],
-	imports: [CommonModule, PagesRoutingModule, FormsModule],
+	imports: [CommonModule, PagesRoutingModule, FormsModule, ReactiveFormsModule],
 	exports: [],
 })
 export class PagesModule {}

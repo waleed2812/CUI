@@ -1999,3 +1999,123 @@ Error: Not Found
     at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
     at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
     at initialize (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\initialize.js:53:5)
+[2021-06-20 22:14:03] [31merror[39m:  profileImage is not defined 
+ReferenceError: profileImage is not defined
+    at createUser (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app\modules\users\controllers\user.controller.js:101:31)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\config\passport.js:77:20
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\route.js:137:13)
+    at complete (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:268:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:275:15
+    at pass (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\authenticator.js:431:14)
+    at Authenticator.transformAuthInfo (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\authenticator.js:453:5)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:272:22
+    at IncomingMessage.req.login.req.logIn (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\http\request.js:55:13)
+    at JwtStrategy.strategy.success (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport\lib\middleware\authenticate.js:253:13)
+    at verified (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\passport-jwt\lib\strategy.js:115:41)
+    at JwtStrategy._verify (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\config\passport.js:49:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2021-06-20 22:14:03] [31merror[39m:  [object Object] 
+[2021-06-20 22:14:37] [31merror[39m:  Illegal arguments: undefined, string 
+Error: Illegal arguments: undefined, string
+    at _async (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:214:46)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.hash (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\bcryptjs\dist\bcrypt.js:222:20)
+    at model.<anonymous> (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\app\modules\users\models\user.model.js:39:33)
+[2021-06-20 22:14:37] [31merror[39m:  [object Object] 
+[2021-06-20 22:16:46] [31merror[39m:  E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" } 
+MongoError: E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" }
+    at Function.create (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\topology.js:944:24)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (node:events:394:28)
+    at processIncomingData (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:747:22)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:312:12)
+[2021-06-20 22:16:46] [31merror[39m:  [object Object] 
+[2021-06-20 22:17:33] [31merror[39m:  E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" } 
+MongoError: E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" }
+    at Function.create (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\topology.js:944:24)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (node:events:394:28)
+    at processIncomingData (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:747:22)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:312:12)
+[2021-06-20 22:17:33] [31merror[39m:  [object Object] 
+[2021-06-20 22:18:44] [31merror[39m:  E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" } 
+MongoError: E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" }
+    at Function.create (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\topology.js:944:24)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (node:events:394:28)
+    at processIncomingData (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:747:22)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:312:12)
+[2021-06-20 22:18:44] [31merror[39m:  [object Object] 
+[2021-06-20 23:26:15] [31merror[39m:  request entity too large 
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\raw-body\index.js:155:17)
+    at getRawBody (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\raw-body\index.js:108:12)
+    at read (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\body-parser\lib\read.js:77:3)
+    at jsonParser (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\body-parser\lib\types\json.js:135:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\middleware\init.js:40:5)
+[2021-06-20 23:29:54] [31merror[39m:  request entity too large 
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\raw-body\index.js:155:17)
+    at getRawBody (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\raw-body\index.js:108:12)
+    at read (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\body-parser\lib\read.js:77:3)
+    at jsonParser (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\body-parser\lib\types\json.js:135:5)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at serveStatic (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\middleware\init.js:40:5)

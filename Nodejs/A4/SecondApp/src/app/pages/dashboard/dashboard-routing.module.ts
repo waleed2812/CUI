@@ -1,22 +1,23 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AddComponent } from './add/add.component';
+import { EditComponent } from './edit/edit.component';
 import { StatisticComponent } from './statistic/statistic.component';
 
 const routes: Routes = [
   {
-    path: 'add',
+    path: '',
     children: [
       {
-        path: '',
+        path: 'edit/:id',
+        pathMatch: 'full',
+        component: EditComponent,
+      },
+      {
+        path: 'add',
         pathMatch: 'full',
         component: AddComponent,
       },
-    ],
-  },
-  {
-    path: '',
-    children: [
       {
         path: '',
         pathMatch: 'full',

@@ -18,8 +18,10 @@ export const Globals = {
 
   urls: {
     currentUser: baseUrl + '/user/current',
+    createUser: baseUrl + '/user/create',
     login: baseUrl + '/user/login',
     logout: baseUrl + '/user/logout',
+    uploadPicture: baseUrl + '/user/profileImage',
     dashBoard: {
       users: baseUrl + '/users',
     },

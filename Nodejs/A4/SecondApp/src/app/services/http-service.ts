@@ -115,7 +115,7 @@ export class HttpService {
   }
 
   // handles all POST Requests. Headers are optional, sends the whole response/error to component
-  postRequest(url, params, headers = {}) {
+  postRequest(url, params={}, headers = {}) {
     url = url.replace(
       '/en',
       '/' + JSON.parse(localStorage.getItem('app-language'))
@@ -124,6 +124,10 @@ export class HttpService {
 
     return this.http.post(url, params, { headers: httpOptions }).pipe(
       map((res) => {
+        console.log(res)
+        console.log(`res['success']`);
+        console.log(res['success']);
+
         if (res['response'] === 401) {
           this.handleUnauthenticated();
         } else if (res['response'] === 200 || res['response'] === 304) {
@@ -132,7 +136,7 @@ export class HttpService {
             response: res['response'],
             success: res['status'],
           };
-        } else if (res['data'].code === '012') {
+        } else if (res['success'] === 1) {
           return {
             data: res['data'],
             response: res['response'],

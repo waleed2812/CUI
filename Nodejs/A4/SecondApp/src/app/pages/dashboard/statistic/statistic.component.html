@@ -1,6 +1,6 @@
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
   <h1 class="display-4">Users</h1>
-  <button class="btn btn-primary" (click)="add()">Add User</button>
+  <a [routerLink]="['/dashboard/add']" class="btn btn-primary">Add User</a>
 
   <table class="table">
     <thead class="thead-light">
@@ -25,7 +25,7 @@
         <td>{{user.userType}}</td>
         <td>{{user.createdAt | date : 'mediumDate'}}</td>
         <td>
-          <button class="btn btn-success" (click)="edit(user)">Edit</button>
+          <a [routerLink]="['/dashboard/edit', user._id]" class="btn btn-success">Edit</a>
           <button class="btn btn-danger" (click)="delete(user)">Delete</button>
         </td>
       </tr>

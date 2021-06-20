@@ -91,17 +91,17 @@ let deleteUser = async (req, res, next) => {
 let createUser = async (req, res, next) => {
     try {
         const name = req.body.name || "";
-        const profileImage = req.body.profileImage || "";
         const email = req.body.email;
-        const password = req.body.password;
+        const phone = req.body.phone;
+        const password = req.body.password || "12345678";
         const userType = req.body.userType || "admin";
 
         new userAccountModel({
                 email: email,
                 name: name,
-                profileImage: profileImage,
                 password: password,
-                userType: userType
+                userType: userType,
+                phoneNumber: phone
             })
             .save((err) => {
                 if (err) {

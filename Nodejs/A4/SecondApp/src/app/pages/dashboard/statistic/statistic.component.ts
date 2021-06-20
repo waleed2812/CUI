@@ -44,9 +44,8 @@ export class StatisticComponent implements OnInit {
   }
 
   edit(user: any): void {
-    console.log('edit');
     console.log(user);
-
+    this.router.navigate(['/dashboard/edit/'+user._id]);
   }
 
   delete(user: any): void {
@@ -71,7 +70,6 @@ export class StatisticComponent implements OnInit {
   }
 
   add(): void {
-    console.log('add');
     this.router.navigate(['/dashboard/add']);
   }
 }
