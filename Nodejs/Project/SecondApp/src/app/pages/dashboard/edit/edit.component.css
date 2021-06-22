@@ -1,0 +1,12 @@
+  
+img[src=""] {
+    display: none;
+}
+  
+.picture {
+    width: 200px;
+    height: 200px;
+    background-image: url("../../../../assets/img/unnamed.png");
+    background-size: 200px 200px;
+    object-fit: cover;
+}
