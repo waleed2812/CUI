@@ -12,7 +12,9 @@ import { Globals } from 'src/globals';
 })
 export class EditComponent implements OnInit {
 
-  imgFile: string;
+  imgSrc: string;
+  imgPath: string = "";
+  image: any;
   userId: any;
 
   updateForm: any = new FormGroup({
@@ -21,11 +23,7 @@ export class EditComponent implements OnInit {
     email: new FormControl(''),
     userType: new FormControl('admin'),
   });
-  uploadForm: any = new FormGroup({
-    name: new FormControl('', [Validators.required]),
-    file: new FormControl('', [Validators.required]),
-    imgSrc: new FormControl('', [Validators.required])
-  });
+
   public globals = Globals;
   
   constructor(
@@ -48,7 +46,9 @@ export class EditComponent implements OnInit {
             email: new FormControl(user.email),
             userType: new FormControl(user.userType),
           });
-          
+
+          this.imgPath = this.globals.urls.baseUrl + "/" + user.profileImage;
+          this.imgSrc = this.imgPath;
           return;
         },
         (error: any) => {
@@ -68,32 +68,31 @@ export class EditComponent implements OnInit {
     
     if(e.target.files && e.target.files.length) {
       const [file] = e.target.files;
+      this.image = new FormData();
+      this.image.append('image', file, file.name);
       reader.readAsDataURL(file);
-    
       reader.onload = () => {
-        this.imgFile = reader.result as string;
-        this.uploadForm.patchValue({
-          imgSrc: reader.result
-        });
-   
+        this.imgSrc = reader.result as string;   
       };
     }
   }
 
   upload(){
-    console.log(this.uploadForm.value);
-    this.service.postRequest(this.globals.urls.uploadPicture , this.uploadForm.value)
-      .subscribe(response => {
-        alert('Image has been uploaded.');
-      })
+    this.service.postRequest(this.globals.urls.uploadPicture , this.image)
+      .subscribe(
+        (res) => {
+          console.log(res);
+          this.service.showSuccess('Image has been uploaded', 'Image Upload');
+        },
+        (error) => {
+          console.log(error)
+          this.service.showError('Image failed to upload', 'Image Upload');
+        }
+      )
   }
 
   onRemovePicture(): void {
-    this.uploadForm = new FormGroup({
-      name: new FormControl('', [Validators.required]),
-      file: new FormControl('', [Validators.required]),
-      imgSrc: new FormControl('', [Validators.required])
-    });
+    this.imgSrc = this.imgPath
   }
 
   onSubmit(): void {

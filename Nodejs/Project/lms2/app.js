@@ -21,9 +21,10 @@ app.use('/public/img', express.static('public/img'))
 let corsOptionsDelegate = (req, callback) => {
     let corsOptions;
     let allowedOrigins = [
-        'http://localhost:3200',
+        'http://localhost:3100',
         'http://localhost:4200',
         'http://192.168.1.73:4200',
+        'http://192.168.1.73:3100',
         'http://domainName.com',
     ];
     if (allowedOrigins.indexOf(req.header('Origin')) !== -1) {

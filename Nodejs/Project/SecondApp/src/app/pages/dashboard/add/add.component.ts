@@ -17,7 +17,7 @@ export class AddComponent implements OnInit {
   user: any;
   updateForm: any = new FormGroup({
     name: new FormControl(''),
-    phone: new FormControl(''),
+    phoneNumber: new FormControl(''),
     email: new FormControl(''),
     userType: new FormControl('admin'),
   });

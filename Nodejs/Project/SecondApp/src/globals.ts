@@ -1,6 +1,6 @@
 import { NgForm } from '@angular/forms';
 
-const baseUrl = 'http://localhost:3200';
+const baseUrl = 'http://localhost:3100';
 export const Globals = {
   deviceType: 'web',
   appName: 'Test App',
@@ -17,6 +17,7 @@ export const Globals = {
   },
 
   urls: {
+    baseUrl: baseUrl,
     currentUser: baseUrl + '/user/current',
     createUser: baseUrl + '/user/create',
     login: baseUrl + '/user/login',

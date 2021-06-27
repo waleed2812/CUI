@@ -56,34 +56,34 @@ mongoose.connect("mongodb://localhost:27017/lms", function(err, db){
         return;
     }
 
-    let users = [];
-    const range = 10;
+    // let users = [];
+    // const range = 10;
 
-    for (let i = 1 ; i <= range ; i ++ ) {
-        users.push({
-            "name": "Test Admin" + i,
-            "email": "testadmin" + i + "@domain.com",
-            "profileImage": "" ,
-            "userType": "admin",
-            "phoneNumber": "+923456789101" + i,
-            "password": "12345678!@",
-        })
-    }
-    userAccountModel.insertMany(users,(err) => {
-        if (err) {
-            console.error(err);
-            db.close();
-            return;
-        } else {
-            console.log({
-                success: 1,
-                message: 'User created successfully.',
-                data: {}
-            });
-            db.close();
-            return;
-        }
-    });
+    // for (let i = 1 ; i <= range ; i ++ ) {
+    //     users.push({
+    //         "name": "Test Admin" + i,
+    //         "email": "testadmin" + i + "@domain.com",
+    //         "profileImage": "" ,
+    //         "userType": "admin",
+    //         "phoneNumber": "+923456789101" + i,
+    //         "password": "12345678!@",
+    //     })
+    // }
+    // userAccountModel.insertMany(users,(err) => {
+    //     if (err) {
+    //         console.error(err);
+    //         db.close();
+    //         return;
+    //     } else {
+    //         console.log({
+    //             success: 1,
+    //             message: 'User created successfully.',
+    //             data: {}
+    //         });
+    //         db.close();
+    //         return;
+    //     }
+    // });
 
     // new userAccountModel({
     //         "name": "Test Admin",
@@ -95,6 +95,7 @@ mongoose.connect("mongodb://localhost:27017/lms", function(err, db){
     // }).save((err) => {
     //     if (err) {
     //         console.error(err);
+    //         db.close();
     //         return;
     //     } else {
     //         console.log({
@@ -102,6 +103,7 @@ mongoose.connect("mongodb://localhost:27017/lms", function(err, db){
     //             message: 'User created successfully.',
     //             data: {}
     //         });
+    //         db.close();
     //         return;
     //     }
     // });

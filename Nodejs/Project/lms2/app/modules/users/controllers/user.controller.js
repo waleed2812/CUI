@@ -55,10 +55,8 @@ let getUserDetail = async (req, res, next) => {
 let updateUserInfo = async (req, res, next) => {
     try {
         const userId = req.params.userId;
-        const name = req.body.name;
-        const profileImage = req.body.profileImage;
 
-        await userAccountModel.updateOne({ _id: userId }, { $set: { name: name, profileImage: profileImage } });
+        await userAccountModel.updateOne({ _id: userId }, { $set: req.body });
 
         return res.json({
             success: 1,
@@ -90,18 +88,13 @@ let deleteUser = async (req, res, next) => {
 
 let createUser = async (req, res, next) => {
     try {
-        const name = req.body.name || "";
-        const email = req.body.email;
-        const phone = req.body.phone;
-        const password = req.body.password || "12345678";
-        const userType = req.body.userType || "admin";
 
         new userAccountModel({
-                email: email,
-                name: name,
-                password: password,
-                userType: userType,
-                phoneNumber: phone
+                email: req.body.email,
+                name: req.body.name || "",
+                password: req.body.password || "12345678",
+                userType: req.body.userType || "admin",
+                phoneNumber: req.body.phoneNumber
             })
             .save((err) => {
                 if (err) {

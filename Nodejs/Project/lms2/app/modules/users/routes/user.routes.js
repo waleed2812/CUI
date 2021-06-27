@@ -16,7 +16,6 @@ module.exports = (app, version) => {
     app.get(
         version + '/user/current',
         passport.authenticate('jwt', { session: false }),
-        passport.isAuthorized('admin'),
         userController.sendCurrentUser,
     );
 
