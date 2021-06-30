@@ -3,3 +3,5 @@ AI/.ipynb_checkpoints/
 node_modules/
 .DS_store
 AI/Terminal/env/
+AI/Terminal/.ipynb_checkpoints/
+.ipynb_checkpoints/
