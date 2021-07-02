@@ -2119,3 +2119,22 @@ PayloadTooLargeError: request entity too large
     at Function.process_params (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:335:12)
     at next (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\router\index.js:275:10)
     at expressInit (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\express\lib\middleware\init.js:40:5)
+[2021-07-01 18:04:46] [31merror[39m:  E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" } 
+MongoError: E11000 duplicate key error collection: lms.useraccounts index: IDX_EMAIL dup key: { email: "waleed3072@gmail.com" }
+    at Function.create (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\utils.js:123:22)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\topology.js:944:24)
+    at C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (node:events:394:28)
+    at processIncomingData (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\waleed\Source\CUI\Nodejs\A4\lms2\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at Socket.ondata (node:internal/streams/readable:747:22)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:312:12)
+[2021-07-01 18:04:46] [31merror[39m:  [object Object] 
